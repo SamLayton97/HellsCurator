@@ -1,0 +1,151 @@
+{
+    "id": "27440179-52ab-4bff-b24b-9ecd8192a5d6",
+    "modelName": "GMObject",
+    "mvc": "1.0",
+    "name": "obj_player",
+    "eventList": [
+        {
+            "id": "0b89cc89-369e-42ed-9478-c076085011dc",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "27440179-52ab-4bff-b24b-9ecd8192a5d6"
+        },
+        {
+            "id": "0e05cc99-43c3-4aca-b6de-1ec11a89d8ae",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "27532ece-9ed2-451b-971d-584451a3d276",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "27440179-52ab-4bff-b24b-9ecd8192a5d6"
+        },
+        {
+            "id": "3c704487-a3a2-4b9a-b653-fc4299b55bd4",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 53,
+            "eventtype": 6,
+            "m_owner": "27440179-52ab-4bff-b24b-9ecd8192a5d6"
+        },
+        {
+            "id": "4c6d6668-c6cf-4ba1-ad70-0c2e4aec26d1",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "27440179-52ab-4bff-b24b-9ecd8192a5d6"
+        },
+        {
+            "id": "064852f8-259a-40a1-8eaa-420925d3112d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "27440179-52ab-4bff-b24b-9ecd8192a5d6"
+        },
+        {
+            "id": "43171a0f-b793-4555-8b1a-764dc19769c8",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 1,
+            "m_owner": "27440179-52ab-4bff-b24b-9ecd8192a5d6"
+        },
+        {
+            "id": "bbb7964f-ca4f-43d0-8961-47ab9717c484",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "315db7a8-280b-4360-872a-26d374f1640a",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "27440179-52ab-4bff-b24b-9ecd8192a5d6"
+        },
+        {
+            "id": "30f7b378-b7c6-46d7-8a9e-71e8083e6566",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "75c3e73d-6749-4001-8320-b29e1069816f",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "27440179-52ab-4bff-b24b-9ecd8192a5d6"
+        }
+    ],
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": null,
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "persistent": false,
+    "physicsAngularDamping": 0.1,
+    "physicsDensity": 0.5,
+    "physicsFriction": 0.2,
+    "physicsGroup": 0,
+    "physicsKinematic": false,
+    "physicsLinearDamping": 0.1,
+    "physicsObject": false,
+    "physicsRestitution": 0.1,
+    "physicsSensor": false,
+    "physicsShape": 1,
+    "physicsShapePoints": null,
+    "physicsStartAwake": true,
+    "properties": [
+        {
+            "id": "7346272b-5715-42bb-ba8c-c529c6c34e42",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "6",
+            "varName": "playerSpeed",
+            "varType": 0
+        },
+        {
+            "id": "3be40904-54c5-46ac-b5e7-963e8126f47e",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "killedByBook",
+            "varType": 3
+        },
+        {
+            "id": "0ef9b4a6-8b98-4418-96fd-8ea108e5f275",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "isMale",
+            "varType": 3
+        }
+    ],
+    "solid": false,
+    "spriteId": "827b195e-c98c-436f-9491-4ffe57b4b468",
+    "visible": true
+}
