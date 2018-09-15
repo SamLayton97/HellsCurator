@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "53ab3752-33c8-4d5d-a684-0670cf466c99",
+            "Value": {
+                "id": "739be233-e30a-4145-9b2f-ebbe60dc57e2",
+                "resourcePath": "fonts\\font_timerUI\\font_timerUI.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "53e66e22-e0e4-40a1-957b-6b15f7935b6b",
             "Value": {
                 "id": "2a436fc5-0f7d-4295-abe9-2c8d19a1e0ae",

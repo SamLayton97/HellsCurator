@@ -5,7 +5,7 @@ isFullScreen = true;
 window_set_fullscreen(isFullScreen);
 
 // initialize game timer variables
-currTimeSeconds = global.MaxScorableSeconds;
+currTimeFrames = global.MaxScorableSeconds * room_speed;
 
 // initialize various end-score modifiers
 secretsFound = 0;

@@ -4,4 +4,4 @@
 audio_stop_sound(bgrSound_gameAmbient);
 
 // calculate end-of-level score and send to global variable
-global.PlayerScore = currTimeSeconds * global.PointsPerSecond;
+global.PlayerScore = (currTimeFrames / room_speed) * global.PointsPerSecond;
