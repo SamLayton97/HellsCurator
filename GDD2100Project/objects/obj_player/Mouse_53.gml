@@ -7,6 +7,9 @@ if (rockCount > 0)
 	instance_create_layer(x, y, "Projectiles_Layer", obj_rockProjectile);
 	rockCount--;
 	
+	// increment number of rocks used
+	obj_gameManager.rocksUsed++;
+	
 	// play rock throw sound
 	audio_play_sound(sfx_rockThrow, 8, false);
 }

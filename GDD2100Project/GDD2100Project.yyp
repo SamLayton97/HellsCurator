@@ -367,6 +367,14 @@
             }
         },
         {
+            "Key": "5d5f1f04-f7e6-44a1-a426-565160d15843",
+            "Value": {
+                "id": "2b2c2572-be93-469c-9aac-a8a5f53c0b82",
+                "resourcePath": "objects\\obj_testDrawScore\\obj_testDrawScore.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5e6ddb8c-c118-48ca-8c84-d3fd634d987d",
             "Value": {
                 "id": "2b3681b3-0ac9-42ee-ba7c-ba55b5dfcd41",
