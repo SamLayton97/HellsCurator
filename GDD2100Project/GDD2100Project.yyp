@@ -671,6 +671,14 @@
             }
         },
         {
+            "Key": "9a1be111-781f-4e98-8af0-a22585a48d3e",
+            "Value": {
+                "id": "cc9ac6a8-425d-4899-bc69-88cd365daac8",
+                "resourcePath": "sounds\\sfx_secretFound\\sfx_secretFound.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "9d67aeef-1e4c-4080-920e-2a754ef6c84c",
             "Value": {
                 "id": "0b3dd8b1-98b4-4710-bdd6-53f0e2c9d0b5",
