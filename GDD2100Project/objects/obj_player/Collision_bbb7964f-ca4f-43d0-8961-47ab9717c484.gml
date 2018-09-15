@@ -1,6 +1,5 @@
 /// @description When player collides with book of the dead
 
-// TODO: instantiate "success" transition
-
-// CURRENT: send player to end of level
-room_goto(EndOfLevelScoreRoom);
+// instantiate "success" transition
+instance_destroy(other);
+instance_create_layer(x, y, "Visual_Effects_Layer", obj_successTransition);

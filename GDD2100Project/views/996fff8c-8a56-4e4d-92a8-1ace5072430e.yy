@@ -5,7 +5,8 @@
     "name": "996fff8c-8a56-4e4d-92a8-1ace5072430e",
     "children": [
         "9d67aeef-1e4c-4080-920e-2a754ef6c84c",
-        "ae6bc032-0124-41a5-b631-539380b0e039"
+        "ae6bc032-0124-41a5-b631-539380b0e039",
+        "45efcf4e-58da-4562-b951-e3d2af821dec"
     ],
     "filterType": "GMSprite",
     "folderName": "Environment",
