@@ -27,3 +27,4 @@ draw_text(screenWidth / 6, (3 * screenHeight) / 4,
 	"Score: " + string(global.PlayerScore) + " pts");
 
 // draw rank
+draw_text_color((3 * screenWidth) / 4.5, screenHeight / 2, "Rank: " + playerRank, rankColour, rankColour, rankColour, rankColour, 1);
