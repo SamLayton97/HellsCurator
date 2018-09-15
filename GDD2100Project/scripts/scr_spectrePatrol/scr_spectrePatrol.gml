@@ -26,5 +26,9 @@ with (myVisionCone)
 		
 		// play investigate sound effect
 		audio_play_sound(sfx_spectreInvestigate, 15, false);
+		
+		// if player hasn't failed perfect stealth run, fail perfect stealth
+		if (obj_gameManager.perfectStealth)
+			obj_gameManager.perfectStealth = false;
 	}
 }
