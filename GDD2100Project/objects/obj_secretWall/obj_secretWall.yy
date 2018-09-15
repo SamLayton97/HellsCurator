@@ -2,13 +2,22 @@
     "id": "f083bbf7-5ad5-44f1-a031-afb6c5fb3990",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_secretWallBase",
+    "name": "obj_secretWall",
     "eventList": [
-        
+        {
+            "id": "3b79535c-9c9b-42f5-a0bb-4c002afe0b4a",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "f083bbf7-5ad5-44f1-a031-afb6c5fb3990"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "dccfb9d1-e257-4c50-a57f-6a9d115471ce",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

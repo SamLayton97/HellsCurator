@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "06b247ca-ef01-424c-8634-3e7bff3db022",
+            "Value": {
+                "id": "8b51633b-7ae2-4d99-be71-bc3169416044",
+                "resourcePath": "objects\\obj_secretWallDown\\obj_secretWallDown.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0bb14c50-d8dd-4e4c-83bc-aec6accced14",
             "Value": {
                 "id": "2829e497-16f1-4b94-8a92-12dc3fac4d74",
@@ -180,6 +188,22 @@
                 "id": "5b729d8f-b920-4e5d-b677-9c583a8c8418",
                 "resourcePath": "views\\2a155cb7-4c2f-4897-8bbb-33dd2cb8622b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2a578ce0-1b8d-4ef9-bb44-1e661dcbf90e",
+            "Value": {
+                "id": "8b075984-2dbe-4b4f-b68c-cdff809675ac",
+                "resourcePath": "objects\\obj_secretWallRight\\obj_secretWallRight.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2aa56fb4-d8cc-46c2-8bab-1ab3df5c96ed",
+            "Value": {
+                "id": "1f2b3547-fbc7-4361-be64-ee15523fe393",
+                "resourcePath": "objects\\obj_secretWallLeft\\obj_secretWallLeft.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -330,7 +354,7 @@
             "Key": "5655f9ad-6b6c-40ea-b728-2b645ece5f27",
             "Value": {
                 "id": "07fde56f-cf84-4983-a083-77b892bb68e9",
-                "resourcePath": "sprites\\spr_sectretWallRight\\spr_sectretWallRight.yy",
+                "resourcePath": "sprites\\spr_secretWallRight\\spr_secretWallRight.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -911,6 +935,14 @@
             }
         },
         {
+            "Key": "e6deb83b-61f2-4bf6-9685-40b5e2bbe872",
+            "Value": {
+                "id": "e677c8f8-d2e6-4619-8318-5301e98cf92d",
+                "resourcePath": "objects\\obj_secretWallUp\\obj_secretWallUp.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ec54d313-90bc-4d93-b737-ec722cc53138",
             "Value": {
                 "id": "db1b9d45-f675-4c43-9e9f-82ba5fbd2062",
@@ -946,7 +978,7 @@
             "Key": "f083bbf7-5ad5-44f1-a031-afb6c5fb3990",
             "Value": {
                 "id": "6d2b4b9e-b747-4787-9725-e9ed5ddf178c",
-                "resourcePath": "objects\\obj_secretWallBase\\obj_secretWallBase.yy",
+                "resourcePath": "objects\\obj_secretWall\\obj_secretWall.yy",
                 "resourceType": "GMObject"
             }
         },

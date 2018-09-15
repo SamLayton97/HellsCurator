@@ -2,7 +2,7 @@
     "id": "5655f9ad-6b6c-40ea-b728-2b645ece5f27",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_sectretWallRight",
+    "name": "spr_secretWallRight",
     "For3D": false,
     "HTile": false,
     "VTile": false,
