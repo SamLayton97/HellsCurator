@@ -2,5 +2,5 @@
 
 event_inherited();
 
-// go to setup room
-room_goto(SetupRoom);
+// return to title screen
+room_goto(TitleScreenRoom);

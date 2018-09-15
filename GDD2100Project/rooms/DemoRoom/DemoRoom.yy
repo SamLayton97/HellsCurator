@@ -1,6 +1,6 @@
 
 {
-    "name": "MVPDemoRoom",
+    "name": "DemoRoom",
     "id": "a4306d66-9b4c-409f-92b0-21283726781c",
     "creationCodeFile": "",
     "inheritCode": false,

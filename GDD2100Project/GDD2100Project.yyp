@@ -47,14 +47,6 @@
             }
         },
         {
-            "Key": "0d70209d-2ff7-4895-a8db-7b7f99898ffc",
-            "Value": {
-                "id": "93281300-e17a-4e4e-9daf-98324d9bc9d0",
-                "resourcePath": "objects\\obj_unworthyScreen\\obj_unworthyScreen.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "0f3329b6-513e-4beb-8b5c-44b3a0732d39",
             "Value": {
                 "id": "7a4d59e5-4eaa-4059-9591-315df50dbe2b",
@@ -108,6 +100,14 @@
                 "id": "eeab3388-8669-4e9d-88d2-d593e6150725",
                 "resourcePath": "sprites\\spr_bookOfTheDead\\spr_bookOfTheDead.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1ca7170d-3285-4b18-b259-9d3a8c9f5411",
+            "Value": {
+                "id": "b41d0075-dfe3-4eec-8015-ce58d8fa6319",
+                "resourcePath": "objects\\obj_exitButton\\obj_exitButton.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -359,6 +359,14 @@
             }
         },
         {
+            "Key": "60cd2f54-a91f-4f29-8362-14c969e9b0c5",
+            "Value": {
+                "id": "5a58575e-4bda-4f98-ba28-d3c533a9fd85",
+                "resourcePath": "rooms\\EndOfLevelScoreRoom\\EndOfLevelScoreRoom.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "614dc84e-9933-45e4-9a0f-8050e171e2cb",
             "Value": {
                 "id": "870c1de7-3968-4974-875f-169592241ddf",
@@ -460,6 +468,14 @@
                 "id": "addf7cdf-f793-4b23-82e3-f84eb5d7e431",
                 "resourcePath": "views\\7ddacfc4-0095-4acf-bfd7-9858005837a0.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7e90baa4-578c-47d1-8a4a-6e93247f2517",
+            "Value": {
+                "id": "49d98f2b-f8a6-44f4-bb76-f2ecf39dd586",
+                "resourcePath": "rooms\\SetupRoom\\SetupRoom.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -594,7 +610,7 @@
             "Key": "a4306d66-9b4c-409f-92b0-21283726781c",
             "Value": {
                 "id": "9db28b42-4cba-47df-a5bf-387d832af60e",
-                "resourcePath": "rooms\\MVPDemoRoom\\MVPDemoRoom.yy",
+                "resourcePath": "rooms\\DemoRoom\\DemoRoom.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -788,6 +804,14 @@
                 "id": "028c89ea-266b-4566-90c7-5cd360a2ff76",
                 "resourcePath": "views\\dda9592a-f6ba-410f-9e79-10e7501a05fe.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e4a4df5e-dc88-440d-932a-3f7917ad9854",
+            "Value": {
+                "id": "a6e56aca-e4d9-4d6e-a489-1fcb05b60a67",
+                "resourcePath": "objects\\obj_levelSetupManager\\obj_levelSetupManager.yy",
+                "resourceType": "GMObject"
             }
         },
         {
