@@ -5,6 +5,7 @@ if (point_distance(x, y, obj_player.x, obj_player.y) <= interactRange && obj_pla
 {
 	// TODO: reveal secret walls near self
 	
+	
 	// provide "secret found" audio-visual feedback
 	instance_create_layer(x, y, "Visual_Effects_Layer", obj_secretFoundText);
 	audio_play_sound(sfx_secretFound, 12, false);
