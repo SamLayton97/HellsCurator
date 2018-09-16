@@ -703,6 +703,14 @@
             }
         },
         {
+            "Key": "76cf279c-1753-4ad8-b186-401ff8ccbaf2",
+            "Value": {
+                "id": "444ff231-a2b2-4592-ad7d-022adc230408",
+                "resourcePath": "sounds\\sfx_swipeRock\\sfx_swipeRock.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "79e937da-056f-492c-ae01-9668d7636482",
             "Value": {
                 "id": "ce9aa602-88b9-4439-9150-7273872ac087",

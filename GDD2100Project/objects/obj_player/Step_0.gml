@@ -36,14 +36,14 @@ if (spedUp)
 else if (spedDown)
 {
 	// increase speed
-	playerSpeed = increasedPlayerSpeed;
+	playerSpeed = decreasedPlayerSpeed;
 	
 	// if speed counter exceeds max frames
 	if (speedChangeCounter >= totalSpeedChangeFrames)
 	{
 		// reset speed and counter
 		playerSpeed = regularPlayerSpeed;
-		spedUp = false;
+		spedDown = false;
 		speedChangeCounter = 0;
 		
 		// play speed up sound effect
