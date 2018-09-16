@@ -5,7 +5,7 @@
     "name": "obj_revealableWall",
     "eventList": [
         {
-            "id": "23b47b02-2715-4aa6-882c-a2d52f0ad53c",
+            "id": "bc7b7465-b155-4c54-8c00-eda693b5239d",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -34,5 +34,5 @@
     "properties": null,
     "solid": false,
     "spriteId": "00000000-0000-0000-0000-000000000000",
-    "visible": true
+    "visible": false
 }

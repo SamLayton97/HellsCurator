@@ -1,4 +1,4 @@
 /// @description Used for initialization
 
-// set wall to start invisible
+// set object to be visible
 visible = false;

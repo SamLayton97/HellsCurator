@@ -1,6 +1,12 @@
 /// @description Used for initialization
 
-// create list of walls to reveal upon interaction
-wallsToReveal = ds_list_create();
+// create list of objects to reveal upon interaction
+toReveal = ds_list_create();
 
-// populate walls-to-reveal list with revealable walls within range
+// populate to-reveal list with revealable walls within range
+with(obj_revealableWall)
+{
+	// if revealable wall is within set range, add to list
+	if (distance_to_point(other.x, other.y) <= other.revealRadius)
+		ds_list_add(other.toReveal, id);
+}

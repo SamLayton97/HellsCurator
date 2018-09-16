@@ -4,7 +4,18 @@
 if (point_distance(x, y, obj_player.x, obj_player.y) <= interactRange && obj_player.isInteracting)
 {
 	// TODO: reveal secret walls near self
-	
+	// if reveal list isn't empty
+	if (!ds_list_empty(toReveal))
+	{
+		// for each item in reveal list
+		for (var i = 0; i < ds_list_size(toReveal); i++)
+		{
+			with (ds_list_find_value(toReveal, i))
+			{
+				visible = true;
+			}
+		}
+	}
 	
 	// provide "secret found" audio-visual feedback
 	instance_create_layer(x, y, "Visual_Effects_Layer", obj_secretFoundText);
