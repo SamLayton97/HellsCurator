@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "212f24bd-e9cc-4a91-a292-39c7c31d3d04",
+            "Value": {
+                "id": "aaca2001-2845-41bf-b0da-4e5603791894",
+                "resourcePath": "sounds\\sfx_walkCycle\\sfx_walkCycle.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "2172235a-7dcc-4a32-9151-f5f04019bdce",
             "Value": {
                 "id": "35fc512a-83e4-49f9-a32a-1074610fdc19",
@@ -1215,6 +1223,14 @@
             }
         },
         {
+            "Key": "b1110cde-3bba-4f52-b2af-47efd506533e",
+            "Value": {
+                "id": "37d6ba37-45a7-4a03-843c-f1fedc85ff9a",
+                "resourcePath": "sprites\\spr_creditsPage\\spr_creditsPage.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b6912c43-36e4-495e-8de9-29326bdb422c",
             "Value": {
                 "id": "025cf8ef-4910-41dd-9c64-5ccb4657162c",
@@ -1283,14 +1299,6 @@
             "Value": {
                 "id": "184ed6fa-2bd9-40b3-bea3-43d0137fff30",
                 "resourcePath": "sprites\\spr_spectreVConeInvestigate\\spr_spectreVConeInvestigate.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "c46397d8-01f4-4976-8a79-7e7ee9a3b735",
-            "Value": {
-                "id": "22e07c6b-9ac0-4547-b96b-36c3c3b83be3",
-                "resourcePath": "sprites\\spr_creditsPage\\spr_creditsPage.yy",
                 "resourceType": "GMSprite"
             }
         },

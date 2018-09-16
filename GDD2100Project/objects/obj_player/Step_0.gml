@@ -76,5 +76,14 @@ else if (xInput != 0 || yInput != 0)
 	y += yInput * playerSpeed;
 }
 
+// if player is moving and walk cycle isn't already playing
+if (!(x == xprevious && y == yprevious) && !audio_is_playing(sfx_walkCycle))
+	// loop player's walk cycle
+	audio_play_sound(sfx_walkCycle, 4, true);
+
+// if player is stationary, stop walk cycle
+if(x == xprevious && y == yprevious)
+	audio_stop_sound(sfx_walkCycle);
+
 // rotate sprite to face mouse position
 image_angle = point_direction(x, y, mouse_x, mouse_y);
