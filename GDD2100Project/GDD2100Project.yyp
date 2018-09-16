@@ -647,6 +647,14 @@
             }
         },
         {
+            "Key": "7a7ab9d2-a3ea-46ee-930b-20fbb88cc814",
+            "Value": {
+                "id": "93748cf4-afa9-48da-a976-f3ae0ed4d5ef",
+                "resourcePath": "sounds\\sfx_bellChime\\sfx_bellChime.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "7ba005b5-0dd2-47f0-8dfb-d8ed45c5730c",
             "Value": {
                 "id": "6eb3fe56-a320-44b4-850e-2ffbb420a262",
@@ -714,7 +722,7 @@
             "Key": "83169eea-3d33-4146-8700-95ac02506dd5",
             "Value": {
                 "id": "fe6389e7-b695-44ca-8326-7738e112843b",
-                "resourcePath": "sounds\\sfx_rockPickup\\sfx_rockPickup.yy",
+                "resourcePath": "sounds\\sfx_pickup\\sfx_pickup.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -772,6 +780,14 @@
                 "id": "148fb22e-1e4e-483c-925c-3cb1f5d4c7da",
                 "resourcePath": "sprites\\spr_holyBell\\spr_holyBell.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8fc7069e-4743-4709-af48-46a8b2e9e710",
+            "Value": {
+                "id": "f75c875e-3bac-410c-b790-769ce2776ee8",
+                "resourcePath": "objects\\obj_holyBellRadius\\obj_holyBellRadius.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -851,6 +867,14 @@
             "Value": {
                 "id": "0b3dd8b1-98b4-4710-bdd6-53f0e2c9d0b5",
                 "resourcePath": "sprites\\spr_interiorTileset\\spr_interiorTileset.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9f9d9269-1e88-48f2-92ff-1a45fe3cb739",
+            "Value": {
+                "id": "ce5887c1-9795-4d4f-8349-bc6e1a7d6499",
+                "resourcePath": "sprites\\spr_playerHoldingBell\\spr_playerHoldingBell.yy",
                 "resourceType": "GMSprite"
             }
         },

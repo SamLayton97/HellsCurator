@@ -7,7 +7,8 @@
         "7c96cd6f-b737-4852-957a-9da847db5edf",
         "fe0b154d-0fb1-4a1c-997a-8c7dac56abe4",
         "391ac3ef-01f3-4732-973a-344ce4cf51d4",
-        "646c05ad-146e-4965-8cb5-2181552274f7"
+        "646c05ad-146e-4965-8cb5-2181552274f7",
+        "8fc7069e-4743-4709-af48-46a8b2e9e710"
     ],
     "filterType": "GMObject",
     "folderName": "Visual Effects",

@@ -103,6 +103,26 @@
             "enumb": 69,
             "eventtype": 10,
             "m_owner": "27440179-52ab-4bff-b24b-9ecd8192a5d6"
+        },
+        {
+            "id": "464daa60-c372-45bd-b75e-cdd58bfdec16",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "c4e5f0fd-ce2c-4545-8214-cb44c2f34d84",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "27440179-52ab-4bff-b24b-9ecd8192a5d6"
+        },
+        {
+            "id": "22a5d969-69b8-4952-90e2-b34c5d7f9dca",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 54,
+            "eventtype": 6,
+            "m_owner": "27440179-52ab-4bff-b24b-9ecd8192a5d6"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -137,20 +157,6 @@
             "varType": 0
         },
         {
-            "id": "3be40904-54c5-46ac-b5e7-963e8126f47e",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "killedByBook",
-            "varType": 3
-        },
-        {
             "id": "0ef9b4a6-8b98-4418-96fd-8ea108e5f275",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -163,6 +169,20 @@
             "value": "True",
             "varName": "isMale",
             "varType": 3
+        },
+        {
+            "id": "39a6226d-e99d-40e3-9cf7-1c237ab4ea75",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "600",
+            "varName": "holyBellRange",
+            "varType": 0
         }
     ],
     "solid": false,

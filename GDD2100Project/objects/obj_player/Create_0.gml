@@ -1,7 +1,8 @@
 /// @description Used for initialization
 
-// set rock count to 0
+// initialize items
 rockCount = 0;
+holdingBell = false;
 
 // initializes PC-to-world interaction
-isInteracting = false;;
+isInteracting = false;
