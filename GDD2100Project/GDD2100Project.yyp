@@ -922,7 +922,7 @@
             "Key": "9ac4293e-49be-41b6-80e3-6bd0f0c7e61a",
             "Value": {
                 "id": "e4ee7339-f341-4907-995c-fe2ae46f8258",
-                "resourcePath": "objects\\obj_player2AbilitiesManager\\obj_player2AbilitiesManager.yy",
+                "resourcePath": "objects\\obj_helperAbilitiesManager\\obj_helperAbilitiesManager.yy",
                 "resourceType": "GMObject"
             }
         },
