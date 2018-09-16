@@ -18,3 +18,11 @@ with (obj_revealableFloor)
 	if (distance_to_point(other.x, other.y) <= other.revealRadius)
 		ds_list_add(other.toReveal, id);
 }
+
+// populate to-reveal list with revealable pickups within range
+with (obj_revealablePickup)
+{
+	// if pickup item is within set range, add to list
+	if (distance_to_point(other.x, other.y) <= other.revealRadius)
+		ds_list_add(other.toReveal, id);
+}

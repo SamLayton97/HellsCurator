@@ -367,6 +367,14 @@
             }
         },
         {
+            "Key": "42b10ebb-eb18-478f-ac04-d044c3850dd1",
+            "Value": {
+                "id": "66fce8ce-2b72-49ac-9c44-c3cb01dc7269",
+                "resourcePath": "objects\\obj_revealablePickup\\obj_revealablePickup.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4307500d-d66a-4d95-8b76-c31626704bc9",
             "Value": {
                 "id": "6d0273c3-8ac5-40f5-b42c-9a6e4788b7c1",
@@ -491,6 +499,14 @@
             "Value": {
                 "id": "2b2c2572-be93-469c-9aac-a8a5f53c0b82",
                 "resourcePath": "objects\\obj_scoreBreakdown\\obj_scoreBreakdown.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5df02897-297b-4f81-b23e-90f68e1ec031",
+            "Value": {
+                "id": "f4fc01a3-42fb-4bef-95dd-b80e347a8338",
+                "resourcePath": "objects\\obj_revealableRockPickup\\obj_revealableRockPickup.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -703,6 +719,22 @@
             }
         },
         {
+            "Key": "84124901-b7ac-4616-8527-72d673c415a9",
+            "Value": {
+                "id": "7a26dda7-dd4c-4a85-9ed2-8951fe8c704f",
+                "resourcePath": "views\\84124901-b7ac-4616-8527-72d673c415a9.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "88e3dbc6-770e-4282-93c0-f0dbbf789997",
+            "Value": {
+                "id": "72d4d56a-5c86-41fa-a6e3-2a55ba84114d",
+                "resourcePath": "objects\\obj_revealableHolyBellPickup\\obj_revealableHolyBellPickup.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "89b2d77c-8a06-487b-a719-1aee38df1340",
             "Value": {
                 "id": "fec58d6d-fe51-482b-8829-64aa448f3c26",
@@ -732,6 +764,14 @@
                 "id": "9c813ebe-11cb-4bc9-a325-86bfb97be470",
                 "resourcePath": "sounds\\bgrSound_gameAmbient\\bgrSound_gameAmbient.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "8f23a7ad-7c5d-44e0-8829-12cdcff37f61",
+            "Value": {
+                "id": "148fb22e-1e4e-483c-925c-3cb1f5d4c7da",
+                "resourcePath": "sprites\\spr_holyBell\\spr_holyBell.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -988,6 +1028,14 @@
                 "id": "184ed6fa-2bd9-40b3-bea3-43d0137fff30",
                 "resourcePath": "sprites\\spr_spectreVConeInvestigate\\spr_spectreVConeInvestigate.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c4e5f0fd-ce2c-4545-8214-cb44c2f34d84",
+            "Value": {
+                "id": "26d9a09f-0ab9-4447-8aa9-082f1c4f9dc0",
+                "resourcePath": "objects\\obj_holyBellPickup\\obj_holyBellPickup.yy",
+                "resourceType": "GMObject"
             }
         },
         {

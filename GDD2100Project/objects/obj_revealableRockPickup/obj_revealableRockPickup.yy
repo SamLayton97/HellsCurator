@@ -1,23 +1,23 @@
 {
-    "id": "75c3e73d-6749-4001-8320-b29e1069816f",
+    "id": "5df02897-297b-4f81-b23e-90f68e1ec031",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_rockPickup",
+    "name": "obj_revealableRockPickup",
     "eventList": [
         {
-            "id": "93187d2b-bfa8-41d6-854a-98c66e11853a",
+            "id": "87133410-6765-46b7-9c6a-7955ddb18239",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "27440179-52ab-4bff-b24b-9ecd8192a5d6",
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "75c3e73d-6749-4001-8320-b29e1069816f"
+            "eventtype": 0,
+            "m_owner": "5df02897-297b-4f81-b23e-90f68e1ec031"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "42b10ebb-eb18-478f-ac04-d044c3850dd1",
+    "parentObjectId": "75c3e73d-6749-4001-8320-b29e1069816f",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

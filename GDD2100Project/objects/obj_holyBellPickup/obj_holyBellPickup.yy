@@ -1,18 +1,18 @@
 {
-    "id": "75c3e73d-6749-4001-8320-b29e1069816f",
+    "id": "c4e5f0fd-ce2c-4545-8214-cb44c2f34d84",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_rockPickup",
+    "name": "obj_holyBellPickup",
     "eventList": [
         {
-            "id": "93187d2b-bfa8-41d6-854a-98c66e11853a",
+            "id": "9a3f8366-c260-4a83-b3e8-42e87ed85788",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "27440179-52ab-4bff-b24b-9ecd8192a5d6",
             "enumb": 0,
             "eventtype": 4,
-            "m_owner": "75c3e73d-6749-4001-8320-b29e1069816f"
+            "m_owner": "c4e5f0fd-ce2c-4545-8214-cb44c2f34d84"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "a36308ac-89bf-4f1a-b65f-a153f5dbd9ac",
+    "spriteId": "8f23a7ad-7c5d-44e0-8829-12cdcff37f61",
     "visible": true
 }
