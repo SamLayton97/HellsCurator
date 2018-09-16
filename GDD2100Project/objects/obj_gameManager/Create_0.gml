@@ -11,3 +11,9 @@ currTimeFrames = global.MaxScorableSeconds * room_speed;
 secretsFound = 0;
 rocksUsed = 0;
 perfectStealth = true;
+
+// based on game mode, spawn helper / hurter managers or nothing
+if (global.GameMode == gameMode.helper)
+	instance_create_layer(0, 0, "Agents_Layer", obj_helperManager);
+else if (global.GameMode == gameMode.hurter)
+	instance_create_layer(0, 0, "Agents_Layer", obj_hurterManager);

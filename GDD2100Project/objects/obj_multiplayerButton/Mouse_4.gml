@@ -2,4 +2,5 @@
 
 event_inherited();
 
-// TODO: send player to select mode room
+// send player to select mode room
+room_goto(MultiplayerModeSelectRoom);
