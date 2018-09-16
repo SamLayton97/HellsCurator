@@ -16,8 +16,13 @@ searchPointX = 0;
 searchPointY = 0;
 currSearchTime = 0;
 
+// set path according to level-wide patrol counter
+if (obj_gameManager.patrolCounter == 0)
+	myPath = path_spectreDemoRoom;
+else if (obj_gameManager.patrolCounter == 1)
+	myPath = path_spectreDemoRoom1;
+
 // pathing support variables
-myPath = path_spectreDemoRoom;
 exitPointX = 0;
 exitPointY = 0;
 exitPosition = 0;
