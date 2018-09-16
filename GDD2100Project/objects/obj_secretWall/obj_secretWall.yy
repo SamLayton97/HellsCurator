@@ -66,7 +66,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "672",
+            "value": "500",
             "varName": "revealRadius",
             "varType": 0
         }
