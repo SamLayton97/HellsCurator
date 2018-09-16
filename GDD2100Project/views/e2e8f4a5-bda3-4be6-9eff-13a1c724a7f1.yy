@@ -11,7 +11,9 @@
         "de7442e2-f462-4be3-a6a0-06aa8227610c",
         "02bc207d-6162-4b9b-927f-455426abee68",
         "a14f349f-206c-4839-9a17-ab6f2a3d73d0",
-        "d31d3f4f-292e-4e91-9d0c-73c9efd8a61e"
+        "d31d3f4f-292e-4e91-9d0c-73c9efd8a61e",
+        "5e566baa-3431-4d0b-8f3f-499811a365ae",
+        "d47764c2-e624-4629-b24f-7a904c713e4f"
     ],
     "filterType": "GMObject",
     "folderName": "Revealed",

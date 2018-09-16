@@ -12,7 +12,7 @@ if (point_distance(x, y, obj_player.x, obj_player.y) <= interactRange && obj_pla
 		{
 			with (ds_list_find_value(toReveal, i))
 			{
-				visible = true;
+				if (!visible) visible = true;
 			}
 		}
 	}
