@@ -3,7 +3,7 @@
 // defines global scoring variables
 global.PlayerScore = 0;
 global.MaxScorableSeconds = 240;
-global.PointsPerSecond = 35;
+global.PointsPerSecond = 40;
 
 // defines global score modifiers
 global.LevelRunTime = 0;

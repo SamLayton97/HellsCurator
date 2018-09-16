@@ -11,7 +11,8 @@
         "5293f098-accf-497d-acc2-cabee3dbcb33",
         "1537840a-ef44-4cca-a705-249a740cdbc8",
         "191aa671-ac00-43f0-b7e3-601a483aebf7",
-        "8f23a7ad-7c5d-44e0-8829-12cdcff37f61"
+        "8f23a7ad-7c5d-44e0-8829-12cdcff37f61",
+        "57c8fc29-6847-4f38-99a3-b26dc3d9fb27"
     ],
     "filterType": "GMSprite",
     "folderName": "Gameplay",
