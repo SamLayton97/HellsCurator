@@ -7,7 +7,6 @@ if (ability3Ready)
 	ability3Ready = false;
 	
 	// chime a holy bell at the player's position
-	// instantiate holy bell radius
 	instance_create_layer(obj_player.x, obj_player.y, "Visual_Effects_Layer", obj_holyBellRadius);
 	
 	// play holy bell sound effect

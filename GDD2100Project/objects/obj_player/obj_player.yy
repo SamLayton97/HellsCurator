@@ -153,7 +153,35 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "6",
-            "varName": "playerSpeed",
+            "varName": "regularPlayerSpeed",
+            "varType": 0
+        },
+        {
+            "id": "4b437cb1-1644-4dcc-b1f7-9e4fa470dee2",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "4",
+            "varName": "decreasedPlayerSpeed",
+            "varType": 0
+        },
+        {
+            "id": "ba198d30-75bd-4987-8cd1-084bef03fedc",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "8",
+            "varName": "increasedPlayerSpeed",
             "varType": 0
         },
         {
@@ -182,6 +210,20 @@
             "resourceFilter": 1023,
             "value": "600",
             "varName": "holyBellRange",
+            "varType": 0
+        },
+        {
+            "id": "c54285a0-74db-4134-bd4e-8111fb01153b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "7",
+            "varName": "speedChangeDuration",
             "varType": 0
         }
     ],

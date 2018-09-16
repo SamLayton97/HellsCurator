@@ -15,7 +15,10 @@ else
 if (ability2Ready)
 	draw_sprite(spr_friendlyAbility2, 1, screenWidth / 2, screenHeight - 100);
 else
+{
 	draw_sprite(spr_friendlyAbility2Used, 1, screenWidth / 2, screenHeight - 100);
+	draw_text(screenWidth / 2, screenHeight - 125, string(ability2FrameCounter / room_speed));
+}
 
 // draw ability 3 accordingly
 if (ability3Ready)

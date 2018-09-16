@@ -863,6 +863,14 @@
             }
         },
         {
+            "Key": "94fb1903-57d9-4c9c-9e92-c9d5ecd34278",
+            "Value": {
+                "id": "50daf268-aeb8-48f6-b4fb-8e79e372f9f3",
+                "resourcePath": "sounds\\sfx_speedDown\\sfx_speedDown.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "94fc076f-0c71-44d7-8d0c-334ef362ad2c",
             "Value": {
                 "id": "37a08fae-b385-43cb-a777-8fcfa2fdfe09",
@@ -1012,6 +1020,14 @@
                 "id": "c36a87fe-2ef7-44eb-9a38-3777b6a57808",
                 "resourcePath": "sprites\\spr_spectreVConeAttack\\spr_spectreVConeAttack.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a7cd3ebd-ad07-46a2-a249-504fcacde4e4",
+            "Value": {
+                "id": "0c5ca376-d604-4aaf-b7e7-87fe7f4446b5",
+                "resourcePath": "sounds\\sfx_speedUp\\sfx_speedUp.yy",
+                "resourceType": "GMSound"
             }
         },
         {
