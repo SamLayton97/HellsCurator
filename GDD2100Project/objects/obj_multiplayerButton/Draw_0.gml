@@ -7,6 +7,6 @@ draw_set_color(c_white);
 
 // writes message and provides user feedback
 if (!isMousedOver)
-	draw_text(x, y, "Start");
+	draw_text(x, y, "Multi");
 else
-	draw_text(x, y, "-Start-");
+	draw_text(x, y, "-Multi-");

@@ -6,10 +6,20 @@ yInput = 0;
 
 // detect horizontal input from user
 // and handles horizontal collisions
-if (keyboard_check(ord("A")) && !place_meeting(x - 24, y, base_solidObject))
+if ((keyboard_check(ord("A")) || keyboard_check(vk_left)) 
+	&& !place_meeting(x - 24, y, base_solidObject))
 	xInput = -1;
-else if (keyboard_check(ord("D")) && !place_meeting(x + 24, y, base_solidObject))
+else if ((keyboard_check(ord("D")) || keyboard_check(vk_right)) 
+	&& !place_meeting(x + 24, y, base_solidObject))
 	xInput = 1;
+
+// detect vertical input from user
+if ((keyboard_check(ord("W")) || keyboard_check(vk_up))
+&& !place_meeting(x, y - 24, base_solidObject))
+	yInput = -1;
+else if ((keyboard_check(ord("S")) || keyboard_check(vk_down))
+	&& !place_meeting(x, y + 24, base_solidObject))
+	yInput = 1;
 	
 // if sped up, handle speed change and timer
 if (spedUp)
@@ -54,12 +64,6 @@ else if (spedDown)
 		speedChangeCounter++;
 }
 
-// detect vertical input from user
-if (keyboard_check(ord("W")) && !place_meeting(x, y - 24, base_solidObject))
-	yInput = -1;
-else if (keyboard_check(ord("S")) && !place_meeting(x, y + 24, base_solidObject))
-	yInput = 1;
-	
 // move player according to registered input
 if (xInput != 0 && yInput != 0)
 {

@@ -9,7 +9,8 @@
         "708f8cde-7fff-4673-9c18-f8f3225599d4",
         "57ff4b8c-5485-4672-8cfa-e23483a005a0",
         "820f850e-f536-4efb-a264-bfdf0310db21",
-        "0bb14c50-d8dd-4e4c-83bc-aec6accced14"
+        "0bb14c50-d8dd-4e4c-83bc-aec6accced14",
+        "44c89896-b2b2-4ec6-a47c-c3beb6c4cb33"
     ],
     "filterType": "GMObject",
     "folderName": "Instructions Dummies",
