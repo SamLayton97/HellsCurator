@@ -34,7 +34,7 @@
             "inheritVisibility": false,
             "instances": [
 {"name": "inst_B367BE2","id": "fc3434cf-307c-4611-bb49-d69aee82b263","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_B367BE2","objId": "ee78a8e1-b5b6-40cd-86b7-b055a40f3eea","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 103,"y": 870},
-{"name": "inst_11FB157C","id": "c9eae427-6511-41e3-a719-2686e4520209","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_11FB157C","objId": "7dc6b8bb-64b8-4e61-a4ad-53e740e30113","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 960,"y": 896}
+{"name": "inst_11FB157C","id": "c9eae427-6511-41e3-a719-2686e4520209","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_11FB157C","objId": "7dc6b8bb-64b8-4e61-a4ad-53e740e30113","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 960,"y": 960}
             ],
             "layers": [
 
@@ -128,7 +128,7 @@
             "m_serialiseFrozen": false,
             "modelName": "GMRBackgroundLayer",
             "mvc": "1.0",
-            "spriteId": "2a2ee817-3ae4-4372-b674-6826716fc3e6",
+            "spriteId": "03b8099a-93d7-4b54-a71b-a2567009e2c2",
             "stretch": false,
             "userdefined_animFPS": false,
             "userdefined_depth": false,
