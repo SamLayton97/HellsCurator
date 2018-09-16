@@ -1375,6 +1375,14 @@
             }
         },
         {
+            "Key": "e3dba036-db17-48b3-bd1c-afdbf463ab38",
+            "Value": {
+                "id": "64e5aaab-f2a6-4a23-9128-804b744fbc80",
+                "resourcePath": "sounds\\sfx_maleSneeze\\sfx_maleSneeze.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "e4a4df5e-dc88-440d-932a-3f7917ad9854",
             "Value": {
                 "id": "a6e56aca-e4d9-4d6e-a489-1fcb05b60a67",
