@@ -20,9 +20,7 @@ currSearchTime = 0;
 if (id == inst_61DD4919)
 	myPath = path_spectreDemoRoom;
 else if (id == inst_31B1DCC8)
-{
 	myPath = path_spectreDemoRoom1;
-}
 
 // pathing support variables
 exitPointX = 0;
