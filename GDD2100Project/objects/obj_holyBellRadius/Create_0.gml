@@ -9,17 +9,33 @@ growthPerFrame = (radius * 2) / room_speed;
 screenWidth = camera_get_view_width(0);
 screenHeight = camera_get_view_height(0);
 
-// if spectre exists in game
-if (instance_number(obj_spectre) > 0)
+// create list of spectres to calm
+toCalm = ds_list_create();
+
+// with all spectre objects
+with (obj_spectre)
 {
-	// if spectre is currently investigating / searching and within bell's range
-	with(obj_spectre)
+	// if spectre is within bell's range, add it to list
+	if (distance_to_point(other.x, other.y) <= other.radius)
+		ds_list_add(other.toCalm, id);
+}
+
+// if "to calm" list isn't empty
+if (!ds_list_empty(toCalm))
+{
+	// for each spectre in list
+	for (var i = 0; i < ds_list_size(toCalm); i++)
 	{
-		if ((currState == spectreState.investigate || currState == spectreState.search)
-		&& point_distance(x, y, other.x, other.y))
+		currSpectre = ds_list_find_value(toCalm, i);
+		
+		// "calm" them if they are currently investigating point
+		with (currSpectre)
 		{
-			// tell spectre to go back to patrol
-			currState = spectreState.goBack;
+			if (currState == spectreState.investigate || currState == spectreState.search)
+			{
+				// tell spectre to go back to patrol
+				currState = spectreState.goBack;
+			}
 		}
 	}
 }
