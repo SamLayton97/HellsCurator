@@ -12,9 +12,6 @@ secretsFound = 0;
 rocksUsed = 0;
 perfectStealth = true;
 
-// initialize spectre patrols variables
-patrolCounter = 0;
-
 // based on game mode, spawn helper / hurter managers or nothing
 if (global.GameMode == gameMode.helper)
 	instance_create_layer(0, 0, "Agents_Layer", obj_helperManager);

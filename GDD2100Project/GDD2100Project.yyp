@@ -679,6 +679,14 @@
             }
         },
         {
+            "Key": "6ab120f7-78bd-4e6d-ac96-b968021d77af",
+            "Value": {
+                "id": "9bccf5e4-01a4-4c9a-9c07-5b94bfb37c7c",
+                "resourcePath": "scripts\\scr_spectreAgroRange\\scr_spectreAgroRange.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "6b3b8e6b-3f5a-4973-992f-f556a47935f0",
             "Value": {
                 "id": "ba3b5ae1-3096-429a-9c8a-97bba4b0db34",
@@ -1231,6 +1239,14 @@
             }
         },
         {
+            "Key": "b17a7543-3321-48f4-82ea-2579fbd7dfa3",
+            "Value": {
+                "id": "9103f46d-da60-4386-a12a-073aee92ce8c",
+                "resourcePath": "scripts\\scr_spectreVisionCone\\scr_spectreVisionCone.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "b6912c43-36e4-495e-8de9-29326bdb422c",
             "Value": {
                 "id": "025cf8ef-4910-41dd-9c64-5ccb4657162c",
@@ -1271,14 +1287,6 @@
             }
         },
         {
-            "Key": "bd72e077-e381-44f2-a2d4-701647ee71a4",
-            "Value": {
-                "id": "0a426f7a-1fda-4057-8a1e-b4898009b291",
-                "resourcePath": "objects\\obj_invisibleSpectreGate\\obj_invisibleSpectreGate.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "bf3f1c19-77b1-4769-abaf-0195cb8f3b9b",
             "Value": {
                 "id": "c85d15bf-a98c-4fe7-bb17-c956894d6cd0",
@@ -1308,6 +1316,14 @@
                 "id": "26d9a09f-0ab9-4447-8aa9-082f1c4f9dc0",
                 "resourcePath": "objects\\obj_holyBellPickup\\obj_holyBellPickup.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c91e38c1-f545-4ef5-9309-307bd3342ff5",
+            "Value": {
+                "id": "91d2753c-c08b-41cb-8dee-6e9833bca5b9",
+                "resourcePath": "scripts\\scr_sightTolerance\\scr_sightTolerance.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1676,7 +1692,10 @@
         "daf99922-92ff-4b99-ac85-194ae114999e",
         "6c698953-b4fc-4446-afbc-94706118b84c",
         "ca43b607-1f73-42e4-b7b4-8bb5e77b7fff",
-        "3ae32cd2-4f23-49f1-9e0d-a669e3133432"
+        "3ae32cd2-4f23-49f1-9e0d-a669e3133432",
+        "b17a7543-3321-48f4-82ea-2579fbd7dfa3",
+        "6ab120f7-78bd-4e6d-ac96-b968021d77af",
+        "c91e38c1-f545-4ef5-9309-307bd3342ff5"
     ],
     "tutorial": ""
 }

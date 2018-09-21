@@ -5,16 +5,6 @@
     "name": "obj_spectreVisionCone",
     "eventList": [
         {
-            "id": "fa319810-34ec-42fa-a86c-0a2f1b5d850e",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "79e937da-056f-492c-ae01-9668d7636482"
-        },
-        {
             "id": "5255c184-9c85-488d-ae79-2387634c3659",
             "modelName": "GMEvent",
             "mvc": "1.0",

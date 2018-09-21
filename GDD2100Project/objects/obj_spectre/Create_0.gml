@@ -16,11 +16,13 @@ searchPointX = 0;
 searchPointY = 0;
 currSearchTime = 0;
 
-// set path according to level-wide patrol counter
-if (obj_gameManager.patrolCounter == 0)
+// set patrol path according to instance id
+if (id == inst_61DD4919)
 	myPath = path_spectreDemoRoom;
-else if (obj_gameManager.patrolCounter == 1)
+else if (id == inst_31B1DCC8)
+{
 	myPath = path_spectreDemoRoom1;
+}
 
 // pathing support variables
 exitPointX = 0;
