@@ -559,6 +559,14 @@
             }
         },
         {
+            "Key": "52583c43-ac33-4997-8fdc-b9d684a0ae8b",
+            "Value": {
+                "id": "d55975f3-0a8a-47f2-8f0e-4ac91367bc4c",
+                "resourcePath": "sounds\\sfx_purpleActive\\sfx_purpleActive.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "5293f098-accf-497d-acc2-cabee3dbcb33",
             "Value": {
                 "id": "b77842be-1c75-4552-a4ce-b8ef74a98ff5",
@@ -783,6 +791,14 @@
             }
         },
         {
+            "Key": "6bdcbd34-7219-4c31-abef-da6955dc87ee",
+            "Value": {
+                "id": "be10adc8-71ae-4a76-992c-87d88e0fd4bf",
+                "resourcePath": "sounds\\sfx_orangeActive\\sfx_orangeActive.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "6c4c3d80-b749-4c8c-953f-6e7ffce19a63",
             "Value": {
                 "id": "e63ba52c-0a09-431f-ab1b-7a4fd206bd60",
@@ -987,6 +1003,14 @@
             "Value": {
                 "id": "fe6389e7-b695-44ca-8326-7738e112843b",
                 "resourcePath": "sounds\\sfx_pickup\\sfx_pickup.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "83bfcfa3-8486-4da4-8c79-97349bb219d4",
+            "Value": {
+                "id": "39c6eb38-2345-4180-882c-9440f5e4f6d2",
+                "resourcePath": "sounds\\sfx_greenActive\\sfx_greenActive.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -1499,6 +1523,14 @@
             "Value": {
                 "id": "7bce80db-93f3-4b24-8c83-8455ad448045",
                 "resourcePath": "views\\c0054fc7-16b7-4d74-80ff-c6025d92451e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c284fdf5-dc5c-4010-97b7-fb544c570f46",
+            "Value": {
+                "id": "8c0278de-f579-4de8-9daf-37a3da6a9d51",
+                "resourcePath": "views\\c284fdf5-dc5c-4010-97b7-fb544c570f46.yy",
                 "resourceType": "GMFolder"
             }
         },

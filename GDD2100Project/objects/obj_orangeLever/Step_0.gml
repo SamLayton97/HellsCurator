@@ -1,7 +1,7 @@
 /// @description Called once per frame
 
-// if player exists
-if (instance_exists(obj_player))
+// if player exists and lever isn't already active
+if (instance_exists(obj_player) && !active)
 {
 	// if player is over lever and hits "Interact" key
 	if (place_meeting(x, y, obj_player) && obj_player.isInteracting)
@@ -9,8 +9,10 @@ if (instance_exists(obj_player))
 		// activate lever
 		active = true;
 		
-		// TODO: set sprite and play appropriate sound effect
+		// set sprite and play appropriate sound effect
 		sprite_index = spr_orangeLeverActive;
+		if (!audio_is_playing(sfx_orangeActive))
+			audio_play_sound(sfx_orangeActive, 10, false);
 	}
 }
 
