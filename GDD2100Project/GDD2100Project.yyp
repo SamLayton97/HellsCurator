@@ -951,6 +951,14 @@
             }
         },
         {
+            "Key": "7fdb1250-27ed-4e8f-9e60-fe1a6bc95403",
+            "Value": {
+                "id": "f4023a89-79de-434f-881c-a568f1d169e4",
+                "resourcePath": "sounds\\sfx_gateOpening\\sfx_gateOpening.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "8108dd78-3622-48b1-a868-fd587f8fa127",
             "Value": {
                 "id": "69c836d9-7ef8-477c-8715-131a71385f0d",

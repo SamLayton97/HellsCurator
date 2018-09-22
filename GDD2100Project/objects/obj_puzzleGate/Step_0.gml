@@ -21,9 +21,13 @@ if (obj_orangeLever.active && !(obj_greenLever.active && obj_purpleLever.active)
 }
 
 // set gate sprite / destroy gate according to which levers are active
-// if all levers are active, destroy self
+// if all levers are active
 if (obj_orangeLever.active && obj_purpleLever.active && obj_greenLever.active)
+{
+	// play "Open" sound effect and destroy self
+	audio_play_sound(sfx_gateOpening, 15, false);
 	instance_destroy(id);
+}
 // if levers green and purple are active, set sprite to reflect that
 else if (obj_greenLever.active && obj_purpleLever.active)
 	sprite_index = spr_gateGP;
