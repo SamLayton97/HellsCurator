@@ -5,13 +5,13 @@
     "name": "obj_puzzleGate",
     "eventList": [
         {
-            "id": "e465f006-40aa-46b7-80b1-efc4473a3e83",
+            "id": "1f70f9ff-c8a0-4250-aa8d-c91118ffb986",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 0,
+            "eventtype": 3,
             "m_owner": "4696a0af-a54b-4b25-9383-0b515f0b0632"
         }
     ],

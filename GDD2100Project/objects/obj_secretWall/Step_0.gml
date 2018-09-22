@@ -3,10 +3,10 @@
 // if player object even exists
 if (instance_exists(obj_player))
 {
-		// if player is within interact range and hits "interact" key
+	// if player is within interact range and hits "interact" key
 	if (point_distance(x, y, obj_player.x, obj_player.y) <= interactRange && obj_player.isInteracting)
 	{
-		// TODO: reveal secret walls near self
+		// reveal secret walls near self
 		// if reveal list isn't empty
 		if (!ds_list_empty(toReveal))
 		{
