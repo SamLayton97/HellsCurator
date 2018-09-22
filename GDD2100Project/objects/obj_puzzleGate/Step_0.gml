@@ -7,6 +7,7 @@ if (obj_purpleLever.active && !obj_greenLever.active)
 	obj_purpleLever.active = false;
 	
 	// TODO: play "Deactivation" sound
+	audio_play_sound(sfx_incorrectCode, 10, false);
 }
 
 // of orange lever is active but green and purple are not
@@ -17,7 +18,8 @@ if (obj_orangeLever.active && !(obj_greenLever.active && obj_purpleLever.active)
 	obj_purpleLever.active = false;
 	obj_orangeLever.active = false;
 	
-	// TODO: play "Deactivation" sound
+	// play "Deactivation" sound
+	audio_play_sound(sfx_incorrectCode, 10, false);
 }
 
 // set gate sprite / destroy gate according to which levers are active

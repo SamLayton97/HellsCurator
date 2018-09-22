@@ -295,6 +295,14 @@
             }
         },
         {
+            "Key": "27d94402-56e5-4f81-af6e-ab63cb10b9bf",
+            "Value": {
+                "id": "05f8670b-a007-41a6-bae6-2ed9157c306b",
+                "resourcePath": "sounds\\sfx_incorrectCode\\sfx_incorrectCode.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "29b819bb-bfda-4dbc-bcf3-528ce839af62",
             "Value": {
                 "id": "093a2254-88fd-4b2d-9efb-447f792ed1d6",
