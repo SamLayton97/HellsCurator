@@ -1,6 +1,6 @@
 /// @description Called once per frame
 
-// TODO: darken game at 30 seconds remain, send spectres in at 0
+// progressively darken game at 60 seconds remain, send spectres in at 0
 
 // if player is alive and timer hasn't hit 0, decrement time
 if (instance_exists(obj_player) && currTimeFrames > 0)

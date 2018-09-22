@@ -559,6 +559,14 @@
             }
         },
         {
+            "Key": "56ee9363-1b98-4c6b-9e87-451b84c32243",
+            "Value": {
+                "id": "18e1ffb9-80d3-4abb-953d-64f7228847b7",
+                "resourcePath": "sprites\\spr_darknessEffect\\spr_darknessEffect.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "57c8fc29-6847-4f38-99a3-b26dc3d9fb27",
             "Value": {
                 "id": "3b2fa943-f9c1-4bb7-a431-bac2017f3fb4",
@@ -1756,6 +1764,14 @@
                 "id": "7ec1eb6b-f8ee-40da-aa5c-5f9766b8c5cf",
                 "resourcePath": "sprites\\spr_revealableCornerBL\\spr_revealableCornerBL.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fa9907c5-978c-4eab-808e-6eaeee3f091b",
+            "Value": {
+                "id": "1919bba2-2c95-4785-9383-3b93dcf34275",
+                "resourcePath": "objects\\obj_darknessEffect\\obj_darknessEffect.yy",
+                "resourceType": "GMObject"
             }
         },
         {
