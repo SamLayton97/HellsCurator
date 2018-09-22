@@ -9,7 +9,8 @@
         "97208902-6512-409d-a071-def61454c403",
         "8e0822d5-9365-4370-bb01-6083c9da31f0",
         "2a3c50e0-41b1-49b8-94b2-30f27bbeb211",
-        "92ca14d3-0760-4945-afc8-8453b37224c4"
+        "92ca14d3-0760-4945-afc8-8453b37224c4",
+        "cbdd3431-acf7-448b-8d31-4ab5fe4e5dec"
     ],
     "filterType": "GMSprite",
     "folderName": "Gate Puzzle Sprites",

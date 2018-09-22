@@ -1551,6 +1551,14 @@
             }
         },
         {
+            "Key": "cbdd3431-acf7-448b-8d31-4ab5fe4e5dec",
+            "Value": {
+                "id": "dd34cfc3-ff4e-4c50-bc5a-668c24d48301",
+                "resourcePath": "sprites\\spr_gate\\spr_gate.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "f5c8387f-ba93-4c82-9115-bc905b7f8cc5",

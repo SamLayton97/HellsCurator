@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "obj_orangeLever",
     "eventList": [
-        
+        {
+            "id": "5d270ab4-5b90-4a72-9898-49b978091c86",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "8108dd78-3622-48b1-a868-fd587f8fa127"
+        },
+        {
+            "id": "ba032233-afac-47ac-bbff-0b7498c71890",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "27440179-52ab-4bff-b24b-9ecd8192a5d6",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "8108dd78-3622-48b1-a868-fd587f8fa127"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
