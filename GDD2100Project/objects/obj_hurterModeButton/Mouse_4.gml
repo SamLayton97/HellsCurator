@@ -5,3 +5,6 @@ event_inherited();
 // go to setup room and set game mode to "hurter mode"
 room_goto(SetupRoom);
 global.GameMode = gameMode.hurter;
+
+// set difficulty to default (medium)
+global.GameDifficulty = Difficulty.medium;
