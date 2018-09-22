@@ -1,9 +1,28 @@
 /// @description Used for initialization
 
-// defines global scoring variables
+// defines time / score variables based off difficulty
+switch (global.GameDifficulty)
+{
+	case Difficulty.easy:
+		global.MaxScorableSeconds = 200;
+		global.PointsPerSecond = 50;
+		break;
+	case Difficulty.medium:
+		global.MaxScorableSeconds = 160;
+		global.PointsPerSecond = 63;
+		break;
+	case Difficulty.hard:
+		global.MaxScorableSeconds = 120;
+		global.PointsPerSecond = 84;
+		break;
+	default:
+		global.MaxScorableSeconds = 160;
+		global.PointsPerSecond = 63;
+		break;
+}
+
+// initializes global player score
 global.PlayerScore = 0;
-global.MaxScorableSeconds = 70;
-global.PointsPerSecond = 45;
 
 // defines global score modifiers
 global.LevelRunTime = 0;
