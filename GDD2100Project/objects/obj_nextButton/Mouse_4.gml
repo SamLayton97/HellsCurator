@@ -2,5 +2,5 @@
 
 event_inherited();
 
-// go to setup room
-room_goto(SetupRoom);
+// go to difficulty select room
+room_goto(DifficultySelectRoom);
