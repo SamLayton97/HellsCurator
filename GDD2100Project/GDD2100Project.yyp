@@ -1599,6 +1599,14 @@
             }
         },
         {
+            "Key": "e2968ef8-519c-49be-9b24-2327343a2ee7",
+            "Value": {
+                "id": "61b4abb8-39d1-46b1-a361-5be28dc52c11",
+                "resourcePath": "sounds\\sfx_heartBeat\\sfx_heartBeat.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "e2e8f4a5-bda3-4be6-9eff-13a1c724a7f1",
             "Value": {
                 "id": "de3129ef-f95f-46ac-a6a8-a8f47b6fc3c9",
