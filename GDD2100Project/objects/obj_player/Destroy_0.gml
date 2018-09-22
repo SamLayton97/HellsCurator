@@ -4,7 +4,10 @@
 instance_create_layer(x, y, "Visual_Effects_Layer", obj_clawMark);
 instance_create_layer(x, y, "Visual_Effects_Layer", obj_deathScreen);
 
-	
+// if footstep sound is playing, stop sound
+if (audio_is_playing(sfx_walkCycle))
+	audio_stop_sound(sfx_walkCycle);
+
 // play gender-specific death sound (CURRENTLY ONLY MALE)
 if (isMale)
 	audio_play_sound(sfx_maleDeath, 13, false);

@@ -13,6 +13,3 @@ spedUp = false;
 spedDown = false;
 speedChangeCounter = 0;
 totalSpeedChangeFrames = speedChangeDuration * room_speed;
-
-// TEST: create instance of darkness effect to test its speed
-instance_create_layer(x, y, "Visual_Effects_Layer", obj_darknessEffect);

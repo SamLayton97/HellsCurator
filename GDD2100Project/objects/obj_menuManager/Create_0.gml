@@ -22,4 +22,4 @@ enum Difficulty
 
 // by default, set global game mode to solo and difficulty to normal
 global.GameMode = gameMode.solo;
-global.GameDifficulty = Difficulty.medium;
+//global.GameDifficulty = Difficulty.medium;

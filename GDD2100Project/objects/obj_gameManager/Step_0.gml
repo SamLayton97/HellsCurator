@@ -1,7 +1,5 @@
 /// @description Called once per frame
 
-// progressively darken game at 60 seconds remain, send spectres in at 0
-
 // if player is alive and timer hasn't hit 0, decrement time
 if (instance_exists(obj_player) && currTimeFrames > 0)
 	currTimeFrames--;
@@ -26,3 +24,7 @@ else
 		}
 	}
 }
+
+// if timer reaches 60 seconds, create single instance of darkness effect
+if (!instance_exists(obj_darknessEffect) && currTimeFrames <= 60 * room_speed)
+	instance_create_layer(obj_player.x, obj_player.y, "Visual_Effects_Layer", obj_darknessEffect);
