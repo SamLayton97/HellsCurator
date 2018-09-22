@@ -62,7 +62,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "2",
+            "value": "2.1",
             "varName": "patrolSpeed",
             "varType": 0
         },
@@ -135,6 +135,34 @@
             "value": "160",
             "varName": "immediateAgroRange",
             "varType": 0
+        },
+        {
+            "id": "21ad3c36-c2b2-4c60-b840-7b8e8a961478",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "drawVisionCone",
+            "varType": 3
+        },
+        {
+            "id": "e48d8df8-d702-4ceb-83a3-5e7ca20e8a42",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "drawAgroRadius",
+            "varType": 3
         }
     ],
     "solid": false,
