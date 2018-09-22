@@ -519,6 +519,14 @@
             }
         },
         {
+            "Key": "4696a0af-a54b-4b25-9383-0b515f0b0632",
+            "Value": {
+                "id": "bdbcbf8b-83dd-4e39-aa09-916e174964f7",
+                "resourcePath": "objects\\obj_puzzleGate\\obj_puzzleGate.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "48ccb496-7473-45b9-96da-071d390b0980",
             "Value": {
                 "id": "c1f92cf1-43db-41c3-8eb0-a7244ab50b03",
