@@ -12,5 +12,14 @@ enum gameMode
 	hurter
 }
 
-// by default, set global game mode to solo
+// defines enumeration of potential game difficulties
+enum Difficulty 
+{
+	easy,
+	medium,
+	hard
+}
+
+// by default, set global game mode to solo and difficulty to normal
 global.GameMode = gameMode.solo;
+global.GameDifficulty = Difficulty.medium;

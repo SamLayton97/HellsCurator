@@ -487,6 +487,14 @@
             }
         },
         {
+            "Key": "4b0f2cab-599c-4093-972d-15fea2ed7016",
+            "Value": {
+                "id": "141d4f89-1c6b-4202-9a72-12af95a47d4c",
+                "resourcePath": "views\\4b0f2cab-599c-4093-972d-15fea2ed7016.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "4c5b2888-fc7e-43df-b78e-cf36699a6d69",
             "Value": {
                 "id": "a3ecd122-c56d-47ff-aedb-f60cb39948ca",
@@ -692,6 +700,14 @@
                 "id": "ba3b5ae1-3096-429a-9c8a-97bba4b0db34",
                 "resourcePath": "scripts\\scr_spectrePatrol\\scr_spectrePatrol.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6c4c3d80-b749-4c8c-953f-6e7ffce19a63",
+            "Value": {
+                "id": "e63ba52c-0a09-431f-ab1b-7a4fd206bd60",
+                "resourcePath": "sprites\\spr_difficultySelectScreen\\spr_difficultySelectScreen.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1383,6 +1399,14 @@
             }
         },
         {
+            "Key": "d0c87ad5-ec7c-477a-b406-1e1f0c779c99",
+            "Value": {
+                "id": "3e30ee9b-dc2a-4f85-9176-5e116d7f1669",
+                "resourcePath": "views\\d0c87ad5-ec7c-477a-b406-1e1f0c779c99.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "d31d3f4f-292e-4e91-9d0c-73c9efd8a61e",
             "Value": {
                 "id": "0816fef0-c531-4d7b-8103-7582d5532e96",
@@ -1636,6 +1660,14 @@
                 "id": "cded7362-3cc1-4e2d-b099-3cb8caca9be5",
                 "resourcePath": "views\\f42989a1-80e0-4e47-aad2-7eb0bad74e53.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f5e85e94-b14b-4321-83c9-53335b344f4f",
+            "Value": {
+                "id": "d3adab12-fe9c-4655-b9d2-9fe55c3c20a0",
+                "resourcePath": "rooms\\DifficultySelectRoom\\DifficultySelectRoom.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
