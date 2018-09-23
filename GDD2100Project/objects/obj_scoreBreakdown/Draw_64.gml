@@ -8,7 +8,7 @@ draw_set_halign(fa_left);
 draw_text(screenWidth / 6, screenHeight / 4, 
 	"Remaining Time: +" + string(global.LevelRunTime * global.PointsPerSecond) + " pts");
 draw_text(screenWidth / 6, (3 * screenHeight) / 8, 
-	"Rocks Used (" + string(global.RocksUsed) + "): -" + string(global.RocksUsed * 700) + " pts");
+	"Rocks Used (" + string(global.RocksUsed) + "): -" + string(global.RocksUsed * 350) + " pts");
 draw_text(screenWidth / 6, screenHeight / 2,
 	"Secrets Found (" + string(global.SecretsFound) + "): +" + string(global.SecretsFound * 1000) + " pts");
 if (global.PerfectStealth)

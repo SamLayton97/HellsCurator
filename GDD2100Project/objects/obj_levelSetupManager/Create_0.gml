@@ -5,15 +5,15 @@ switch (global.GameDifficulty)
 {
 	case Difficulty.easy:
 		global.MaxScorableSeconds = 200;
-		global.PointsPerSecond = 50;
+		global.PointsPerSecond = 60;
 		break;
 	case Difficulty.medium:
 		global.MaxScorableSeconds = 160;
-		global.PointsPerSecond = 63;
+		global.PointsPerSecond = 75;
 		break;
 	case Difficulty.hard:
 		global.MaxScorableSeconds = 120;
-		global.PointsPerSecond = 84;
+		global.PointsPerSecond = 100;
 		break;
 	default:
 		global.MaxScorableSeconds = 160;
