@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "0caad21e-6741-4713-9a49-d3dfaa8e10a0",
+            "Value": {
+                "id": "c11638bb-4a83-481b-9983-472946c8127b",
+                "resourcePath": "sprites\\spr_skeletonPlayer\\spr_skeletonPlayer.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0f3329b6-513e-4beb-8b5c-44b3a0732d39",
             "Value": {
                 "id": "7a4d59e5-4eaa-4059-9591-315df50dbe2b",
@@ -596,6 +604,14 @@
                 "id": "739be233-e30a-4145-9b2f-ebbe60dc57e2",
                 "resourcePath": "fonts\\font_timerUI\\font_timerUI.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "53b397f9-b1c8-4c96-96e4-4c21c08fe178",
+            "Value": {
+                "id": "67b11507-e608-4d71-90bb-65b491aae1d9",
+                "resourcePath": "sprites\\spr_skeletonPlayerHoldingBell\\spr_skeletonPlayerHoldingBell.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1143,6 +1159,14 @@
             }
         },
         {
+            "Key": "8fb895c7-2caf-4192-a99d-2cef20a4061f",
+            "Value": {
+                "id": "509c98d4-8cea-4298-bbfd-354702fe3b28",
+                "resourcePath": "sprites\\spr_hurtPlayer\\spr_hurtPlayer.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8fc7069e-4743-4709-af48-46a8b2e9e710",
             "Value": {
                 "id": "f75c875e-3bac-410c-b790-769ce2776ee8",
@@ -1492,6 +1516,14 @@
                 "id": "9103f46d-da60-4386-a12a-073aee92ce8c",
                 "resourcePath": "scripts\\scr_spectreVisionCone\\scr_spectreVisionCone.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "b348ae7e-9ecb-46f8-831b-fd772dfdd177",
+            "Value": {
+                "id": "1e61f7b6-835f-4bc2-87a3-9f16bc55b74e",
+                "resourcePath": "sprites\\spr_nerdPlayer\\spr_nerdPlayer.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1911,6 +1943,14 @@
             }
         },
         {
+            "Key": "f16e392c-a1f1-4358-b820-b02fe5c5be51",
+            "Value": {
+                "id": "59ea9824-7525-4d47-a2d7-cd452b52ad20",
+                "resourcePath": "sprites\\spr_nerdPlayerHoldingBell\\spr_nerdPlayerHoldingBell.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f1c49a55-3b98-40a4-ab05-20804c3735d0",
             "Value": {
                 "id": "875bb67e-7ce3-49ee-aa11-7361cf08c41c",
@@ -1956,6 +1996,14 @@
                 "id": "cded7362-3cc1-4e2d-b099-3cb8caca9be5",
                 "resourcePath": "views\\f42989a1-80e0-4e47-aad2-7eb0bad74e53.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f5157e48-ba0c-458e-9b97-f5dd09d0389a",
+            "Value": {
+                "id": "b3345f70-257e-4109-9722-aab72df0faeb",
+                "resourcePath": "sprites\\spr_hurtPlayerHoldingBell\\spr_hurtPlayerHoldingBell.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
