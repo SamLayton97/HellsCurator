@@ -20,5 +20,11 @@ enum Difficulty
 	hard
 }
 
-// by default, set global game mode to solo and difficulty to normal
-global.GameMode = gameMode.solo;
+// defines enumeration of possible character skins
+enum CharSkin
+{
+	standard,
+	nerd,
+	wounded,
+	undead
+}

@@ -11,5 +11,5 @@ if (holdingBell = true)
 	
 	// set holding bell to false and update sprite accordingly
 	holdingBell = false;
-	sprite_index = spr_player;
+	sprite_index = mySkin;
 }
