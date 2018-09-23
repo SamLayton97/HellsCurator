@@ -1663,6 +1663,14 @@
             }
         },
         {
+            "Key": "cad18ad5-4cf1-4010-91de-143c7e2f943a",
+            "Value": {
+                "id": "d6745635-2860-491c-9b34-c72a9534be8e",
+                "resourcePath": "rooms\\ShopMenuRoom\\ShopMenuRoom.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "cbdd3431-acf7-448b-8d31-4ab5fe4e5dec",
             "Value": {
                 "id": "dd34cfc3-ff4e-4c50-bc5a-668c24d48301",
@@ -2075,6 +2083,14 @@
             "Value": {
                 "id": "fc480150-7d9f-4784-b79f-975885df4d8f",
                 "resourcePath": "objects\\obj_soundRadius\\obj_soundRadius.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ffb975c5-2e28-4cac-a1c0-6c4c4ed6180a",
+            "Value": {
+                "id": "fdd83b5e-b88b-4bc9-8c34-1845bcfc95af",
+                "resourcePath": "objects\\obj_shopButton\\obj_shopButton.yy",
                 "resourceType": "GMObject"
             }
         }
