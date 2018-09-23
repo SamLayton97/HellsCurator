@@ -463,6 +463,14 @@
             }
         },
         {
+            "Key": "38b4841c-028f-44c2-a672-4b12eba5e8d3",
+            "Value": {
+                "id": "9366753f-0fec-4d80-bddd-cb3a830cbc56",
+                "resourcePath": "sounds\\sfx_purchase\\sfx_purchase.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "38b4b810-0279-4ea9-94a7-e9cf9c62ef49",
             "Value": {
                 "id": "034600eb-4ee0-4c2e-bc12-b56500185ce6",

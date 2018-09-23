@@ -1,12 +1,13 @@
 /// @description When user left-clicks on button
 
-event_inherited();
-
 // if paired skin has been purchased,
 if (isPurchased)
 {
 	// select skin
 	isSelected = true;
+	
+	// play button press sound
+	audio_play_sound(sfx_buttonPress, 10, false);
 	
 	// deselect all other skins
 	if (!ds_list_empty(otherSkins))
@@ -20,4 +21,9 @@ if (isPurchased)
 }
 // else (not purchased), "buy" skin but don't select it
 else
+{
 	isPurchased = true;
+	
+	// play purchase sound
+	audio_play_sound(sfx_purchase, 10, false);
+}
