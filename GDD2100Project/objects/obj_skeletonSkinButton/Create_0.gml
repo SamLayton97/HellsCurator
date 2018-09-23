@@ -2,5 +2,12 @@
 
 event_inherited();
 
-// sets price of default to free
+// initializes purchase and selection variables
+isPurchased = global.SkeletonSkinPurchased;
+if (global.CharacterSkin == CharSkin.undead)
+	isSelected = true;
+else
+	isSelected = false;
+
+// sets price
 myPrice = "$1.49";

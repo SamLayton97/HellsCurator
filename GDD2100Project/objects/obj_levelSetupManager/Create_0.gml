@@ -30,8 +30,5 @@ global.RocksUsed = 0;
 global.SecretsFound = 0;
 global.PerfectStealth = true;
 
-// TEST: set character skin to standard
-global.CharacterSkin = CharSkin.standard;
-
 // after defining globals, move to demo room
 room_goto(DemoRoom);

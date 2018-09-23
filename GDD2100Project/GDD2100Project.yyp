@@ -1631,6 +1631,14 @@
             }
         },
         {
+            "Key": "b365bfc2-3fe7-4fc2-8b12-eec5c1774ecf",
+            "Value": {
+                "id": "28d3fcb0-82e3-4d97-9649-de057c9453fe",
+                "resourcePath": "rooms\\GameInitializationRoom\\GameInitializationRoom.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "b6912c43-36e4-495e-8de9-29326bdb422c",
             "Value": {
                 "id": "025cf8ef-4910-41dd-9c64-5ccb4657162c",
@@ -1732,6 +1740,14 @@
                 "id": "91d2753c-c08b-41cb-8dee-6e9833bca5b9",
                 "resourcePath": "scripts\\scr_sightTolerance\\scr_sightTolerance.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c972de71-2560-4278-b6c5-feef91835c73",
+            "Value": {
+                "id": "816a1b76-117e-4527-8bca-bf1faa34c110",
+                "resourcePath": "objects\\obj_gameInitializer\\obj_gameInitializer.yy",
+                "resourceType": "GMObject"
             }
         },
         {

@@ -2,5 +2,12 @@
 
 event_inherited();
 
-// sets price of default to free
+// initializes purchase and selection variables
+isPurchased = global.HurtSkinPurchased;
+if (global.CharacterSkin == CharSkin.wounded)
+	isSelected = true;
+else
+	isSelected = false;
+
+// sets price
 myPrice = "$0.49";
