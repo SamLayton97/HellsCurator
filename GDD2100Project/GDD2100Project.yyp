@@ -1399,6 +1399,14 @@
             }
         },
         {
+            "Key": "a8fd9c1f-772c-48f1-9e7a-620286dd4202",
+            "Value": {
+                "id": "e85c155b-7f26-4274-b556-376a3c9d153c",
+                "resourcePath": "paths\\path_spectreDemoRoom2\\path_spectreDemoRoom2.yy",
+                "resourceType": "GMPath"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "547c2db9-4615-447c-a6b3-62c94d4804a5",
