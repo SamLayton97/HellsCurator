@@ -26,6 +26,18 @@ with (myVisionCone)
 	}
 }
 	
+// modifies sprectre's investigate sprite according to current sight value
+if (currSightVal >= .75 * maxSightVal && sprite_index != spr_spectreInvestigate75Tol)
+	sprite_index = spr_spectreInvestigate75Tol;
+else if (currSightVal >= .5 * maxSightVal && currSightVal < .75 * maxSightVal 
+&& sprite_index != spr_spectreInvestigate50Tol)
+	sprite_index = spr_spectreInvestigate50Tol;
+else if (currSightVal >= .25 * maxSightVal && currSightVal < .5 * maxSightVal 
+&& sprite_index != spr_spectreInvestigate25Tol)
+	sprite_index = spr_spectreInvestigate25Tol;
+else if (currSightVal < .25 * maxSightVal && sprite_index != spr_spectreInvestigate)
+	sprite_index = spr_spectreInvestigate;
+	
 // if current sight val exceeds max tolerance
 if (currSightVal >= maxSightVal)
 {
