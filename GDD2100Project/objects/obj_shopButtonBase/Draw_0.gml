@@ -28,5 +28,5 @@ else if (isPurchased && !isSelected)
 else if (isPurchased && isSelected)
 {
 	// draw "Selected"
-	draw_text(x, y, "Selected");
+	draw_text_color(x, y, "Selected", c_dkgray, c_dkgray, c_dkgray, c_dkgray, 100);
 }
