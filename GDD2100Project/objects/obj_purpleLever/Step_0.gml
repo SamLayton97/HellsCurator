@@ -18,7 +18,7 @@ if (instance_exists(obj_player) && !active)
 		if (global.ClosedCaptioningEnabled)
 		{
 			obj_closedCaptioningManager.currFrameCounter = 0;
-			obj_closedCaptioningManager.captionText = "[Sign lit]";
+			obj_closedCaptioningManager.captionText = "[Magical flash]";
 		}
 	}
 }
