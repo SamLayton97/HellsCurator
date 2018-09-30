@@ -121,5 +121,9 @@ if (!(x == xprevious && y == yprevious) && !audio_is_playing(sfx_walkCycle))
 if(x == xprevious && y == yprevious)
 	audio_stop_sound(sfx_walkCycle);
 
-// rotate sprite to face mouse position
-image_angle = point_direction(x, y, mouse_x, mouse_y);
+// if player is two-handed, face sprite towards mouse position
+if (!global.OneHandedModeEnabled)
+	image_angle = point_direction(x, y, mouse_x, mouse_y);
+// otherwise handle direction in one-handed script
+else
+	scr_oneHandedPlayer();
