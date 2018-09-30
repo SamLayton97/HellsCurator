@@ -21,6 +21,20 @@ else if ((keyboard_check(ord("S")) || keyboard_check(vk_down))
 	&& !place_meeting(x, y + 24, base_solidObject))
 	yInput = 1;
 	
+// if near a wall,
+if (place_meeting(x, y + 24, base_solidObject) || place_meeting(x, y - 24, base_solidObject) 
+|| place_meeting(x + 24, y, base_solidObject) || place_meeting(x - 24, y, base_solidObject))
+{
+	// if not already colliding with wall, play sound
+	if (!collidingWithWall)
+	{
+		audio_play_sound(sfx_wallHit, 5, false);
+		collidingWithWall = true;
+	}
+}
+else
+	collidingWithWall = false;
+	
 // if sped up, handle speed change and timer
 if (spedUp)
 {

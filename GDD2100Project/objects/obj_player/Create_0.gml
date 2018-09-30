@@ -14,6 +14,9 @@ spedDown = false;
 speedChangeCounter = 0;
 totalSpeedChangeFrames = speedChangeDuration * room_speed;
 
+// declares "collide with wall" sound support variables
+collidingWithWall = false;
+
 // based on selected skin, change sprite as appropriate
 switch (global.CharacterSkin)
 {
