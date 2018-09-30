@@ -16,4 +16,13 @@ if (currState != spectreState.attack)
 		
 	// play attack sound
 	audio_play_sound(sfx_spectreAttack, 20, false);
+	
+	// if directional aid enabled
+	if (global.DirectionalSoundAidEnabled)
+	{
+		//tell PC to draw directional investigate indicator
+		obj_player.attackIndicatorAngle = point_direction(obj_player.x, obj_player.y, x, y)
+			* (pi / 180);
+		obj_player.attackIndicatorCounter = 0;
+	}
 }

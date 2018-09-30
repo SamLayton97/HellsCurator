@@ -93,6 +93,10 @@ else if (xInput != 0 || yInput != 0)
 // if directional investigate indicator is active, increment counter
 if (investigateIndicatorCounter < maxIndicatorFrames)
 	investigateIndicatorCounter++;
+	
+// if directional attack indicator is active, increment counter
+if (attackIndicatorCounter < maxIndicatorFrames)
+	attackIndicatorCounter++;
 
 // if player is moving and walk cycle isn't already playing
 if (!(x == xprevious && y == yprevious) && !audio_is_playing(sfx_walkCycle))

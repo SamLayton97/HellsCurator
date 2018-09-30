@@ -49,6 +49,15 @@ if (!ds_list_empty(toAlert))
 			
 				// play investigate sound effect
 				audio_play_sound(sfx_spectreInvestigate, 15, false);
+				
+				// if directional sound enabled
+				if (global.DirectionalSoundAidEnabled)
+				{
+					//tell PC to draw directional investigate indicator
+					obj_player.investigateIndicatorAngle = point_direction(obj_player.x, obj_player.y, x, y)
+						* (pi / 180);
+					obj_player.investigateIndicatorCounter = 0;
+				}
 			}
 		}
 	}

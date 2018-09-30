@@ -12,7 +12,8 @@ if (rockCount > 0)
 }
 
 // if investigate directional aid counter is less than max
-if (investigateIndicatorCounter < maxIndicatorFrames)
+// and attack indicator isn't active
+if (investigateIndicatorCounter < maxIndicatorFrames && attackIndicatorCounter == maxIndicatorFrames)
 {
 	// draw indicator at proper angle around PC
 	draw_text_color(x + 40 * cos(investigateIndicatorAngle), y - 40 * sin(investigateIndicatorAngle), "?",

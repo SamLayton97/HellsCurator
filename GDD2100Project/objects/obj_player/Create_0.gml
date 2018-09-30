@@ -18,7 +18,7 @@ totalSpeedChangeFrames = speedChangeDuration * room_speed;
 collidingWithWall = false;
 
 // initializes directional aid variables
-maxIndicatorFrames = .75 * room_speed;
+maxIndicatorFrames = room_speed;
 investigateIndicatorCounter = maxIndicatorFrames;
 attackIndicatorCounter = maxIndicatorFrames;
 investigateIndicatorAngle = 0;
