@@ -14,4 +14,11 @@ if (currState != spectreState.attack && instance_number(obj_player) > 0
 	
 	// play attack sound
 	audio_play_sound(sfx_spectreAttack, 20, false);
+	
+	// set closed captions
+	if (global.ClosedCaptioningEnabled)
+	{
+		obj_closedCaptioningManager.currFrameCounter = 0;
+		obj_closedCaptioningManager.captionText = "[Hissing]";
+	}
 }
