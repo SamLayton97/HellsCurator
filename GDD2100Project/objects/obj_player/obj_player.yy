@@ -123,6 +123,56 @@
             "enumb": 54,
             "eventtype": 6,
             "m_owner": "27440179-52ab-4bff-b24b-9ecd8192a5d6"
+        },
+        {
+            "id": "f4d81c99-46b1-46a9-9992-a602ed708a9c",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 70,
+            "eventtype": 9,
+            "m_owner": "27440179-52ab-4bff-b24b-9ecd8192a5d6"
+        },
+        {
+            "id": "754aaa68-7b6d-4a7d-be7c-c08797d9f426",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 85,
+            "eventtype": 9,
+            "m_owner": "27440179-52ab-4bff-b24b-9ecd8192a5d6"
+        },
+        {
+            "id": "a4801699-c17d-4f61-9ade-2ccb53d985fc",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 85,
+            "eventtype": 10,
+            "m_owner": "27440179-52ab-4bff-b24b-9ecd8192a5d6"
+        },
+        {
+            "id": "fe846e7d-7524-4b73-943f-efbcff2c2a8e",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 32,
+            "eventtype": 9,
+            "m_owner": "27440179-52ab-4bff-b24b-9ecd8192a5d6"
+        },
+        {
+            "id": "c92cc954-cc4e-4262-9674-67218aeb3679",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 72,
+            "eventtype": 9,
+            "m_owner": "27440179-52ab-4bff-b24b-9ecd8192a5d6"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -224,6 +274,20 @@
             "resourceFilter": 1023,
             "value": "7",
             "varName": "speedChangeDuration",
+            "varType": 0
+        },
+        {
+            "id": "0b10aca3-1e25-439c-bd2e-6513b1cc3304",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "500",
+            "varName": "oneHandedThrowRange",
             "varType": 0
         }
     ],
