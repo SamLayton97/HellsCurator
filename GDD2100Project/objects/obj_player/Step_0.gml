@@ -6,22 +6,22 @@ yInput = 0;
 
 // detect horizontal input from user
 // and handles horizontal collisions
-if ((keyboard_check(ord("A")) || keyboard_check(vk_left)) 
+if ((keyboard_check(ord("A")) || keyboard_check(vk_left) || keyboard_check(ord("J"))) 
 	&& !place_meeting(x - 24, y, base_solidObject))
 	xInput = -1;
-else if ((keyboard_check(ord("D")) || keyboard_check(vk_right)) 
+else if ((keyboard_check(ord("D")) || keyboard_check(vk_right) || keyboard_check(ord("L"))) 
 	&& !place_meeting(x + 24, y, base_solidObject))
 	xInput = 1;
 
 // detect vertical input from user
-if ((keyboard_check(ord("W")) || keyboard_check(vk_up))
+if ((keyboard_check(ord("W")) || keyboard_check(vk_up) || keyboard_check(ord("I")))
 && !place_meeting(x, y - 24, base_solidObject))
 	yInput = -1;
-else if ((keyboard_check(ord("S")) || keyboard_check(vk_down))
+else if ((keyboard_check(ord("S")) || keyboard_check(vk_down) || keyboard_check(ord("K")))
 	&& !place_meeting(x, y + 24, base_solidObject))
 	yInput = 1;
 	
-// if near a wall,
+// if near a wall
 if (place_meeting(x, y + 24, base_solidObject) || place_meeting(x, y - 24, base_solidObject) 
 || place_meeting(x + 24, y, base_solidObject) || place_meeting(x - 24, y, base_solidObject))
 {
