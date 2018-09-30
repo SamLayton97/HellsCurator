@@ -2,7 +2,7 @@
 
 // set selectivity and text to display
 isSelected = global.LowReactivityEnabled;
-optionText = "Low Reactivity";
+optionText = "Low Reactivity Balancing";
 
 // set sprite based on initial selectivity
 if (!isSelected)

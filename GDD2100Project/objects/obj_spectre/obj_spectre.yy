@@ -100,7 +100,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "6.25",
+            "value": "6.9",
             "varName": "attackSpeed",
             "varType": 0
         },

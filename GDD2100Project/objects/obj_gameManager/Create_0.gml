@@ -7,6 +7,10 @@ window_set_fullscreen(isFullScreen);
 // initialize game timer variables
 currTimeFrames = global.MaxScorableSeconds * room_speed;
 
+// extend time if low reactivity mode enabled
+if (global.LowReactivityEnabled)
+	currTimeFrames *= 1.3;
+
 // initialize various end-score modifiers
 secretsFound = 0;
 rocksUsed = 0;

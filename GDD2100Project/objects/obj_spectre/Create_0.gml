@@ -42,7 +42,6 @@ switch (obj_gameManager.difficulty)
 		break;
 }
 
-
 // search support variables
 searchPointX = 0;
 searchPointY = 0;
@@ -71,6 +70,19 @@ maxSightVal = sightTolerance * room_speed;
 myVisionCone = instance_create_layer(x, y, "Vision_Layer", obj_spectreVisionCone);
 if (!drawVisionCone)
 	myVisionCone.visible = false;
+
+// if low reactivity mode is enabled, decrease spectre's general awareness
+if (global.LowReactivityEnabled)
+{
+	// modify speed and tolerance variables
+	patrolSpeed *= .7;
+	investigateSpeed *= .8;
+	sightTolerance *= 1.3
+	immediateAgroRange *= .5;
+	
+	// decrease arc that vision cone scans
+	with(myVisionCone) maxRotationAngle *= .5;
+}
 
 // start by patrolling set path
 currState = spectreState.patrol;
