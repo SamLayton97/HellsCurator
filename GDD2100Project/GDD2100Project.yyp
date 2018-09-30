@@ -391,6 +391,14 @@
             }
         },
         {
+            "Key": "27ffd5e9-14b9-41ca-9d9a-baaa0b79b224",
+            "Value": {
+                "id": "c9dfaaeb-b8ca-40df-9566-69be0f4b7806",
+                "resourcePath": "objects\\obj_scoreMenuManager\\obj_scoreMenuManager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "29b819bb-bfda-4dbc-bcf3-528ce839af62",
             "Value": {
                 "id": "093a2254-88fd-4b2d-9efb-447f792ed1d6",
@@ -2404,6 +2412,14 @@
                 "id": "b1a8dfdd-a70c-4234-afb0-6c861c72cf1e",
                 "resourcePath": "rooms\\MultiplayerModeSelectRoom\\MultiplayerModeSelectRoom.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "fd6b0b1c-0056-44cb-a53f-edfe59586bb8",
+            "Value": {
+                "id": "2c3bb9a2-da25-4c1e-b6ce-ca6cd2bbdf93",
+                "resourcePath": "sounds\\sfx_successMusic\\sfx_successMusic.yy",
+                "resourceType": "GMSound"
             }
         },
         {

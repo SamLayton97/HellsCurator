@@ -2,7 +2,7 @@
 
 // define duration values
 totalFrames = captionDuration * room_speed;
-currFrameCounter = 0;
+currFrameCounter = totalFrames;
 
 // calculate space to draw captions
 screenWidth = camera_get_view_width(0);
@@ -11,4 +11,11 @@ captionsX = screenWidth / 2;
 captionsY = screenHeight - 120;
 
 // define string to write (set safe default)
-captionText = "[Nightmare noises]";
+captionText = "test";
+
+// at start of room, caption background noises if appropriate
+if (global.ClosedCaptioningEnabled)
+{
+	currFrameCounter = 0;
+	captionText = "[Nightmare sounds]";
+}
