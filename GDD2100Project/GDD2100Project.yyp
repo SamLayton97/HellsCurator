@@ -1271,6 +1271,14 @@
             }
         },
         {
+            "Key": "8ac0e348-4800-4af7-961b-83a30a2fb465",
+            "Value": {
+                "id": "7cc4a5d0-cf84-47dc-af42-be02c5087619",
+                "resourcePath": "objects\\obj_closedCaptioningManager\\obj_closedCaptioningManager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8b88ba0c-0e76-4bce-b528-fa0939a52151",
             "Value": {
                 "id": "9c813ebe-11cb-4bc9-a325-86bfb97be470",
@@ -1735,6 +1743,14 @@
             }
         },
         {
+            "Key": "b5b15e31-a44a-4174-b2c7-7846cde797f7",
+            "Value": {
+                "id": "43bd64ad-3f81-4f71-b92a-3607637cc471",
+                "resourcePath": "fonts\\font_captions\\font_captions.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "b6912c43-36e4-495e-8de9-29326bdb422c",
             "Value": {
                 "id": "025cf8ef-4910-41dd-9c64-5ccb4657162c",
@@ -1796,6 +1812,14 @@
                 "id": "7bce80db-93f3-4b24-8c83-8455ad448045",
                 "resourcePath": "views\\c0054fc7-16b7-4d74-80ff-c6025d92451e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c05abf35-b739-4784-8c0a-11c38fe44039",
+            "Value": {
+                "id": "3bb5739a-bc2c-4743-a6a3-94f22b7fee0e",
+                "resourcePath": "sprites\\spr_closedCaptioningBox\\spr_closedCaptioningBox.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
