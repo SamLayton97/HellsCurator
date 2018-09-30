@@ -727,6 +727,14 @@
             }
         },
         {
+            "Key": "5899dacf-2992-415c-90a7-88c38d5098f7",
+            "Value": {
+                "id": "a835aebd-fbf2-493c-ae9d-0a57c144d0af",
+                "resourcePath": "sounds\\sfx_wallHit\\sfx_wallHit.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "5915d76c-b600-4059-bd4f-5c4433baa75b",
             "Value": {
                 "id": "c2aa3af1-0097-48d7-9115-bc683511b439",
