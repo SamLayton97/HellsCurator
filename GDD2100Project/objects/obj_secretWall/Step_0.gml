@@ -23,7 +23,14 @@ if (instance_exists(obj_player))
 		// provide "secret found" audio-visual feedback
 		instance_create_layer(x, y, "Visual_Effects_Layer", obj_secretFoundText);
 		audio_play_sound(sfx_secretFound, 12, false);
-	
+		
+		// set closed captions
+		if (global.ClosedCaptioningEnabled)
+		{
+			obj_closedCaptioningManager.currFrameCounter = 0;
+			obj_closedCaptioningManager.captionText = "[Secret door opens]";
+		}
+		
 		// increment number of secrets found
 		obj_gameManager.secretsFound++;
 	

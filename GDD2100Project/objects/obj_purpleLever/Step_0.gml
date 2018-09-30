@@ -13,6 +13,13 @@ if (instance_exists(obj_player) && !active)
 		sprite_index = spr_purpleLeverActive;
 		if (!audio_is_playing(sfx_purpleActive))
 			audio_play_sound(sfx_purpleActive, 10, false);
+		
+		// set closed captions
+		if (global.ClosedCaptioningEnabled)
+		{
+			obj_closedCaptioningManager.currFrameCounter = 0;
+			obj_closedCaptioningManager.captionText = "[Sign lit]";
+		}
 	}
 }
 

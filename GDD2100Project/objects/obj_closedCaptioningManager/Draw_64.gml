@@ -10,5 +10,5 @@ if (currFrameCounter < totalFrames)
 {
 	// draw text and semi-transparent background
 	draw_sprite(spr_closedCaptioningBox, 0, captionsX, captionsY);
-	draw_text(captionsX, captionsY, "TEST");
+	draw_text(captionsX, captionsY, captionText);
 }

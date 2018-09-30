@@ -11,4 +11,11 @@ if (ability3Ready)
 	
 	// play holy bell sound effect
 	audio_play_sound(sfx_bellChime, 12, false);
+	
+	// set closed captions
+	if (global.ClosedCaptioningEnabled)
+	{
+		obj_closedCaptioningManager.currFrameCounter = 0;
+		obj_closedCaptioningManager.captionText = "[Bell collected]";
+	}
 }

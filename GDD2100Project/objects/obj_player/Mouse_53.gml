@@ -12,4 +12,11 @@ if (rockCount > 0)
 	
 	// play rock throw sound
 	audio_play_sound(sfx_rockThrow, 8, false);
+	
+	// set closed captioning
+	if (global.ClosedCaptioningEnabled)
+	{
+		obj_closedCaptioningManager.currFrameCounter = 0;
+		obj_closedCaptioningManager.captionText = "[Grunt]";
+	}
 }

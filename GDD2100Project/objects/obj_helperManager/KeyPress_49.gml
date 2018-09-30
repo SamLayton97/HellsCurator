@@ -9,4 +9,11 @@ if (ability1Ready)
 	// add a rock to player's inventory
 	obj_player.rockCount++;
 	audio_play_sound(sfx_pickup, 8, false);
+	
+	// set closed captions
+	if (global.ClosedCaptioningEnabled)
+	{
+		obj_closedCaptioningManager.currFrameCounter = 0;
+		obj_closedCaptioningManager.captionText = "[Rock collected]";
+	}
 }

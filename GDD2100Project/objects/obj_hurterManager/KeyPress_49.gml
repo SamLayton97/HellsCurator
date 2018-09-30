@@ -11,4 +11,11 @@ if (ability1Ready)
 	
 	// play swipe sound effect
 	audio_play_sound(sfx_swipeRock, 8, false);
+	
+	// set closed captions
+	if (global.ClosedCaptioningEnabled)
+	{
+		obj_closedCaptioningManager.currFrameCounter = 0;
+		obj_closedCaptioningManager.captionText = "[Rock swiped]";
+	}
 }

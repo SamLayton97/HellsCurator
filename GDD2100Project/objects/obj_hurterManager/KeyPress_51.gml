@@ -9,4 +9,11 @@ if (ability3Ready)
 	// cause player 1's character to sneeze (spawn a sound radius)
 	instance_create_layer(obj_player.x, obj_player.y, "Visual_Effects_Layer", obj_soundRadius);
 	audio_play_sound(sfx_maleSneeze, 10, false);
+	
+	// set closed captions
+	if (global.ClosedCaptioningEnabled)
+	{
+		obj_closedCaptioningManager.currFrameCounter = 0;
+		obj_closedCaptioningManager.captionText = "[Sneeze]";
+	}
 }

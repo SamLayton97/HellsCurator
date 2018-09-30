@@ -11,4 +11,11 @@ if (ability2Ready)
 	
 	// play speed down sound effect
 	audio_play_sound(sfx_speedDown, 8, false);
+	
+	// set closed captions
+	if (global.ClosedCaptioningEnabled)
+	{
+		obj_closedCaptioningManager.currFrameCounter = 0;
+		obj_closedCaptioningManager.captionText = "[Pace slows]";
+	}
 }

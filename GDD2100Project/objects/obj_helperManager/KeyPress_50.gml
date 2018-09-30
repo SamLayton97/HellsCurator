@@ -11,4 +11,11 @@ if (ability2Ready)
 	
 	// play speed up sound effect
 	audio_play_sound(sfx_speedUp, 8, false);
+	
+	// set closed captions
+	if (global.ClosedCaptioningEnabled)
+	{
+		obj_closedCaptioningManager.currFrameCounter = 0;
+		obj_closedCaptioningManager.captionText = "[Pace quickens]";
+	}
 }

@@ -11,3 +11,10 @@ if (audio_is_playing(sfx_walkCycle))
 // play gender-specific death sound (CURRENTLY ONLY MALE)
 if (isMale)
 	audio_play_sound(sfx_maleDeath, 13, false);
+	
+// set closed captioning
+if (global.ClosedCaptioningEnabled)
+{
+	obj_closedCaptioningManager.currFrameCounter = 0;
+	obj_closedCaptioningManager.captionText = "[Dying groan]";
+}

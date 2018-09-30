@@ -27,6 +27,13 @@ with (myVisionCone)
 		// play investigate sound effect
 		audio_play_sound(sfx_spectreInvestigate, 15, false);
 		
+		// set closed captioning
+		if (global.ClosedCaptioningEnabled)
+		{
+			obj_closedCaptioningManager.currFrameCounter = 0;
+			obj_closedCaptioningManager.captionText = "[Rattling]";
+		}
+		
 		// if player hasn't failed perfect stealth run, fail perfect stealth
 		if (obj_gameManager.perfectStealth)
 			obj_gameManager.perfectStealth = false;
