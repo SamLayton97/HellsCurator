@@ -32,6 +32,11 @@ global.HurtSkinPurchased = false;
 global.SkeletonSkinPurchased = false;
 global.CharacterSkin = CharSkin.standard;
 
+// initializes selectable options for physical disabilities
+global.ClosedCaptioningEnabled = false;
+global.LeftHandedModeEnabled = false;
+global.RightHandedModeEnabled = false;
+
 // start game in fullscreen
 window_set_fullscreen(true);
 

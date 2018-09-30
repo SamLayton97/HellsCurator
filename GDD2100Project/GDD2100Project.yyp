@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "0610984e-91a2-493e-b359-cb3846f2bb47",
+            "Value": {
+                "id": "acdb585f-dea2-40c5-bfe2-d7624539dc4c",
+                "resourcePath": "views\\0610984e-91a2-493e-b359-cb3846f2bb47.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "06b247ca-ef01-424c-8634-3e7bff3db022",
             "Value": {
                 "id": "8b51633b-7ae2-4d99-be71-bc3169416044",
@@ -403,6 +411,14 @@
             "Value": {
                 "id": "7df43c29-ae3f-464e-a46c-eb6154e198d0",
                 "resourcePath": "objects\\obj_quitButton\\obj_quitButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2c992537-cea3-400c-8778-5f96b06e6439",
+            "Value": {
+                "id": "0ecf872c-f3e3-48ae-9ede-20217320360b",
+                "resourcePath": "objects\\obj_optionsButton\\obj_optionsButton.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -987,6 +1003,14 @@
             "Value": {
                 "id": "be0f6568-1c47-4556-9d6b-0c5b41636aa6",
                 "resourcePath": "objects\\obj_dummySpectreAttack\\obj_dummySpectreAttack.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "71f801a9-89c5-46d0-8b43-b43ee9dd6809",
+            "Value": {
+                "id": "8ec66f43-a64f-48bb-8d11-c265b85019a2",
+                "resourcePath": "objects\\obj_optionSelectorBase\\obj_optionSelectorBase.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1991,6 +2015,14 @@
             }
         },
         {
+            "Key": "e16df4a1-a168-4cf9-9e0e-57259a881bb6",
+            "Value": {
+                "id": "73c7de70-0a3c-46f1-a75c-6649b36b8fa2",
+                "resourcePath": "rooms\\OptionsMenuRoom\\OptionsMenuRoom.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "e1d6afaa-873e-4361-900a-078613c27a5e",
             "Value": {
                 "id": "ea636e87-9965-4660-9c31-17c8d72cfccb",
@@ -2060,6 +2092,14 @@
                 "id": "c534cfbf-7297-44e2-91af-8c3b4d61e40e",
                 "resourcePath": "views\\e7ecc12d-1163-46b6-a1ab-936d007b4de8.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e8396b54-878a-4870-8640-2e593e8d11db",
+            "Value": {
+                "id": "57504c5f-ea2a-4f1c-8adf-65ebd898244f",
+                "resourcePath": "sprites\\spr_optionsMenuScreen\\spr_optionsMenuScreen.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

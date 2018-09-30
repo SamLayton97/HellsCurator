@@ -9,7 +9,8 @@
         "2c932594-e27b-4f7c-a653-4dce2693cdb4",
         "53e66e22-e0e4-40a1-957b-6b15f7935b6b",
         "ffb975c5-2e28-4cac-a1c0-6c4c4ed6180a",
-        "82952829-f9f8-4141-b12c-ddff2f645e38"
+        "82952829-f9f8-4141-b12c-ddff2f645e38",
+        "2c992537-cea3-400c-8778-5f96b06e6439"
     ],
     "filterType": "GMObject",
     "folderName": "Main Menu Buttons",
