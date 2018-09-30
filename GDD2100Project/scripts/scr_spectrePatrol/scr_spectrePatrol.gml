@@ -30,5 +30,14 @@ with (myVisionCone)
 		// if player hasn't failed perfect stealth run, fail perfect stealth
 		if (obj_gameManager.perfectStealth)
 			obj_gameManager.perfectStealth = false;
+			
+		// if directional indicators are enabled
+		if (global.DirectionalSoundAidEnabled)
+		{
+			//tell PC to draw directional investigate indicator
+			obj_player.investigateIndicatorAngle = point_direction(obj_player.x, obj_player.y, other.x, other.y)
+				* (pi / 180);
+			obj_player.investigateIndicatorCounter = 0;
+		}
 	}
 }

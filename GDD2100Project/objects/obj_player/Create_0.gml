@@ -17,6 +17,13 @@ totalSpeedChangeFrames = speedChangeDuration * room_speed;
 // declares "collide with wall" sound support variables
 collidingWithWall = false;
 
+// initializes directional aid variables
+investigateIndicatorCounter = room_speed;
+attackIndicatorCounter = room_speed;
+maxIndicatorFrames = room_speed;
+investigateIndicatorAngle = 0;
+attackIndicatorAngle = 0;
+
 // based on selected skin, change sprite as appropriate
 switch (global.CharacterSkin)
 {
