@@ -16,6 +16,6 @@ if (ability3Ready)
 	if (global.ClosedCaptioningEnabled)
 	{
 		obj_closedCaptioningManager.currFrameCounter = 0;
-		obj_closedCaptioningManager.captionText = "[Bell collected]";
+		obj_closedCaptioningManager.captionText = "[Bell rings]";
 	}
 }
