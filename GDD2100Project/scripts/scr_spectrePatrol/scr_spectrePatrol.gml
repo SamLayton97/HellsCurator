@@ -1,5 +1,9 @@
 // step script used by spectre in patrolling state
 
+// if sprite is not of patrol, set it to be patrol
+if (sprite_index != spr_spectrePatrol)
+	sprite_index = spr_spectrePatrol;
+
 // if spectre's vision cone collides with player
 // AND spectre has line of sight
 with (myVisionCone)
