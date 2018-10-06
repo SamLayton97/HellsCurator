@@ -6,7 +6,8 @@
     "children": [
         "27218cc5-bb3d-48ec-bf52-c6ec186d48d8",
         "24500283-f2eb-4614-9848-e1b6f9115e07",
-        "096e6217-6b10-4de3-b2e8-65b70aef32bb"
+        "096e6217-6b10-4de3-b2e8-65b70aef32bb",
+        "3e3dc9b5-a2df-4faa-8864-3d833765a1af"
     ],
     "filterType": "GMSound",
     "folderName": "Blind Mode Utility Menu Sounds",
