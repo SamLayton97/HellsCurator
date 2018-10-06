@@ -122,7 +122,7 @@ if(x == xprevious && y == yprevious)
 	audio_stop_sound(sfx_walkCycle);
 
 // if player is two-handed, face sprite towards mouse position
-if (!global.OneHandedModeEnabled)
+if (!global.OneHandedModeEnabled && !global.BlindModeEnabled)
 	image_angle = point_direction(x, y, mouse_x, mouse_y);
 // otherwise handle direction in one-handed script
 else

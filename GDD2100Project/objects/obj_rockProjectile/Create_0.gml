@@ -1,12 +1,13 @@
 /// @description Used for initialization
 
-// set direction and terminal position of rock
-if (!global.OneHandedModeEnabled)
+// set direction and terminal position of rock for standard control scheme
+if (!global.OneHandedModeEnabled && !global.BlindModeEnabled)
 {
 	direction = point_direction(x, y, mouse_x, mouse_y);
 	terminalX = mouse_x;
 	terminalY = mouse_y;
 }
+// set direction and terminal position for blind / one-handed control scheme
 else 
 {
 	direction = point_direction(x, y, x + obj_player.throwX, y - obj_player.throwY);

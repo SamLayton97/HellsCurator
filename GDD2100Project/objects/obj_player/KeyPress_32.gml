@@ -1,7 +1,7 @@
 /// @description Called while space bar is down
 
-// if player is in one-handed mode and has rocks to throw
-if (global.OneHandedModeEnabled && rockCount > 0)
+// if player is in one-handed mode or blind mode and has rocks to throw
+if ((global.OneHandedModeEnabled || global.BlindModeEnabled) && rockCount > 0)
 {	
 	// calculate position rock will be thrown to
 	throwX = cos(image_angle * pi / 180) * oneHandedThrowRange;
