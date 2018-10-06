@@ -815,6 +815,14 @@
             }
         },
         {
+            "Key": "4c043f19-db2a-45a2-8cc7-e504a26ebe72",
+            "Value": {
+                "id": "ae582f37-4564-4e06-97a5-47193c8f3004",
+                "resourcePath": "sounds\\sfx_secretWallHit\\sfx_secretWallHit.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "4c5b2888-fc7e-43df-b78e-cf36699a6d69",
             "Value": {
                 "id": "a3ecd122-c56d-47ff-aedb-f60cb39948ca",
@@ -890,7 +898,7 @@
             "Key": "55d56301-3bcf-4116-bcb2-f26b3b9fab25",
             "Value": {
                 "id": "f72a7eb9-456b-4a4c-941a-8c2cde29efbf",
-                "resourcePath": "scripts\\scr_playerWallCollisions\\scr_playerWallCollisions.yy",
+                "resourcePath": "scripts\\scr_playerWallCollisionSounds\\scr_playerWallCollisionSounds.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1356,6 +1364,14 @@
                 "id": "d1145cf3-26a7-4e19-a05e-6f69bfee9e80",
                 "resourcePath": "sounds\\bld_snd_nerdSkin\\bld_snd_nerdSkin.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "7fbd103f-f12e-494d-b0e7-3d0c326cc6b8",
+            "Value": {
+                "id": "73ded6d3-7508-4416-b9ee-612d892af43b",
+                "resourcePath": "scripts\\scr_playerSecretWallCollisionSounds\\scr_playerSecretWallCollisionSounds.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2060,6 +2076,14 @@
                 "id": "02ca7c55-a45b-4f22-a9b3-599c4ece3746",
                 "resourcePath": "objects\\obj_dummyEvilAbility1\\obj_dummyEvilAbility1.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b9c985c2-6af7-4bb3-b78e-77fc9809d197",
+            "Value": {
+                "id": "353f2e0a-8183-47dc-aa24-cfbfc37823f5",
+                "resourcePath": "scripts\\scr_playerWalkingSounds\\scr_playerWalkingSounds.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2882,7 +2906,9 @@
         "c91e38c1-f545-4ef5-9309-307bd3342ff5",
         "afaa57c0-cff9-4a8d-9fec-147553778d68",
         "ea071041-7806-424c-8833-f1c04c30a45d",
-        "55d56301-3bcf-4116-bcb2-f26b3b9fab25"
+        "55d56301-3bcf-4116-bcb2-f26b3b9fab25",
+        "7fbd103f-f12e-494d-b0e7-3d0c326cc6b8",
+        "b9c985c2-6af7-4bb3-b78e-77fc9809d197"
     ],
     "tutorial": ""
 }

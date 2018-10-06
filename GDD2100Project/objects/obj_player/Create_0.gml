@@ -16,6 +16,7 @@ totalSpeedChangeFrames = speedChangeDuration * room_speed;
 
 // declares "collide with wall" sound support variables
 collidingWithWall = false;
+collidingWithSecretWall = false;
 
 // initializes directional aid variables
 maxIndicatorFrames = room_speed;
