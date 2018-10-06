@@ -11,3 +11,6 @@ else
 
 // sets price
 myPrice = "$0.99";
+
+// sets voice over sound
+mySound = bld_snd_nerdSkin;

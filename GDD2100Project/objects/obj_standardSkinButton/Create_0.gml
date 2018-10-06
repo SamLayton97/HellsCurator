@@ -11,3 +11,6 @@ else
 
 // sets price of default to free
 myPrice = "FREE";
+
+// sets voice over sound
+mySound = bld_snd_standardSkin;
