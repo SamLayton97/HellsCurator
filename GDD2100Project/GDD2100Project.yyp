@@ -271,6 +271,14 @@
             }
         },
         {
+            "Key": "1e646b4d-52db-4afc-b917-518598830bda",
+            "Value": {
+                "id": "498c92a3-9665-496c-9a49-d64794b5a8b7",
+                "resourcePath": "sounds\\bld_snd_helperModeButton\\bld_snd_helperModeButton.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "1eb1ca27-4d33-4162-9099-38ef5f81d090",
             "Value": {
                 "id": "bf5404cf-c321-4a74-a6f7-9502fe1676d5",
@@ -316,6 +324,14 @@
                 "id": "35fc512a-83e4-49f9-a32a-1074610fdc19",
                 "resourcePath": "views\\2172235a-7dcc-4a32-9151-f5f04019bdce.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "224b3831-834e-4d3d-a996-e1c22dd01c41",
+            "Value": {
+                "id": "fe9f0461-9bdf-43fc-852d-81ffe56d1f21",
+                "resourcePath": "sounds\\bld_snd_hurterModeButton\\bld_snd_hurterModeButton.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -916,6 +932,14 @@
                 "id": "8c87f423-e483-439b-9661-6e123ed5d1a8",
                 "resourcePath": "sprites\\spr_buttonDimensions\\spr_buttonDimensions.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5d3a56de-107e-48c4-a290-d0fd8dbb546a",
+            "Value": {
+                "id": "b989f683-09e9-4bf0-a16d-d9c1bfa4951d",
+                "resourcePath": "views\\5d3a56de-107e-48c4-a290-d0fd8dbb546a.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
