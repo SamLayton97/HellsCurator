@@ -8,7 +8,8 @@
         "eebdc97e-bb44-4a0a-8d44-8056149c0031",
         "29b819bb-bfda-4dbc-bcf3-528ce839af62",
         "38b4841c-028f-44c2-a672-4b12eba5e8d3",
-        "fd6b0b1c-0056-44cb-a53f-edfe59586bb8"
+        "fd6b0b1c-0056-44cb-a53f-edfe59586bb8",
+        "cfc03a10-742b-43d2-9330-24ffb7344bfa"
     ],
     "filterType": "GMSound",
     "folderName": "Menu Sounds",

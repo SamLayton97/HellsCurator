@@ -37,6 +37,7 @@ global.ClosedCaptioningEnabled = false;
 global.DirectionalSoundAidEnabled = false;
 global.OneHandedModeEnabled = false;
 global.LowReactivityEnabled = false;
+global.BlindModeEnabled = false;
 
 // start game in fullscreen
 window_set_fullscreen(true);

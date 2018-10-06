@@ -1,8 +1,8 @@
 /// @description Used for initialization
 
 // set selectivity and text to display
-isSelected = global.OneHandedModeEnabled;
-optionText = "Enable One-Handed Mode";
+isSelected = global.BlindModeEnabled;
+optionText = "Enable Blind Mode";
 
 // set sprite based on initial selectivity
 if (!isSelected)
