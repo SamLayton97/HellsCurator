@@ -351,6 +351,14 @@
             }
         },
         {
+            "Key": "22b12d9f-fa63-4dbc-a6fd-a28e1e866d39",
+            "Value": {
+                "id": "b8097471-4abc-4527-bfd2-7acf2aff932e",
+                "resourcePath": "sounds\\bld_snd_disableBlindMode\\bld_snd_disableBlindMode.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "24475bb7-81ff-44be-8393-85f66b098845",
             "Value": {
                 "id": "b1c91ab2-829a-4fbc-9583-edfdaa193291",
@@ -410,7 +418,7 @@
             "Key": "27218cc5-bb3d-48ec-bf52-c6ec186d48d8",
             "Value": {
                 "id": "d1de7164-3ec2-4cf3-8c37-f340ab61e0ea",
-                "resourcePath": "sounds\\bld_snd_EnableBlindMode\\bld_snd_EnableBlindMode.yy",
+                "resourcePath": "sounds\\bld_snd_WelcomeBlindUser\\bld_snd_WelcomeBlindUser.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -540,6 +548,14 @@
                 "id": "c900f82b-9934-482e-9f57-d4f00f6887d7",
                 "resourcePath": "views\\2fa10ad8-d7e8-4e39-b7b0-f5e5e0bfc4d2.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "306ccbff-7345-49ca-b87d-388636da063e",
+            "Value": {
+                "id": "792b3218-0b5d-4cde-82d0-5ea969187d6a",
+                "resourcePath": "sounds\\bld_snd_enableOneHandedMode\\bld_snd_enableOneHandedMode.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -748,6 +764,14 @@
                 "id": "8b099303-9d07-42e4-8f9d-b2e9bdf5af9a",
                 "resourcePath": "objects\\obj_displayNerdSkin\\obj_displayNerdSkin.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "49ea2a7d-0479-45ed-8dbf-11278895c7ed",
+            "Value": {
+                "id": "d0ec22cd-21f5-4bf9-9311-e0ddf825fad5",
+                "resourcePath": "views\\49ea2a7d-0479-45ed-8dbf-11278895c7ed.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1063,6 +1087,14 @@
             }
         },
         {
+            "Key": "6a50c04c-2c0c-4ba0-95d4-78a68a8f4e5e",
+            "Value": {
+                "id": "d0e5c164-a6d8-437e-930e-e5977ccbfe5c",
+                "resourcePath": "sounds\\bld_snd_disableVisualAides\\bld_snd_disableVisualAides.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "6ab120f7-78bd-4e6d-ac96-b968021d77af",
             "Value": {
                 "id": "9bccf5e4-01a4-4c9a-9c07-5b94bfb37c7c",
@@ -1364,6 +1396,14 @@
                 "id": "7a26dda7-dd4c-4a85-9ed2-8951fe8c704f",
                 "resourcePath": "views\\84124901-b7ac-4616-8527-72d673c415a9.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "88610719-abac-4645-810b-c307df76fa6b",
+            "Value": {
+                "id": "1da72451-d4f4-4f3a-96a5-61e883a13123",
+                "resourcePath": "sounds\\bld_snd_enableBlindMode\\bld_snd_enableBlindMode.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1959,6 +1999,14 @@
             }
         },
         {
+            "Key": "bd246d13-b360-4e67-8340-4d851b5fae00",
+            "Value": {
+                "id": "ad556ee7-4862-41a0-bbde-26ac460174e8",
+                "resourcePath": "sounds\\bld_snd_disableCC\\bld_snd_disableCC.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "bd28feae-3090-4e35-92ca-448710ea8fa8",
             "Value": {
                 "id": "7bafc1c3-a6cb-4627-ab9b-668ed034b86f",
@@ -2039,11 +2087,35 @@
             }
         },
         {
+            "Key": "c4dc7039-e186-450b-be4e-1e811c5537cf",
+            "Value": {
+                "id": "7a7a3d28-6780-4a9e-8cea-0acbde1cd389",
+                "resourcePath": "sounds\\bld_snd_enableCC\\bld_snd_enableCC.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "c4e5f0fd-ce2c-4545-8214-cb44c2f34d84",
             "Value": {
                 "id": "26d9a09f-0ab9-4447-8aa9-082f1c4f9dc0",
                 "resourcePath": "objects\\obj_holyBellPickup\\obj_holyBellPickup.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c5947fc6-b579-4e36-8621-1e86dd9e3711",
+            "Value": {
+                "id": "1271065c-c8a1-4522-868f-14eaaec6593b",
+                "resourcePath": "sounds\\bld_snd_disableLowReactivityMode\\bld_snd_disableLowReactivityMode.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "c5a41904-3af4-4a1e-abfa-cdf6b6587700",
+            "Value": {
+                "id": "a8a9be47-5eb7-4875-87b9-d3e02455e87d",
+                "resourcePath": "sounds\\bld_snd_enableVisualAides\\bld_snd_enableVisualAides.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -2060,6 +2132,14 @@
                 "id": "1b4c553e-75e0-4c16-8cdf-98948e367385",
                 "resourcePath": "views\\c6f48ef2-2d3d-4551-87dd-ee125b5c4196.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c76fbe2e-c6e0-403f-ad0f-ef536badd8c6",
+            "Value": {
+                "id": "3a535ee1-80b2-46f0-b694-3956c2a96f1a",
+                "resourcePath": "sounds\\bld_snd_enableLowReactivityMode\\bld_snd_enableLowReactivityMode.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -2564,6 +2644,14 @@
                 "id": "cded7362-3cc1-4e2d-b099-3cb8caca9be5",
                 "resourcePath": "views\\f42989a1-80e0-4e47-aad2-7eb0bad74e53.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f483cf15-fd1e-4bde-8ff5-1790d48dcff7",
+            "Value": {
+                "id": "33e205cc-ae23-4ec4-bdb1-818d1a3897b4",
+                "resourcePath": "sounds\\bld_snd_disableOneHandedMode\\bld_snd_disableOneHandedMode.yy",
+                "resourceType": "GMSound"
             }
         },
         {

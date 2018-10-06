@@ -9,3 +9,7 @@ if (!isSelected)
 	sprite_index = spr_uncheckedBox;
 else
 	sprite_index = spr_checkedBox;
+	
+// initialize voice over sounds
+enableSound = bld_snd_enableBlindMode;
+disableSound = bld_snd_disableBlindMode;
