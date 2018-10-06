@@ -13,3 +13,5 @@ else
 // initialize voice over sounds
 enableSound = bld_snd_enableCC;
 disableSound = bld_snd_disableCC;
+
+event_inherited();

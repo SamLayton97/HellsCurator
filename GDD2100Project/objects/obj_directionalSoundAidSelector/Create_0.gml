@@ -13,3 +13,5 @@ else
 // initialize voice over sounds
 enableSound = bld_snd_enableVisualAides;
 disableSound = bld_snd_disableVisualAides;
+
+event_inherited();

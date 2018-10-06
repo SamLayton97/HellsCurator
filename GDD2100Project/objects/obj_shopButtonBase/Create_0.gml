@@ -10,3 +10,5 @@ with(obj_shopButtonBase)
 	if (id != other.id)
 		ds_list_add(other.otherSkins, id);
 }
+
+event_inherited();

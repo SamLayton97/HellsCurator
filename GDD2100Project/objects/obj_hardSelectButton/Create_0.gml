@@ -7,3 +7,5 @@ mySound = bld_snd_hardMode;
 // retrieve screen dimensions
 screenWidth = camera_get_view_width(0);
 screenHeight = camera_get_view_height(0);
+
+event_inherited();

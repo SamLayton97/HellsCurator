@@ -13,3 +13,5 @@ else
 // initialize voice over sounds
 enableSound = bld_snd_enableOneHandedMode;
 disableSound = bld_snd_disableOneHandedMode;
+
+event_inherited();

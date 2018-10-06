@@ -6,11 +6,27 @@ isMousedOver = true;
 // if blind mode is enabled
 if (global.BlindModeEnabled)
 {	
-	// stop all other sounds and restart menu ambient
-	audio_stop_all();
-	audio_play_sound(bgrSound_menuAmbient, 5, true);
+	// with all button objects in scene
+	with (obj_menuButtonBase)
+	{
+		// add their sound to list
+		ds_list_add(other.otherButtonSounds, mySound)
+		//ds_list_add(other.otherButtonSounds, obj_menuButtonBase.enableSound);
+		//ds_list_add(other.otherButtonSounds, obj_menuButtonBase.disableSound);
+	}
 	
-	// voice dummy function
+	// if list of other button voices isn't empty
+	if (!ds_list_empty(otherButtonSounds))
+	{
+		// iterate over each sound in list
+		for (var i = 0; i < ds_list_size(otherButtonSounds); i++)
+		{
+			// stop sound at index 'i'
+			audio_stop_sound(ds_list_find_value(otherButtonSounds, i));
+		}
+	}
+
+	// voice function
 	audio_play_sound(mySound, 10, false);
 }
 

@@ -13,3 +13,5 @@ else
 // initialize voice over sounds
 enableSound = bld_snd_enableLowReactivityMode;
 disableSound = bld_snd_disableLowReactivityMode;
+
+event_inherited();

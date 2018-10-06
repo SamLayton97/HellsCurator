@@ -13,3 +13,5 @@ else
 // initialize voice over sounds
 enableSound = bld_snd_enableBlindMode;
 disableSound = bld_snd_disableBlindMode;
+
+event_inherited();
