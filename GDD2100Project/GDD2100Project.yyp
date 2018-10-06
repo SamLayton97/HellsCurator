@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "027cace1-d161-404b-8a32-4cd5d555597e",
+            "Value": {
+                "id": "d108f438-6701-42d5-9b4a-ae704c20d3db",
+                "resourcePath": "views\\027cace1-d161-404b-8a32-4cd5d555597e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "02bc207d-6162-4b9b-927f-455426abee68",
             "Value": {
                 "id": "b56d3296-bbdc-4896-8ee7-35f001812134",
@@ -132,6 +140,14 @@
                 "id": "c11638bb-4a83-481b-9983-472946c8127b",
                 "resourcePath": "sprites\\spr_skeletonPlayer\\spr_skeletonPlayer.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "0d6cdeba-fdf2-4584-b7eb-b164a353c1c0",
+            "Value": {
+                "id": "08a26350-c205-4fa6-8395-c7954ede8078",
+                "resourcePath": "sounds\\bld_snd_easyMode\\bld_snd_easyMode.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -2167,6 +2183,14 @@
             }
         },
         {
+            "Key": "d577c40a-01bb-4d7f-a02e-6c98244d0287",
+            "Value": {
+                "id": "8ccb969d-05d0-4e42-9f7d-fb759d40d72c",
+                "resourcePath": "sounds\\bld_snd_hardMode\\bld_snd_hardMode.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "d6af2b9d-fd8e-4d07-9a31-bab87cd83a44",
             "Value": {
                 "id": "7a9b7e53-fdcb-4e77-9a7d-32820fcdf132",
@@ -2388,6 +2412,14 @@
                 "id": "db1b9d45-f675-4c43-9e9f-82ba5fbd2062",
                 "resourcePath": "objects\\obj_successTransition\\obj_successTransition.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "eda160c2-b6d9-4405-9edf-0c7bbd0258a8",
+            "Value": {
+                "id": "eeb8caaf-4b6d-4a2b-a04a-219b05308a01",
+                "resourcePath": "sounds\\bld_snd_mediumMode\\bld_snd_mediumMode.yy",
+                "resourceType": "GMSound"
             }
         },
         {
