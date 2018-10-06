@@ -25,6 +25,9 @@ attackIndicatorCounter = maxIndicatorFrames;
 investigateIndicatorAngle = 0;
 attackIndicatorAngle = 0;
 
+// set orientation of audio listener
+audio_listener_orientation(0, 0, -1000, 0, 1, 0);
+
 // based on selected skin, change sprite as appropriate
 switch (global.CharacterSkin)
 {

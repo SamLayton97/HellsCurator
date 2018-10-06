@@ -25,7 +25,7 @@ else if (place_meeting(x - 24, y, obj_secretWall))
 	// if colliding with wall sound not already playing, play it left of player
 	if (!collidingWithSecretWall)
 	{
-		audio_play_sound_at(sfx_secretWallHit, x + 24, y, 0, 24, 24, 10, false, 5);
+		audio_play_sound_at(sfx_secretWallHit, x - 24, y, 0, 24, 24, 10, false, 5);
 		collidingWithSecretWall = true;
 	}
 }
@@ -35,7 +35,7 @@ else if (place_meeting(x + 24, y, obj_secretWall))
 	// if colliding with wall sound not already playing, play it right of player
 	if (!collidingWithSecretWall)
 	{
-		audio_play_sound_at(sfx_secretWallHit, x - 24, y, 0, 24, 24, 10, false, 5);
+		audio_play_sound_at(sfx_secretWallHit, x + 24, y, 0, 24, 24, 10, false, 5);
 		collidingWithSecretWall = true;
 	}
 }
