@@ -6,13 +6,12 @@ isMousedOver = true;
 // if blind mode is enabled
 if (global.BlindModeEnabled)
 {	
+	/*
 	// with all button objects in scene
 	with (obj_menuButtonBase)
 	{
 		// add their sound to list
 		ds_list_add(other.otherButtonSounds, mySound)
-		//ds_list_add(other.otherButtonSounds, obj_menuButtonBase.enableSound);
-		//ds_list_add(other.otherButtonSounds, obj_menuButtonBase.disableSound);
 	}
 	
 	// if list of other button voices isn't empty
@@ -25,7 +24,8 @@ if (global.BlindModeEnabled)
 			audio_stop_sound(ds_list_find_value(otherButtonSounds, i));
 		}
 	}
-
+	*/
+	
 	// voice function
 	audio_play_sound(mySound, 10, false);
 }
