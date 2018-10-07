@@ -41,7 +41,7 @@ if (obj_orangeLever.active && !(obj_greenLever.active && obj_purpleLever.active)
 if (obj_orangeLever.active && obj_purpleLever.active && obj_greenLever.active)
 {
 	// play "Open" sound effect and destroy self
-	audio_play_sound(sfx_gateOpening, 15, false);
+	audio_play_sound_on(myEmitter, sfx_gateOpening, false, 15);
 	instance_destroy(id);
 	
 	// set closed captions

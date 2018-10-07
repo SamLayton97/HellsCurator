@@ -100,7 +100,7 @@ path_start(myPath, patrolSpeed, path_action_continue, true);
 // create audio emitter at spectre's position
 myEmitter = audio_emitter_create();
 audio_falloff_set_model(audio_falloff_exponent_distance);
-audio_emitter_falloff(myEmitter, 50, 300, 1.3);
+audio_emitter_falloff(myEmitter, 50, 300, 1.4);
 audio_emitter_position(myEmitter, x, y, 0);
 
 // play looping location sound
