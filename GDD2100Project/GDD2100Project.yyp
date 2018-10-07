@@ -2359,6 +2359,14 @@
             }
         },
         {
+            "Key": "cc1968e6-b224-4b20-bd94-c4ecb261b067",
+            "Value": {
+                "id": "7988f591-f935-4e1d-b223-0dee0095a173",
+                "resourcePath": "sounds\\bld_snd_gameOverVoiceWithSaveState\\bld_snd_gameOverVoiceWithSaveState.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "cc31e45a-9f56-42cd-89e3-f429d78c83b5",
             "Value": {
                 "id": "ebb20f9b-47bd-47d5-9e15-f89788c86c63",
