@@ -1,6 +1,8 @@
 /// @description When room ends
 
+// stop ambient sounds
 audio_stop_sound(bgrSound_menuAmbient);
+audio_stop_sound(bgr_bookLoop);
 
 // if blind mode voice overs continue to play, stop them
 if (audio_is_playing(bld_snd_instructions))

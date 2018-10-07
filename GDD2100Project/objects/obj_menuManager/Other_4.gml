@@ -11,7 +11,12 @@ if (room = TitleScreenRoom && !global.BlindModeEnabled)
 if (global.BlindModeEnabled)
 {
 	if (room = SettingTheStageRoom)
+	{
 		audio_play_sound(bld_snd_settingTheStage, 10, false);
+		
+		// play book's proximity sound
+		audio_play_sound(bgr_bookLoop, 5, true);
+	}
 	else if (room = DifficultySelectRoom)
 		audio_play_sound(bld_snd_selectDifficulty, 10, false);
 	else if (room = MultiplayerModeSelectRoom)
