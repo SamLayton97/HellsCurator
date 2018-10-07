@@ -2247,6 +2247,14 @@
             }
         },
         {
+            "Key": "c768b791-ec53-4d47-b915-b5fc653eb3c9",
+            "Value": {
+                "id": "17bb7a98-e335-467f-9c99-a9f178a18c16",
+                "resourcePath": "sounds\\sfx_attackSpectreLoop\\sfx_attackSpectreLoop.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "c76fbe2e-c6e0-403f-ad0f-ef536badd8c6",
             "Value": {
                 "id": "3a535ee1-80b2-46f0-b694-3956c2a96f1a",
@@ -2724,6 +2732,14 @@
                 "id": "48b16d38-ba3c-4384-876d-798f2d0a17a4",
                 "resourcePath": "sprites\\spr_invisibleSpectreGate\\spr_invisibleSpectreGate.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f16e2d2c-8708-468a-8572-b7e4b0b5b76b",
+            "Value": {
+                "id": "cf181f85-73af-4ee1-aaba-3835e9b713c4",
+                "resourcePath": "sounds\\sfx_standardSpectreLoop\\sfx_standardSpectreLoop.yy",
+                "resourceType": "GMSound"
             }
         },
         {

@@ -84,6 +84,15 @@ if (global.LowReactivityEnabled)
 	with(myVisionCone) maxRotationAngle *= .5;
 }
 
+// if blind mode is enabled, modify spectre's awareness
+if (global.BlindModeEnabled)
+{
+	patrolSpeed *= .8;
+	investigateSpeed = patrolSpeed;
+	sightTolerance = 7;
+	immediateAgroRange *= .8;
+}
+
 // start by patrolling set path
 currState = spectreState.patrol;
 path_start(myPath, patrolSpeed, path_action_continue, true);

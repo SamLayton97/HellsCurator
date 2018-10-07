@@ -3,8 +3,9 @@
 // destroy rock projectile
 instance_destroy(other);
 
-// if not already in attack state, tell spectre to immediately enter said state
-if (currState != spectreState.attack)
+// if not already in attack state and blind mode isn't enabled, 
+// tell spectre to immediately enter said state
+if (!global.BlindModeEnabled && currState != spectreState.attack)
 {
 	// end path and set spectre state to attack
 	path_end();
