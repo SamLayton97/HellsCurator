@@ -9,7 +9,7 @@ if ((global.OneHandedModeEnabled || global.BlindModeEnabled) && rockCount > 0)
 	
 	// throw rock at towards mouse position and decrement rock count
 	instance_create_layer(x, y, "Projectiles_Layer", obj_rockProjectile);
-	rockCount--;
+	//rockCount--;
 	
 	// increment number of rocks used
 	obj_gameManager.rocksUsed++;

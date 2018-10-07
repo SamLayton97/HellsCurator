@@ -2,8 +2,7 @@
 
 // play 3D-space rock hit sound effect
 audio_play_sound_at(sfx_rockHit, x, y, 0, 
-	obj_player.oneHandedThrowRange, obj_player.oneHandedThrowRange, 1, false, 9);
-//audio_play_sound(sfx_rockHit, 9, false);
+	obj_player.oneHandedThrowRange, obj_player.oneHandedThrowRange, 100, false, 9);
 
 // set closed captions
 if (global.ClosedCaptioningEnabled)
