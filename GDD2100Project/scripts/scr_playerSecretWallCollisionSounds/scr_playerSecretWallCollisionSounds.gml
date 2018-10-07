@@ -1,4 +1,5 @@
 // handle step event of player colliding with secret walls
+
 // if wall south of player,
 if (place_meeting(x, y + 24, obj_secretWall))
 {

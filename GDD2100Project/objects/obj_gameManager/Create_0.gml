@@ -14,7 +14,7 @@ if (global.LowReactivityEnabled)
 // extend time if blind mode enabled
 if (global.BlindModeEnabled)
 {
-	currTimeFrames *= 3;
+	currTimeFrames *= 2.7;
 }
 
 // initialize various end-score modifiers

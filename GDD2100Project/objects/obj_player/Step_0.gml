@@ -24,6 +24,7 @@ else if ((keyboard_check(ord("S")) || keyboard_check(vk_down) || keyboard_check(
 // handle potential collisions with walls
 scr_playerSecretWallCollisionSounds();
 scr_playerWallCollisionSounds();
+scr_playerPuzzleGateCollisionSounds();
 	
 // handle speed up / down effects when necessary
 scr_handleSpeedUpDownEffects();

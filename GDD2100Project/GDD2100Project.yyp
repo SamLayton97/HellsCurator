@@ -1327,6 +1327,14 @@
             }
         },
         {
+            "Key": "7d83d714-7aaa-4d4a-9513-4809989c5937",
+            "Value": {
+                "id": "d96e96d5-573c-4e52-ba7c-6d7470683134",
+                "resourcePath": "sounds\\sfx_puzzleGateSoundHint\\sfx_puzzleGateSoundHint.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "7dc6b8bb-64b8-4e61-a4ad-53e740e30113",
             "Value": {
                 "id": "1a9baa0b-7714-44eb-8a8b-c50e4dc0a645",
@@ -2143,6 +2151,14 @@
             }
         },
         {
+            "Key": "be1db027-3b6b-436a-9ad4-765dbffa354c",
+            "Value": {
+                "id": "a00118bd-7e1d-4073-902a-b121331738e6",
+                "resourcePath": "scripts\\scr_playerPuzzleGateCollisionSounds\\scr_playerPuzzleGateCollisionSounds.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "be73992e-d67f-41b7-8932-f665a8f34539",
             "Value": {
                 "id": "70a995d7-e88b-4571-b3c4-4eba3fa9fb7d",
@@ -2948,7 +2964,8 @@
         "ea071041-7806-424c-8833-f1c04c30a45d",
         "55d56301-3bcf-4116-bcb2-f26b3b9fab25",
         "7fbd103f-f12e-494d-b0e7-3d0c326cc6b8",
-        "b9c985c2-6af7-4bb3-b78e-77fc9809d197"
+        "b9c985c2-6af7-4bb3-b78e-77fc9809d197",
+        "be1db027-3b6b-436a-9ad4-765dbffa354c"
     ],
     "tutorial": ""
 }

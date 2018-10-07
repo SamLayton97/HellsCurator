@@ -8,7 +8,8 @@
         "52583c43-ac33-4997-8fdc-b9d684a0ae8b",
         "6bdcbd34-7219-4c31-abef-da6955dc87ee",
         "7fdb1250-27ed-4e8f-9e60-fe1a6bc95403",
-        "27d94402-56e5-4f81-af6e-ab63cb10b9bf"
+        "27d94402-56e5-4f81-af6e-ab63cb10b9bf",
+        "7d83d714-7aaa-4d4a-9513-4809989c5937"
     ],
     "filterType": "GMSound",
     "folderName": "Puzzle Gate Sounds",
