@@ -687,6 +687,14 @@
             }
         },
         {
+            "Key": "40412bfe-bf88-4e4d-b248-9f3cd17d674c",
+            "Value": {
+                "id": "323cc357-2c70-41b2-80a0-531b1672ae60",
+                "resourcePath": "sounds\\sfx_bookLoop\\sfx_bookLoop.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "4123b4f7-b4c3-4fbf-ba99-8a5ec46001e6",
             "Value": {
                 "id": "03b21419-0969-461f-bb3b-7d13ceb4668d",
