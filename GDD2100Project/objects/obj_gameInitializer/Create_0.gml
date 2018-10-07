@@ -39,6 +39,10 @@ global.OneHandedModeEnabled = false;
 global.LowReactivityEnabled = false;
 global.BlindModeEnabled = false;
 
+// initialize "save state" location
+global.SaveStateX = 0;
+global.SaveStateY = 0;
+
 // start game in fullscreen
 window_set_fullscreen(true);
 

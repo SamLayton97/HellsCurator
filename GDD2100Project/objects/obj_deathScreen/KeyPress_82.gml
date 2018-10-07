@@ -1,5 +1,9 @@
 /// @description Called when user presses "R" key
 
+// reset save state location
+global.SaveStateX = 0;
+global.SaveStateY = 0;
+
 // resets level
 room_goto(SetupRoom);
 
