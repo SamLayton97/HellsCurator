@@ -1,8 +1,13 @@
 /// @description Called when object is destroyed
 
-// play 3D-space rock hit sound effect
-audio_play_sound_at(sfx_rockHit, x, y, 0, 
-	5 * obj_player.oneHandedThrowRange, obj_player.oneHandedThrowRange, 100, false, 9);
+// create audio emitter at destroy position
+myEmitter = audio_emitter_create();
+audio_falloff_set_model(audio_falloff_exponent_distance);
+audio_emitter_falloff(myEmitter, 50, 200, .15);
+audio_emitter_position(myEmitter, x, y, 0);
+
+// play "wall hit" sound in 3D space
+audio_play_sound_on(myEmitter, sfx_rockHit, false, 10);
 
 // set closed captions
 if (global.ClosedCaptioningEnabled)
