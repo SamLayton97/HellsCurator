@@ -7,12 +7,14 @@ if ((global.OneHandedModeEnabled || global.BlindModeEnabled) && rockCount > 0)
 	throwX = cos(image_angle * pi / 180) * oneHandedThrowRange;
 	throwY = sin(image_angle * pi / 180) * oneHandedThrowRange;
 	
-	// throw rock at towards mouse position and decrement rock count
+	// throw rock at towards mouse position and decrement rock count (if not in blind mode)
 	instance_create_layer(x, y, "Projectiles_Layer", obj_rockProjectile);
-	//rockCount--;
+	if (!global.BlindModeEnabled) 
+		rockCount--;
 	
-	// increment number of rocks used
-	obj_gameManager.rocksUsed++;
+	// increment number of rocks used (if not in blind mode)
+	if (!global.BlindModeEnabled)
+		obj_gameManager.rocksUsed++;
 	
 	// play rock throw sound in direction of throw
 	// cardinal directions

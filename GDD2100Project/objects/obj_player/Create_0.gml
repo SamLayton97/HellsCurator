@@ -4,6 +4,11 @@
 rockCount = 0;
 holdingBell = false;
 
+// if in blind mode, give player a rock to start with
+if (global.BlindModeEnabled)
+	rockCount = 1;
+
+
 // initializes PC-to-world interaction
 isInteracting = false;
 
