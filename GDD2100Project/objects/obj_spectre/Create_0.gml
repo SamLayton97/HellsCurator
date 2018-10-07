@@ -89,7 +89,7 @@ if (global.BlindModeEnabled)
 {
 	patrolSpeed *= .7;
 	investigateSpeed *= .9;
-	sightTolerance = 8;
+	sightTolerance *= 3;
 	immediateAgroRange *= .2;
 }
 

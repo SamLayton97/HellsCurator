@@ -11,6 +11,12 @@ currTimeFrames = global.MaxScorableSeconds * room_speed;
 if (global.LowReactivityEnabled)
 	currTimeFrames *= 1.3;
 
+// extend time if blind mode enabled
+if (global.BlindModeEnabled)
+{
+	currTimeFrames *= 3;
+}
+
 // initialize various end-score modifiers
 secretsFound = 0;
 rocksUsed = 0;
