@@ -1,7 +1,7 @@
 /// @description Rings bell for right-handed mode
 
 // if one handed mode is enabled and player is holding bell
-if (global.OneHandedModeEnabled && holdingBell)
+if ((global.OneHandedModeEnabled || global.BlindModeEnabled) && holdingBell)
 {
 	// instantiate holy bell radius
 	instance_create_layer(x, y, "Visual_Effects_Layer", obj_holyBellRadius);

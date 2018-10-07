@@ -2223,6 +2223,14 @@
             }
         },
         {
+            "Key": "c55d1c1d-1676-4655-937f-73cad0b478d1",
+            "Value": {
+                "id": "5240ebdc-d7c5-4b9a-84dd-ce456f73d3de",
+                "resourcePath": "sounds\\sfx_updateSaveState\\sfx_updateSaveState.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "c5947fc6-b579-4e36-8621-1e86dd9e3711",
             "Value": {
                 "id": "1271065c-c8a1-4522-868f-14eaaec6593b",

@@ -13,7 +13,8 @@
         "212f24bd-e9cc-4a91-a292-39c7c31d3d04",
         "e2968ef8-519c-49be-9b24-2327343a2ee7",
         "5899dacf-2992-415c-90a7-88c38d5098f7",
-        "4c043f19-db2a-45a2-8cc7-e504a26ebe72"
+        "4c043f19-db2a-45a2-8cc7-e504a26ebe72",
+        "c55d1c1d-1676-4655-937f-73cad0b478d1"
     ],
     "filterType": "GMSound",
     "folderName": "Player Sounds",
