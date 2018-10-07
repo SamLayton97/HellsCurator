@@ -4,6 +4,10 @@
 frameCounter = 0;
 totalFrames = durationSeconds * room_speed;
 
+// reset save state
+global.SaveStateX = 0;
+global.SaveStateY = 0;
+
 // plays "success" sound effect
 audio_play_sound(sfx_buttonPress, 20, false);
 
