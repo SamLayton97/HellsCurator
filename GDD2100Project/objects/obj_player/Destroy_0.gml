@@ -11,7 +11,11 @@ if (audio_is_playing(sfx_walkCycle))
 // play gender-specific death sound (CURRENTLY ONLY MALE)
 if (isMale)
 	audio_play_sound(sfx_maleDeath, 13, false);
-	
+
+// if blind mode is enabled, play appropriate voice over
+if (global.BlindModeEnabled)
+	audio_play_sound(bld_snd_gameOverVoiceOver, 10, false);
+
 // set closed captioning
 if (global.ClosedCaptioningEnabled)
 {

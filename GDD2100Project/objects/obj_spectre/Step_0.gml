@@ -28,3 +28,12 @@ scr_spectreAgroRange();
 
 // handle operations of this spectre's vision cone
 scr_spectreVisionCone();
+
+// update emitter position
+audio_emitter_position(myEmitter, x, y, 0);
+
+// if in attack mode and not playing attack loop,
+if (currState == spectreState.attack && !audio_is_playing(sfx_attackSpectreLoop))
+	// loop sound from my emitter
+	audio_play_sound_on(myEmitter, sfx_attackSpectreLoop, true, 6);
+	

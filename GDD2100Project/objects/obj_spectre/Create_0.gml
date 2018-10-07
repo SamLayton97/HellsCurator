@@ -87,12 +87,21 @@ if (global.LowReactivityEnabled)
 // if blind mode is enabled, modify spectre's awareness
 if (global.BlindModeEnabled)
 {
-	patrolSpeed *= .8;
-	investigateSpeed = patrolSpeed;
-	sightTolerance = 7;
-	immediateAgroRange *= .8;
+	patrolSpeed *= .9;
+	investigateSpeed *= .9;
+	sightTolerance = 6;
+	immediateAgroRange *= 1.2;
 }
 
 // start by patrolling set path
 currState = spectreState.patrol;
 path_start(myPath, patrolSpeed, path_action_continue, true);
+
+// create audio emitter at spectre's position
+myEmitter = audio_emitter_create();
+audio_falloff_set_model(audio_falloff_exponent_distance);
+audio_emitter_falloff(myEmitter, 50, 300, 1.3);
+audio_emitter_position(myEmitter, x, y, 0);
+
+// play looping location sound
+audio_play_sound_on(myEmitter, sfx_standardSpectreLoop, true, 5);

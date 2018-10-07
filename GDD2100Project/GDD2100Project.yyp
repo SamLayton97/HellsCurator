@@ -1767,6 +1767,14 @@
             }
         },
         {
+            "Key": "a1106d1e-6055-4fce-8878-831d75ffbbb8",
+            "Value": {
+                "id": "203f514e-44aa-4aa0-bd2b-a9f8f9e52b23",
+                "resourcePath": "sounds\\bld_snd_gameOverVoiceOver\\bld_snd_gameOverVoiceOver.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "a14f349f-206c-4839-9a17-ab6f2a3d73d0",
             "Value": {
                 "id": "eef67d02-9744-4c0d-9ceb-60f3dc9b4743",
