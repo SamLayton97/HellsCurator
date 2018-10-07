@@ -19,3 +19,13 @@ if (instance_exists(obj_player) && !active)
 // if set to inactive and hasn't switched sprite to reflect that, reflect change
 if (!active && sprite_index != spr_orangeLeverInactive)
 	sprite_index = spr_orangeLeverInactive;
+
+// if sign is inactive and not already playing its looped sound
+if (!active && !audio_is_playing(myLoopSound))
+	// play sound from emitter
+	audio_play_sound_on(myEmitter, myLoopSound, true, 5);
+
+// if sign is active and still playing looped sound
+if (active && audio_is_playing(myLoopSound))
+	// stop playing sound
+	audio_stop_sound(myLoopSound);
