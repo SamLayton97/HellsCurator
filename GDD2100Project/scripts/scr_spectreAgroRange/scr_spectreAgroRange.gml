@@ -13,7 +13,7 @@ if (currState != spectreState.attack && instance_number(obj_player) > 0
 	myVisionCone.sprite_index = spr_spectreVConeAttack;
 	
 	// play attack sound
-	audio_play_sound(sfx_spectreAttack, 20, false);
+	audio_play_sound_at(sfx_spectreAttack, x, y, 0, 0, 0, 0, false, 20);
 	
 	// set closed captions
 	if (global.ClosedCaptioningEnabled)

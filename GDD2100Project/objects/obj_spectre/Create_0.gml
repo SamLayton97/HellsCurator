@@ -87,10 +87,10 @@ if (global.LowReactivityEnabled)
 // if blind mode is enabled, modify spectre's awareness
 if (global.BlindModeEnabled)
 {
-	patrolSpeed *= .9;
+	patrolSpeed *= .7;
 	investigateSpeed *= .9;
-	sightTolerance = 6;
-	immediateAgroRange *= 1.2;
+	sightTolerance = 8;
+	immediateAgroRange *= .2;
 }
 
 // start by patrolling set path

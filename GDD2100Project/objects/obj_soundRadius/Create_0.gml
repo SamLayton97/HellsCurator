@@ -1,5 +1,9 @@
 /// @description Used for initialization
 
+// if in blind mode, scale radius down to 1/4
+if (global.BlindModeEnabled)
+	radius *= .25;
+
 // declare draw radius variables
 drawRadius = 0;
 growingRadius = true;

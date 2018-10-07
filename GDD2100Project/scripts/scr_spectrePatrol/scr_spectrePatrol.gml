@@ -29,7 +29,7 @@ with (myVisionCone)
 		sprite_index = spr_spectreVConeInvestigate;
 		
 		// play investigate sound effect
-		audio_play_sound(sfx_spectreInvestigate, 15, false);
+		audio_play_sound_at(sfx_spectreInvestigate, other.x, other.y, 0, 0, 0, 0,false, 15);
 		
 		// set closed captioning
 		if (global.ClosedCaptioningEnabled)
