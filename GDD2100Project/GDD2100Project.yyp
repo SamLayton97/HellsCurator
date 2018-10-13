@@ -2383,14 +2383,6 @@
             }
         },
         {
-            "Key": "c9e82e5b-080a-4f3c-90ae-9e634a6b8741",
-            "Value": {
-                "id": "6e92d3cd-1f0d-4abb-bbb7-5fbba8fed15d",
-                "resourcePath": "sprites\\spr_titleScreen1\\spr_titleScreen1.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "ca43b607-1f73-42e4-b7b4-8bb5e77b7fff",
             "Value": {
                 "id": "341b6fa9-14e3-4558-947d-3f0b8486d2b1",
