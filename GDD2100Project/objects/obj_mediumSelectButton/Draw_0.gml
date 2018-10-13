@@ -1,18 +1,23 @@
 /// @description Draws button text to screen
 
-// sets draw font, color, and alignment
-draw_set_font(font_menuButton);
+// sets appropriate font to use
+if (!global.DyslexiaTextEnabled)
+	draw_set_font(font_menuButton);
+else
+	draw_set_font(font_menuButtonDyslexia);
+
+// set color and alignment of button
 draw_set_halign(fa_center);
 draw_set_color(c_white);
 
 // writes message and provides user feedback
 if (!isMousedOver)
-	draw_text(x, y, "Medium");
+	draw_text(x, y, "MEDIUM");
 else
 {
-	draw_text(x, y, "-Medium-");
+	draw_text(x, y, "-MEDIUM-");
 	draw_text(screenWidth / 2, (2 * screenHeight) / 3,
 	"For average players.");
 	draw_text(screenWidth / 2, ((2 * screenHeight) / 3) + 50,
-	"The standard sneaking experience");
+	"The standard sneaking experience.");
 }

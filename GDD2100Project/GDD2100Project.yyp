@@ -375,6 +375,14 @@
             }
         },
         {
+            "Key": "2317b647-2375-496f-84eb-942fd8bae429",
+            "Value": {
+                "id": "fe0a3e3e-c9e2-4661-b7b8-b77f5a8bb801",
+                "resourcePath": "objects\\obj_dyslexiaFriendlyTextSelector\\obj_dyslexiaFriendlyTextSelector.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "24475bb7-81ff-44be-8393-85f66b098845",
             "Value": {
                 "id": "b1c91ab2-829a-4fbc-9583-edfdaa193291",
@@ -611,6 +619,14 @@
             "Value": {
                 "id": "3f5f0166-c924-44f0-81bf-d5a5b5d12dfc",
                 "resourcePath": "views\\3479525c-d6c1-419a-be6f-34dfeb70ec95.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "34bb703e-f3bb-4245-8ae3-ce6867055943",
+            "Value": {
+                "id": "d189d660-5d82-4a02-9414-a1ed1519c760",
+                "resourcePath": "views\\34bb703e-f3bb-4245-8ae3-ce6867055943.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -1871,6 +1887,14 @@
             }
         },
         {
+            "Key": "a59d4037-c5d7-48cd-9155-03a5b0a2b590",
+            "Value": {
+                "id": "738e5edb-0b65-42ae-aea6-bcbd0a0cf4b2",
+                "resourcePath": "fonts\\font_scoreBreakdownDyslexia\\font_scoreBreakdownDyslexia.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "a6126db2-922e-4c04-a75a-3db461d26d4a",
             "Value": {
                 "id": "5d87cf9f-743c-4799-a853-70acf1064a5f",
@@ -2084,6 +2108,22 @@
                 "id": "28d3fcb0-82e3-4d97-9649-de057c9453fe",
                 "resourcePath": "rooms\\GameInitializationRoom\\GameInitializationRoom.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "b483a88c-03b1-4d59-be48-4e1fb7c4457a",
+            "Value": {
+                "id": "4debfe4b-878a-4445-96d0-d27f88a10111",
+                "resourcePath": "fonts\\font_playerUIDyslexia\\font_playerUIDyslexia.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "b49c7f42-7fc3-46ba-a207-5e7dadeb6d77",
+            "Value": {
+                "id": "f926ecf1-a409-439c-ae97-3a3c8ac1a67e",
+                "resourcePath": "fonts\\font_menuButtonDyslexia\\font_menuButtonDyslexia.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -2399,6 +2439,14 @@
             }
         },
         {
+            "Key": "cb746018-88e2-42ca-852d-ed63fa08a5a5",
+            "Value": {
+                "id": "46630758-7846-468c-83b5-737a36233016",
+                "resourcePath": "fonts\\font_rankDyslexia\\font_rankDyslexia.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "cbdd3431-acf7-448b-8d31-4ab5fe4e5dec",
             "Value": {
                 "id": "dd34cfc3-ff4e-4c50-bc5a-668c24d48301",
@@ -2711,6 +2759,14 @@
             }
         },
         {
+            "Key": "e7a740fe-bb28-4d60-b962-7fbe83a67848",
+            "Value": {
+                "id": "d8d18072-23ce-4c5d-a9eb-070f4b6da2f5",
+                "resourcePath": "fonts\\font_deathScreenDyslexia\\font_deathScreenDyslexia.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "e7ecc12d-1163-46b6-a1ab-936d007b4de8",
             "Value": {
                 "id": "c534cfbf-7297-44e2-91af-8c3b4d61e40e",
@@ -2956,6 +3012,14 @@
                 "id": "72ecd0b1-1b48-41ca-9825-86998c381f8c",
                 "resourcePath": "objects\\obj_dummyEvilAbility3\\obj_dummyEvilAbility3.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fbde3b54-2645-4977-9ebc-d3107aec3265",
+            "Value": {
+                "id": "67c371b3-8729-44bb-bfd3-acb2c5346911",
+                "resourcePath": "fonts\\font_timerUIDyslexia\\font_timerUIDyslexia.yy",
+                "resourceType": "GMFont"
             }
         },
         {

@@ -39,6 +39,9 @@ global.OneHandedModeEnabled = false;
 global.LowReactivityEnabled = false;
 global.BlindModeEnabled = false;
 
+// initializes selectable options for mental disabilities
+global.DyslexiaTextEnabled = false;
+
 // initialize "save state" location
 global.SaveStateX = 0;
 global.SaveStateY = 0;
