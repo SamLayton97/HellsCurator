@@ -41,6 +41,7 @@ global.BlindModeEnabled = false;
 
 // initializes selectable options for mental disabilities
 global.DyslexiaTextEnabled = false;
+global.ObjectiveCompassDisabled = false;
 
 // initialize "save state" location
 global.SaveStateX = 0;
