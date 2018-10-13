@@ -8,7 +8,7 @@ else
 
 // set color and alignment of button
 draw_set_halign(fa_center);
-draw_set_color(c_white);
+draw_set_color(c_ltgray);
 
 // if not yet purchased by user
 if (!isPurchased)
@@ -18,7 +18,7 @@ if (!isPurchased)
 		draw_text(x, y, myPrice);
 	// otherwise, draw purchase feedback
 	else
-		draw_text(x, y, "-BUY-");
+		draw_text_color(x, y, "-BUY-", c_white, c_white, c_white, c_white, 1);
 }
 // if purchased but not selected
 else if (isPurchased && !isSelected)
@@ -27,7 +27,7 @@ else if (isPurchased && !isSelected)
 	if (!isMousedOver)
 		draw_text(x, y, "SELECT");
 	else
-		draw_text(x, y, "-SELECT-");
+		draw_text_color(x, y, "-SELECT-", c_white, c_white, c_white, c_white, 1);
 }
 // if purchased and selected
 else if (isPurchased && isSelected)

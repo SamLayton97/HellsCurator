@@ -8,10 +8,10 @@ else
 
 // set color and alignment of button
 draw_set_halign(fa_center);
-draw_set_color(c_white);
+draw_set_color(c_ltgray);
 
 // writes message and provides user feedback
 if (!isMousedOver)
 	draw_text(x, y, "HELP");
 else
-	draw_text(x, y, "-HELP-");
+	draw_text_color(x, y, "-HELP-", c_white, c_white, c_white, c_white, 1);

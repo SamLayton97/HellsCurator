@@ -12,7 +12,7 @@ draw_set_color(c_white);
 
 // writes message and provides user feedback
 if (!isMousedOver)
-	draw_text(x, y, "MEDIUM");
+	draw_text_color(x, y, "MEDIUM", c_ltgray, c_ltgray, c_ltgray, c_ltgray, 1);
 else
 {
 	draw_text(x, y, "-MEDIUM-");
