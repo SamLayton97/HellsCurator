@@ -1031,6 +1031,14 @@
             }
         },
         {
+            "Key": "5a88dd8e-a335-4b0a-936f-2f98878aa171",
+            "Value": {
+                "id": "9df4627d-f68e-433c-87ac-a3e66483737a",
+                "resourcePath": "objects\\obj_objectiveCompass\\obj_objectiveCompass.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5b4ab4a4-9030-4232-bdc7-7662389af9d5",
             "Value": {
                 "id": "58058a03-3c5f-44ef-832e-5709097b497d",
@@ -1164,6 +1172,14 @@
                 "id": "766c5960-4f00-48cc-874e-a49f10ad86cf",
                 "resourcePath": "objects\\obj_secretFoundText\\obj_secretFoundText.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "64b6ccc6-da36-43f1-b2da-c50f55cff2db",
+            "Value": {
+                "id": "0da17fb2-aa1f-4e6d-b263-540432eee678",
+                "resourcePath": "views\\64b6ccc6-da36-43f1-b2da-c50f55cff2db.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
