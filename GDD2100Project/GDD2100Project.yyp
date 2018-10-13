@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "0f803df2-080d-44eb-b81d-36b630343fd2",
+            "Value": {
+                "id": "091b62b3-46be-43fb-b5ed-2a0e9959f25f",
+                "resourcePath": "sprites\\spr_settingTheStageDyslexia\\spr_settingTheStageDyslexia.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "10a4394f-3fde-4e12-afa2-febabc4dcb75",
             "Value": {
                 "id": "147816ea-6d8f-452f-92a6-9707260aeee8",
@@ -203,6 +211,14 @@
             "Value": {
                 "id": "181e0a1b-ed46-4cc4-8d32-417271f3ba3f",
                 "resourcePath": "views\\128f1815-a91f-4ab9-aa54-644986db380e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "138491dc-c8e0-425e-80a2-3a4031224891",
+            "Value": {
+                "id": "93fef2c1-c509-4c7f-a5eb-00aea361a62f",
+                "resourcePath": "views\\138491dc-c8e0-425e-80a2-3a4031224891.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -1171,6 +1187,14 @@
             "Value": {
                 "id": "2d6c8276-01fa-4750-962a-3791ac5b4a4d",
                 "resourcePath": "sprites\\spr_displaySkeletonSkin\\spr_displaySkeletonSkin.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6b02c892-ab9b-4583-a066-18f3ded6b7a4",
+            "Value": {
+                "id": "8c68f6bb-db5b-45ec-a8c1-a6b968bd88fc",
+                "resourcePath": "sprites\\spr_multiplayerSelectDyslexia\\spr_multiplayerSelectDyslexia.yy",
                 "resourceType": "GMSprite"
             }
         },
