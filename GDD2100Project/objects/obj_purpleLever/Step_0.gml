@@ -20,6 +20,10 @@ if (instance_exists(obj_player) && !active)
 			obj_closedCaptioningManager.currFrameCounter = 0;
 			obj_closedCaptioningManager.captionText = "[Magical flash]";
 		}
+		
+		// if compass is not disabled, update objective to point to orange sign
+		if (!global.ObjectiveCompassDisabled)
+			obj_objectiveCompass.objective = obj_orangeLever;
 	}
 }
 

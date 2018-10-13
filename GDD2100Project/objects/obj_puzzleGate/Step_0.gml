@@ -15,6 +15,10 @@ if (obj_purpleLever.active && !obj_greenLever.active)
 		obj_closedCaptioningManager.currFrameCounter = 0;
 		obj_closedCaptioningManager.captionText = "[Signs deactivate]";
 	}
+	
+	// if compass is not disabled, update objective to point to green (first) sign
+	if (!global.ObjectiveCompassDisabled)
+		obj_objectiveCompass.objective = obj_greenLever;
 }
 
 // of orange lever is active but green and purple are not
@@ -34,6 +38,10 @@ if (obj_orangeLever.active && !(obj_greenLever.active && obj_purpleLever.active)
 		obj_closedCaptioningManager.currFrameCounter = 0;
 		obj_closedCaptioningManager.captionText = "[Signs deactivate]";
 	}
+	
+	// if compass is not disabled, update objective to point to green (first) sign
+	if (!global.ObjectiveCompassDisabled)
+		obj_objectiveCompass.objective = obj_greenLever;
 }
 
 // set gate sprite / destroy gate according to which levers are active
@@ -50,6 +58,10 @@ if (obj_orangeLever.active && obj_purpleLever.active && obj_greenLever.active)
 		obj_closedCaptioningManager.currFrameCounter = 0;
 		obj_closedCaptioningManager.captionText = "[Gate opens]";
 	}
+	
+	// if compass is not disabled, update objective to point to book of the dead
+	if (!global.ObjectiveCompassDisabled)
+		obj_objectiveCompass.objective = obj_bookOfTheDead;
 }
 // if levers green and purple are active, set sprite to reflect that
 else if (obj_greenLever.active && obj_purpleLever.active)
