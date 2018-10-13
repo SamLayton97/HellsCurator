@@ -1,7 +1,13 @@
 /// @description Draw score breakdown to GUI
 
-// set font and alignment of breakdown text
-draw_set_font(font_scoreBreakdown);
+// set font appropriate to player preferences
+if (!global.DyslexiaTextEnabled)
+	draw_set_font(font_scoreBreakdown);
+else
+	draw_set_font(font_scoreBreakdownDyslexia);
+
+// set color and alignment of text
+draw_set_color(c_white);
 draw_set_halign(fa_left);
 
 // draw score breakdown
