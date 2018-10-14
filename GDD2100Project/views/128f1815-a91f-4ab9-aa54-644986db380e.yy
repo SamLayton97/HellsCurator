@@ -7,11 +7,11 @@
         "e7ecc12d-1163-46b6-a1ab-936d007b4de8",
         "c6f48ef2-2d3d-4551-87dd-ee125b5c4196",
         "5293f098-accf-497d-acc2-cabee3dbcb33",
+        "9f7a6b6b-0395-4f45-b04b-3d828c1424db",
         "1537840a-ef44-4cca-a705-249a740cdbc8",
         "191aa671-ac00-43f0-b7e3-601a483aebf7",
         "673efdf7-3477-4bb6-9006-5bd46e3f5393",
-        "c05abf35-b739-4784-8c0a-11c38fe44039",
-        "b7e28a9b-37df-4256-a055-ea957f5c524e"
+        "c05abf35-b739-4784-8c0a-11c38fe44039"
     ],
     "filterType": "GMSprite",
     "folderName": "Gameplay",

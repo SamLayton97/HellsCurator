@@ -3,7 +3,7 @@
 // handle operations of this spectre's vision cone
 with (myVisionCone)
 {
-		// follow position of spectre
+	// follow position of spectre
 	x = other.x;
 	y = other.y;
 
