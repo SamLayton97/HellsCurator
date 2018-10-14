@@ -871,6 +871,14 @@
             }
         },
         {
+            "Key": "429a5b7a-7fa8-474e-baf0-e3154b61a959",
+            "Value": {
+                "id": "5e0d45aa-a421-4560-a122-f6f8daa26ef0",
+                "resourcePath": "objects\\obj_sneakingMessage\\obj_sneakingMessage.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "42b10ebb-eb18-478f-ac04-d044c3850dd1",
             "Value": {
                 "id": "66fce8ce-2b72-49ac-9c44-c3cb01dc7269",
@@ -899,6 +907,14 @@
             "Value": {
                 "id": "77105b94-7a11-4efc-b601-ec21e4f16fdc",
                 "resourcePath": "objects\\obj_dummyBell\\obj_dummyBell.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "45b0a53e-abe8-40f7-bc34-5142be1e8612",
+            "Value": {
+                "id": "5f560b06-d273-4a55-8db9-5c7ddd3ee30b",
+                "resourcePath": "objects\\obj_tutorialCompleteMessage\\obj_tutorialCompleteMessage.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -2103,6 +2119,14 @@
             }
         },
         {
+            "Key": "9eb7356e-fab0-4433-ab63-f0e3869a1d39",
+            "Value": {
+                "id": "2fdccdb1-71ae-43f7-8e00-b8bf039c290d",
+                "resourcePath": "objects\\obj_sacredSignInteractionMessage\\obj_sacredSignInteractionMessage.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9f7a6b6b-0395-4f45-b04b-3d828c1424db",
             "Value": {
                 "id": "7e88a871-7969-4636-a685-8baefd7552e9",
@@ -3036,6 +3060,14 @@
                 "id": "9b59c1b1-d2a7-4f0a-9964-51a7d9d51542",
                 "resourcePath": "sounds\\sfx_passingTutorialThreshold\\sfx_passingTutorialThreshold.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "dd6ad6d4-5922-4a9e-b6b5-337a711770c5",
+            "Value": {
+                "id": "525ff29e-e133-4e50-9017-3513dd3eb3fe",
+                "resourcePath": "objects\\obj_spectreTestMessage\\obj_spectreTestMessage.yy",
+                "resourceType": "GMObject"
             }
         },
         {
