@@ -239,6 +239,14 @@
             }
         },
         {
+            "Key": "153c4fd2-7539-43ca-8fe7-a29caaca8dcf",
+            "Value": {
+                "id": "db6c07c5-7d16-48ed-aa1a-04bbcf521c6b",
+                "resourcePath": "paths\\path_spectreTutorial\\path_spectreTutorial.yy",
+                "resourceType": "GMPath"
+            }
+        },
+        {
             "Key": "187dd880-9c81-4d25-b635-dfcf43da2fdb",
             "Value": {
                 "id": "378fc02c-4710-4a63-8cc3-a689a2810cac",
@@ -671,6 +679,14 @@
             }
         },
         {
+            "Key": "3621a263-bd2d-44f0-aedf-8811ca6f938e",
+            "Value": {
+                "id": "bb3b414b-32f1-47ff-a1c0-278c59472f74",
+                "resourcePath": "sprites\\spr_tutorialEndGate\\spr_tutorialEndGate.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3894a61b-d41b-4e57-b851-79c35a9b8b07",
             "Value": {
                 "id": "ff80a128-c595-47a9-abfb-6d24f353eb62",
@@ -699,6 +715,14 @@
             "Value": {
                 "id": "d033478f-93c3-4ddc-88e7-d7438d202a8c",
                 "resourcePath": "objects\\obj_clawMark\\obj_clawMark.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3945b864-dfd8-442d-80fb-b5213e99fdfe",
+            "Value": {
+                "id": "af058b79-ee1c-49f9-b721-6a9aad97de6b",
+                "resourcePath": "objects\\obj_tutorialEndGate\\obj_tutorialEndGate.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -2956,14 +2980,6 @@
                 "id": "6d2b4b9e-b747-4787-9725-e9ed5ddf178c",
                 "resourcePath": "objects\\obj_secretWall\\obj_secretWall.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "f0b86191-ae21-41a9-b765-600ff4fc7bca",
-            "Value": {
-                "id": "48b16d38-ba3c-4384-876d-798f2d0a17a4",
-                "resourcePath": "sprites\\spr_invisibleSpectreGate\\spr_invisibleSpectreGate.yy",
-                "resourceType": "GMSprite"
             }
         },
         {

@@ -30,3 +30,6 @@ else if (global.GameMode == gameMode.hurter)
 	
 // read in game difficulty for various game objects to use
 difficulty = global.GameDifficulty;
+
+// initialize whether player has finished tutorial (controls timer)
+tutorialFinished = false;
