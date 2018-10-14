@@ -56,7 +56,7 @@ else if (id == inst_4D3E3EC3)
 	myPath = path_spectreDemoRoom2;
 else if (id == inst_4338C741)
 	myPath = path_spectreDemoRoom3;
-else if (id == inst_5C43F0F7)
+else if (id == inst_1326AD3F)
 	myPath = path_spectreTutorial;
 else if (id == inst_1B2EDCBC)
 	myPath = path_spectreTutorial1;
