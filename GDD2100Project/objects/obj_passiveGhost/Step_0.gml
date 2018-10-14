@@ -21,7 +21,7 @@ if ((x <= destX + 32 && x >= destY - 32)
 	// stop ghost and set its state to search point
 	speed = 0;
 }
-// otherwise,
+// otherwise
 else
 {
 	// move towards destination point
@@ -31,3 +31,6 @@ else
 
 // direct sprite towards destination point
 image_angle = direction;
+
+// update emitter's position
+audio_emitter_position(myEmitter, x, y, 0);

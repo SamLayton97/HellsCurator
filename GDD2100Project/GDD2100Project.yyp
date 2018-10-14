@@ -1295,6 +1295,14 @@
             }
         },
         {
+            "Key": "5dc77788-50f4-4815-a52e-ea99a7c68cc4",
+            "Value": {
+                "id": "ce63c7ea-d6f7-4949-8872-271765489bcf",
+                "resourcePath": "sounds\\sfx_passiveGhostLoop\\sfx_passiveGhostLoop.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "5df02897-297b-4f81-b23e-90f68e1ec031",
             "Value": {
                 "id": "f4fc01a3-42fb-4bef-95dd-b80e347a8338",
