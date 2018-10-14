@@ -1,5 +1,8 @@
 /// @description Draws remaining time to GUI
 
+// NOTE: commented out as info now displayed through hourglass UI element
+
+/*
 // set font and alignment according to user preferences
 draw_set_halign(fa_center);
 if (!global.DyslexiaTextEnabled)
@@ -9,3 +12,4 @@ else
 
 // draw remaining time in seconds
 draw_text(camera_get_view_width(0) / 2, 50, string(currTimeFrames / room_speed));
+*/

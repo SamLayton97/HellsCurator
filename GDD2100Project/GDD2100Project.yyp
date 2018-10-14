@@ -1927,6 +1927,14 @@
             }
         },
         {
+            "Key": "a40a2d24-4154-48ec-b072-2241c879eeb5",
+            "Value": {
+                "id": "01a6612b-747e-426a-aabe-d7aa7e2c52d9",
+                "resourcePath": "objects\\obj_hourglassTimer\\obj_hourglassTimer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a4306d66-9b4c-409f-92b0-21283726781c",
             "Value": {
                 "id": "9db28b42-4cba-47df-a5bf-387d832af60e",
