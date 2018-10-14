@@ -66,3 +66,14 @@ if (!ds_list_empty(toAlert))
 		}
 	}
 }
+
+// if passive ghost exists in level & is within sound radius
+if (instance_exists(obj_passiveGhost))
+{
+	if (distance_to_point(obj_passiveGhost.x, obj_passiveGhost.y) <= radius)
+	{	
+		// update passive ghost's destination point to sound radius' origin
+		obj_passiveGhost.destX = x;
+		obj_passiveGhost.destY = y;
+	}
+}

@@ -79,6 +79,20 @@
             "value": "Who are you?",
             "varName": "myMessage",
             "varType": 2
+        },
+        {
+            "id": "ccfbdfc8-45a2-4a9c-9406-977062181bb1",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "2.1",
+            "varName": "travelSpeed",
+            "varType": 0
         }
     ],
     "solid": false,

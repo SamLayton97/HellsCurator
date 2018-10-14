@@ -8,8 +8,8 @@
         "0dcaf194-5fdc-4980-98cb-b77693b216ce",
         "dc0b5d14-dc20-4992-9c38-6f1e6e257fdf",
         "3945b864-dfd8-442d-80fb-b5213e99fdfe",
-        "4f79c483-fd30-4de3-b7f3-d09095ee970c",
-        "c2f89dfe-48cb-4a3f-ac5d-cf31ce7bb15c"
+        "c2f89dfe-48cb-4a3f-ac5d-cf31ce7bb15c",
+        "4f79c483-fd30-4de3-b7f3-d09095ee970c"
     ],
     "filterType": "GMObject",
     "folderName": "Tutorial Objects",

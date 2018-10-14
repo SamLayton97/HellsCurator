@@ -983,6 +983,14 @@
             }
         },
         {
+            "Key": "49e457c0-536e-4260-a740-318801ee8479",
+            "Value": {
+                "id": "e2c7264a-c0c1-43ca-9ad7-c0055bf187ce",
+                "resourcePath": "sounds\\sfx_passiveGhostSpeak\\sfx_passiveGhostSpeak.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "49ea2a7d-0479-45ed-8dbf-11278895c7ed",
             "Value": {
                 "id": "d0ec22cd-21f5-4bf9-9311-e0ddf825fad5",
@@ -2556,6 +2564,14 @@
                 "id": "025cf8ef-4910-41dd-9c64-5ccb4657162c",
                 "resourcePath": "sprites\\spr_evilAbility1\\spr_evilAbility1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b6ade41d-e230-4ac3-8ce4-ff4a6d4adffb",
+            "Value": {
+                "id": "2e576469-323a-4f1d-ac66-0608de467d6f",
+                "resourcePath": "views\\b6ade41d-e230-4ac3-8ce4-ff4a6d4adffb.yy",
+                "resourceType": "GMFolder"
             }
         },
         {

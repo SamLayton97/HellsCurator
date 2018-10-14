@@ -15,3 +15,7 @@ boxHeight = sprite_get_height(spr_tutorialMessageTextBox);
 
 // save height of message string
 stringHeight = string_height(myMessage);
+
+// initialize destination point variables
+destX = x;
+destY = y;
