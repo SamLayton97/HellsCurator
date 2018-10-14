@@ -51,7 +51,36 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "cac6acab-33d6-45f2-8e9b-a9b307e8be6a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "Mysterious Note",
+            "varName": "myName",
+            "varType": 2
+        },
+        {
+            "id": "be093804-2cba-41f1-8a32-6f0c2109754a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "This is an absurdely long string that I use to test whether the text wrapping functionality works as intended.",
+            "varName": "myMessage",
+            "varType": 2
+        }
+    ],
     "solid": false,
     "spriteId": "7639b8d5-c6bc-4f24-a7de-9e39db38a3aa",
     "visible": true
