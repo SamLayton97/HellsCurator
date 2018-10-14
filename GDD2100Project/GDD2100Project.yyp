@@ -1047,6 +1047,14 @@
             }
         },
         {
+            "Key": "5b862517-8ef5-4ea8-81d8-83919a61ccfb",
+            "Value": {
+                "id": "0ec1758c-b638-4de0-bd77-7091249a4f39",
+                "resourcePath": "sprites\\spr_rockIcon\\spr_rockIcon.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5b99f9e3-564d-4787-9cf5-5acfe73cd001",
             "Value": {
                 "id": "c313fee4-e25e-425a-a4fc-1397550ceaf3",
@@ -2267,6 +2275,14 @@
             "Value": {
                 "id": "26115f6b-d06c-4500-8a46-9580c2052b99",
                 "resourcePath": "objects\\obj_invisibleWall\\obj_invisibleWall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "bc8c59df-77b3-4b9a-b2b0-2595f91bea26",
+            "Value": {
+                "id": "ec733d3c-d5db-4929-82df-df35f65af4bd",
+                "resourcePath": "objects\\obj_rockCounter\\obj_rockCounter.yy",
                 "resourceType": "GMObject"
             }
         },
