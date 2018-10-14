@@ -76,7 +76,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "This is an absurdely long string that I use to test whether the text wrapping functionality works as intended.",
+            "value": "TEST: If you're reading this, something is wrong.",
             "varName": "myMessage",
             "varType": 2
         }
