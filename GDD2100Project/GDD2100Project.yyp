@@ -2423,6 +2423,14 @@
             }
         },
         {
+            "Key": "b49e2e19-0547-4b72-94ee-3915e4832f47",
+            "Value": {
+                "id": "cd1b8a59-5ead-46d4-bca7-8e995585b48d",
+                "resourcePath": "sounds\\sfx_pickedUpMessage\\sfx_pickedUpMessage.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "b5b15e31-a44a-4174-b2c7-7846cde797f7",
             "Value": {
                 "id": "43bd64ad-3f81-4f71-b92a-3607637cc471",
