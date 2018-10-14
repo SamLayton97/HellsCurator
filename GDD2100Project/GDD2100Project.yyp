@@ -1407,6 +1407,14 @@
             }
         },
         {
+            "Key": "7d6cc510-0100-43ca-aa77-5a01290cd6c2",
+            "Value": {
+                "id": "1276e26c-7792-4b86-8b47-6cb52525d677",
+                "resourcePath": "sprites\\spr_hourglass\\spr_hourglass.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7d83d714-7aaa-4d4a-9513-4809989c5937",
             "Value": {
                 "id": "d96e96d5-573c-4e52-ba7c-6d7470683134",
