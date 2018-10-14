@@ -14,19 +14,16 @@ if (place_meeting(x, y, obj_player) && !isColliding)
 if (!place_meeting(x, y, obj_player))
 	isColliding = false;
 
+// move towards destination point
+direction = point_direction(x, y, destX, destY);
+speed = travelSpeed;
+
 // if ghost reaches destination point within a certain tolerance
-if ((x <= destX + 32 && x >= destY - 32) 
-&& (y <= destX + 32 && y >= destY - 32))
+if ((x <= destX + 4 && x >= destX - 4) 
+&& (y <= destY + 4 && y >= destY - 4))
 {
-	// stop ghost and set its state to search point
+	// stop ghost
 	speed = 0;
-}
-// otherwise
-else
-{
-	// move towards destination point
-	direction = point_direction(x, y, destX, destY);
-	speed = travelSpeed;
 }
 
 // direct sprite towards destination point
