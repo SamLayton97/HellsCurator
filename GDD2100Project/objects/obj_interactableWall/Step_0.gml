@@ -15,9 +15,6 @@ if (instance_exists(obj_player))
 			obj_closedCaptioningManager.currFrameCounter = 0;
 			obj_closedCaptioningManager.captionText = "[Door opens]";
 		}
-		
-		// increment number of secrets found
-		obj_gameManager.secretsFound++;
 	
 		// destroy self
 		instance_destroy(id);

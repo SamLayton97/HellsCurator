@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "0dcaf194-5fdc-4980-98cb-b77693b216ce",
+            "Value": {
+                "id": "8d936e38-1ddd-48aa-ba84-0021d9b39dcd",
+                "resourcePath": "objects\\obj_rockThrowDoor\\obj_rockThrowDoor.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0e316221-d5c2-489e-b9a1-56c08610ac20",
             "Value": {
                 "id": "8b6197e8-525b-4df2-8b1b-5954b72c7b63",
@@ -244,6 +252,14 @@
                 "id": "db6c07c5-7d16-48ed-aa1a-04bbcf521c6b",
                 "resourcePath": "paths\\path_spectreTutorial\\path_spectreTutorial.yy",
                 "resourceType": "GMPath"
+            }
+        },
+        {
+            "Key": "15872e57-1f2b-4c97-903c-01f616afb844",
+            "Value": {
+                "id": "9489ac07-1789-4115-875e-4b50042346ba",
+                "resourcePath": "views\\15872e57-1f2b-4c97-903c-01f616afb844.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1195,6 +1211,14 @@
             "Value": {
                 "id": "03a95bf0-d6a9-4820-a745-0a8536a72220",
                 "resourcePath": "sprites\\spr_orangeLeverActive\\spr_orangeLeverActive.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "611fc166-1aeb-49de-af95-f62944151160",
+            "Value": {
+                "id": "bcf4339b-0a16-4b55-80dd-12100539378f",
+                "resourcePath": "sprites\\spr_projectileTestDoor\\spr_projectileTestDoor.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -3196,6 +3220,14 @@
                 "id": "235884f7-9230-4e13-844b-3b5f6c54311c",
                 "resourcePath": "sounds\\sfx_purpleLoop\\sfx_purpleLoop.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "ff9730ce-1ca6-4e94-9cec-20ebcf56e36a",
+            "Value": {
+                "id": "e1fcf6ce-f815-4bfb-881e-7b2d2f5aa344",
+                "resourcePath": "views\\ff9730ce-1ca6-4e94-9cec-20ebcf56e36a.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
