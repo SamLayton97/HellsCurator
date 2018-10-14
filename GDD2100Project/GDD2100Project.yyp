@@ -2335,6 +2335,14 @@
             }
         },
         {
+            "Key": "b7e28a9b-37df-4256-a055-ea957f5c524e",
+            "Value": {
+                "id": "4200b1b9-8f1e-490f-b6cf-90388dc430d0",
+                "resourcePath": "sprites\\spr_tutorialCrow\\spr_tutorialCrow.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b9c985c2-6af7-4bb3-b78e-77fc9809d197",
             "Value": {
                 "id": "353f2e0a-8183-47dc-aa24-cfbfc37823f5",
