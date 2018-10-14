@@ -14,17 +14,20 @@ if (place_meeting(x, y, obj_player) && !isColliding)
 if (!place_meeting(x, y, obj_player))
 	isColliding = false;
 
-// move towards destination point
-direction = point_direction(x, y, destX, destY);
-speed = travelSpeed;
-
-// direct sprite towards destination point
-image_angle = direction;
-
 // if ghost reaches destination point within a certain tolerance
 if ((x <= destX + 32 && x >= destY - 32) 
 && (y <= destX + 32 && y >= destY - 32))
 {
-	// stop spectre and set its state to search point
+	// stop ghost and set its state to search point
 	speed = 0;
 }
+// otherwise,
+else
+{
+	// move towards destination point
+	direction = point_direction(x, y, destX, destY);
+	speed = travelSpeed;
+}
+
+// direct sprite towards destination point
+image_angle = direction;
