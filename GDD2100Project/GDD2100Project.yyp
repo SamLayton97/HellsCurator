@@ -1359,6 +1359,14 @@
             }
         },
         {
+            "Key": "64003d63-1373-419d-8787-d2cb8902c596",
+            "Value": {
+                "id": "2122fb64-2672-437b-9921-87f6b368f041",
+                "resourcePath": "objects\\obj_soundRadiusMessage\\obj_soundRadiusMessage.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "646c05ad-146e-4965-8cb5-2181552274f7",
             "Value": {
                 "id": "766c5960-4f00-48cc-874e-a49f10ad86cf",

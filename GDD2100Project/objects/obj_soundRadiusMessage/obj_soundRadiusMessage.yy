@@ -1,20 +1,20 @@
 {
-    "id": "dd6ad6d4-5922-4a9e-b6b5-337a711770c5",
+    "id": "64003d63-1373-419d-8787-d2cb8902c596",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_spectreTestMessage",
+    "name": "obj_soundRadiusMessage",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
         {
-            "id": "4ce9d61a-0e26-4619-88f5-ec156f17d119",
+            "id": "115c20c1-ea8d-4e20-b4a4-59664c13ae38",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
             "objectId": "3404ee2a-9443-4712-aff9-a9daaa3c1909",
             "propertyId": "be093804-2cba-41f1-8a32-6f0c2109754a",
-            "value": "A spectre lurks ahead. Use what you've learned to sneak around it."
+            "value": "The sound of a rock hitting the wall or ground will attract nearby spectres."
         }
     ],
     "parentObjectId": "3404ee2a-9443-4712-aff9-a9daaa3c1909",
