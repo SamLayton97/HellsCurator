@@ -1327,6 +1327,14 @@
             }
         },
         {
+            "Key": "652adbc7-2041-4c4a-9cc9-d447babd12bd",
+            "Value": {
+                "id": "22b27e02-19be-409e-85de-1f63ead00d7d",
+                "resourcePath": "sprites\\spr_tutorialMessageTextBox\\spr_tutorialMessageTextBox.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "673efdf7-3477-4bb6-9006-5bd46e3f5393",
             "Value": {
                 "id": "7ca2fe8e-0c60-4ec9-832a-04565f2c1bf7",
@@ -1892,6 +1900,14 @@
                 "id": "f75c875e-3bac-410c-b790-769ce2776ee8",
                 "resourcePath": "objects\\obj_holyBellRadius\\obj_holyBellRadius.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "919aaff1-f4a6-446a-96af-f8795d29c859",
+            "Value": {
+                "id": "bce7e797-0271-4439-9e97-78ca1f130507",
+                "resourcePath": "fonts\\font_tutorialMessage\\font_tutorialMessage.yy",
+                "resourceType": "GMFont"
             }
         },
         {
