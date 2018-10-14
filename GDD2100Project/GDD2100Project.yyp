@@ -695,6 +695,14 @@
             }
         },
         {
+            "Key": "3404ee2a-9443-4712-aff9-a9daaa3c1909",
+            "Value": {
+                "id": "43a497a9-0118-4bff-aa13-0e6539c6d447",
+                "resourcePath": "objects\\obj_tutorialMessage\\obj_tutorialMessage.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3472585a-4bd3-4dce-a588-5e8db31d7808",
             "Value": {
                 "id": "dea5caa9-90f3-4cd7-a6aa-77ffd2f18ce8",
@@ -1500,6 +1508,14 @@
                 "id": "fc32345d-3e2e-4e74-be4d-2a85d1efcb0f",
                 "resourcePath": "objects\\obj_rockPickup\\obj_rockPickup.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7639b8d5-c6bc-4f24-a7de-9e39db38a3aa",
+            "Value": {
+                "id": "741f503c-1842-436e-bcd1-856a2e3a7105",
+                "resourcePath": "sprites\\spr_tutorialNote\\spr_tutorialNote.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
