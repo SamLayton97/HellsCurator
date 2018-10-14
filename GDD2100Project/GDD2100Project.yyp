@@ -2807,6 +2807,14 @@
             }
         },
         {
+            "Key": "dc0b5d14-dc20-4992-9c38-6f1e6e257fdf",
+            "Value": {
+                "id": "38e5b1af-6964-449d-97f5-b13431562fcd",
+                "resourcePath": "objects\\obj_rockProjectilePool\\obj_rockProjectilePool.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "dccfb9d1-e257-4c50-a57f-6a9d115471ce",
             "Value": {
                 "id": "60e913e1-c1b7-4147-a5cb-ad67a7a1e9f8",
