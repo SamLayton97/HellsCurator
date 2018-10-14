@@ -58,6 +58,8 @@ else if (id == inst_4338C741)
 	myPath = path_spectreDemoRoom3;
 else if (id == inst_5C43F0F7)
 	myPath = path_spectreTutorial;
+else if (id == inst_1B2EDCBC)
+	myPath = path_spectreTutorial1;
 
 // pathing support variables
 exitPointX = 0;

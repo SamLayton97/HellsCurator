@@ -919,6 +919,14 @@
             }
         },
         {
+            "Key": "4cccb461-3d87-4cfd-a209-9d70fc645a9d",
+            "Value": {
+                "id": "ec131d51-69b4-40b7-83b7-b6642c6595da",
+                "resourcePath": "sprites\\spr_interactableWall\\spr_interactableWall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "51e45628-6801-4618-aec8-75e5c16b5aed",
             "Value": {
                 "id": "62b2907c-2178-4db2-82de-47b26ada106c",
@@ -1167,6 +1175,14 @@
             }
         },
         {
+            "Key": "605dffed-0b0d-4d5d-8715-58e1a217f969",
+            "Value": {
+                "id": "8d4c652a-823c-4fad-858d-aa264aa3e32b",
+                "resourcePath": "objects\\obj_interactableWall\\obj_interactableWall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "60cd2f54-a91f-4f29-8362-14c969e9b0c5",
             "Value": {
                 "id": "5a58575e-4bda-4f98-ba28-d3c533a9fd85",
@@ -1228,6 +1244,14 @@
                 "id": "35188dd2-c05b-4692-a9e1-9063ec0de1a8",
                 "resourcePath": "sprites\\spr_settingTheStageScreen\\spr_settingTheStageScreen.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6852934c-6bb6-4d3c-879d-ea2e1dda29a6",
+            "Value": {
+                "id": "0f572fb7-3475-4256-bae2-5e5bb14b09b9",
+                "resourcePath": "sounds\\sfx_doorOpens\\sfx_doorOpens.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1588,6 +1612,14 @@
                 "id": "7a26dda7-dd4c-4a85-9ed2-8951fe8c704f",
                 "resourcePath": "views\\84124901-b7ac-4616-8527-72d673c415a9.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8847f26a-3635-499c-bfe9-5281c1c15a69",
+            "Value": {
+                "id": "ac2e68d5-920a-49d3-82cc-ec6cebd26f81",
+                "resourcePath": "paths\\path_spectreTutorial1\\path_spectreTutorial1.yy",
+                "resourceType": "GMPath"
             }
         },
         {
