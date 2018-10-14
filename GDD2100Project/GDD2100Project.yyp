@@ -2823,6 +2823,14 @@
             }
         },
         {
+            "Key": "dd69e354-f4ac-45e5-8493-de3826070399",
+            "Value": {
+                "id": "9b59c1b1-d2a7-4f0a-9964-51a7d9d51542",
+                "resourcePath": "sounds\\sfx_passingTutorialThreshold\\sfx_passingTutorialThreshold.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "dda9592a-f6ba-410f-9e79-10e7501a05fe",
             "Value": {
                 "id": "028c89ea-266b-4566-90c7-5cd360a2ff76",
