@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "14999e42-8606-4df5-a7d2-87daf208fc19",
+            "Value": {
+                "id": "c358ffcb-32d6-47ee-8218-5f22112323d5",
+                "resourcePath": "sounds\\sfx_crowCaw\\sfx_crowCaw.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "1537840a-ef44-4cca-a705-249a740cdbc8",
             "Value": {
                 "id": "b878b998-22dc-4045-b1e1-6eeed09b142f",
@@ -636,6 +644,14 @@
                 "id": "031a1d12-350a-4f93-be22-ecb412943a20",
                 "resourcePath": "fonts\\font_deathScreen\\font_deathScreen.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "2ee1251d-a4e0-4c94-a6b1-e14488048ebd",
+            "Value": {
+                "id": "b2ac1c70-81fe-43d4-8852-508ee041a6aa",
+                "resourcePath": "sounds\\sfx_crowChortle\\sfx_crowChortle.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1092,6 +1108,14 @@
                 "id": "a835aebd-fbf2-493c-ae9d-0a57c144d0af",
                 "resourcePath": "sounds\\sfx_wallHit\\sfx_wallHit.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "58b29293-5196-44c8-b38a-71bcbfba8256",
+            "Value": {
+                "id": "01d85d0c-b9b6-4627-b62b-df880bf2265a",
+                "resourcePath": "views\\58b29293-5196-44c8-b38a-71bcbfba8256.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1692,6 +1716,14 @@
                 "id": "ddb04cc8-220d-4520-9c76-907da466af9b",
                 "resourcePath": "views\\84d97190-e04a-41ac-9dc2-9aa9bc771ab8.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "882235db-e3b3-445e-93ff-22fb454d0114",
+            "Value": {
+                "id": "eb98fb9d-7251-4dc5-bb2c-b216d53ef25d",
+                "resourcePath": "sprites\\spr_tutorialCrowObserve\\spr_tutorialCrowObserve.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

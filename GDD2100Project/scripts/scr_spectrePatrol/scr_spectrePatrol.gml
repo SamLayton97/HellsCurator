@@ -45,7 +45,7 @@ with (myVisionCone)
 		// if directional indicators are enabled
 		if (global.DirectionalSoundAidEnabled)
 		{
-			//tell PC to draw directional investigate indicator
+			// tell PC to draw directional investigate indicator
 			obj_player.investigateIndicatorAngle = point_direction(obj_player.x, obj_player.y, other.x, other.y)
 				* (pi / 180);
 			obj_player.investigateIndicatorCounter = 0;
