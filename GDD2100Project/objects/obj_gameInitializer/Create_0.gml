@@ -43,6 +43,9 @@ global.BlindModeEnabled = false;
 global.DyslexiaTextEnabled = false;
 global.ObjectiveCompassDisabled = false;
 
+// initializes selectable options for reduced risk-taking features
+global.DisableCheckpoints = false;
+
 // initialize "save state" location
 global.SaveStateX = 0;
 global.SaveStateY = 0;
