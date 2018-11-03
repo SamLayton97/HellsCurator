@@ -11,9 +11,11 @@ if (!global.DisableCheckpoints)
 	global.SavedRockCount = other.rockCount;
 	global.SavedHoldingBell = other.holdingBell;
 	
-	// TODO: update player's level completion time
-	
-	// TODO: update which signs are active -- used to track puzzle progression
+	// TODO: update player's tutorial and puzzle progress
+	global.SavedTutorialCompleted = obj_gameManager.tutorialFinished;
+	global.SavedGreenSignActive = obj_greenLever.active;
+	global.SavedPurpleSignActive = obj_purpleLever.active;
+	global.SavedOrangeSignActive = obj_orangeLever.active;
 	
 	// TODO: write "checkpoint reached" text to GUI
 	

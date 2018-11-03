@@ -38,10 +38,11 @@ global.SaveStateY = 0;
 global.SavedRockCount = 0;
 global.SavedHoldingBell = false;
 
-// initialize / reset puzzle progression
-global.SaveGreenSignActive = false;
-global.SavePurpleSignActive = false;
-global.SaveOrangeSignActive = false;
+// initialize / reset level completion
+global.SavedTutorialCompleted = false;
+global.SavedGreenSignActive = false;
+global.SavedPurpleSignActive = false;
+global.SavedOrangeSignActive = false;
 
 // after defining / resetting globals, move to demo room
 room_goto(DemoRoom);

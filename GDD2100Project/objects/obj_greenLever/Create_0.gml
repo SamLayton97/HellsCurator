@@ -1,7 +1,7 @@
 /// @description Used for initialization
 
-// set lever to start inactive
-active = false;
+// set sign / leverl's active-ness
+active = global.SavedGreenSignActive;
 
 // create audio emitter at sign's position
 myEmitter = audio_emitter_create();

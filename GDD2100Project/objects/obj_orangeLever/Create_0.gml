@@ -1,7 +1,7 @@
 /// @description Used for initialization
 
-// set lever to be inactive
-active = false;
+// initialize sign / lever's active-ness
+active = global.SavedOrangeSignActive;
 
 // create audio emitter at sign's position
 myEmitter = audio_emitter_create();
