@@ -23,7 +23,8 @@ if (!global.DisableCheckpoints)
 	global.SavedPerfectStealth = obj_gameManager.perfectStealth;
 	
 	// TODO: write "checkpoint reached" text to GUI
-	
+	obj_environmentalFeedbackTextManager.currFrameCounter = 0;
+	obj_environmentalFeedbackTextManager.text = "Checkpoint Reached!";
 	
 	// TODO: play "checkpoint reached" sound
 	audio_play_sound(sfx_passingCheckpointThreshold, 7, false);

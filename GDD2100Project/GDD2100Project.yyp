@@ -799,6 +799,14 @@
             }
         },
         {
+            "Key": "38dabd6f-489e-4f64-af7d-4b3e20cb8771",
+            "Value": {
+                "id": "f76d2046-45b5-404c-ad34-1fadba353968",
+                "resourcePath": "sprites\\spr_deathScreenBackground\\spr_deathScreenBackground.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "391ac3ef-01f3-4732-973a-344ce4cf51d4",
             "Value": {
                 "id": "d033478f-93c3-4ddc-88e7-d7438d202a8c",
@@ -1419,14 +1427,6 @@
             "Value": {
                 "id": "2122fb64-2672-437b-9921-87f6b368f041",
                 "resourcePath": "objects\\obj_soundRadiusMessage\\obj_soundRadiusMessage.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "646c05ad-146e-4965-8cb5-2181552274f7",
-            "Value": {
-                "id": "766c5960-4f00-48cc-874e-a49f10ad86cf",
-                "resourcePath": "objects\\obj_secretFoundText\\obj_secretFoundText.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -3227,6 +3227,14 @@
             "Value": {
                 "id": "09607001-3e44-42c5-9abf-c2bb08586709",
                 "resourcePath": "objects\\obj_revealableWallLeft\\obj_revealableWallLeft.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "debcf42e-ec97-411b-acbc-a4a25f841a06",
+            "Value": {
+                "id": "d23432df-524b-49fa-aa7e-7434697b6998",
+                "resourcePath": "objects\\obj_environmentalFeedbackTextManager\\obj_environmentalFeedbackTextManager.yy",
                 "resourceType": "GMObject"
             }
         },

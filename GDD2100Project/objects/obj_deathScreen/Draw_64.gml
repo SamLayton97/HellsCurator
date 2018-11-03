@@ -1,5 +1,8 @@
 /// @description Draws death screen message to screen
 
+// draw semi-transparent background behind text
+draw_sprite(spr_deathScreenBackground, 0, centerX, centerY);
+
 // center text on x-position
 draw_set_halign(fa_center);
 

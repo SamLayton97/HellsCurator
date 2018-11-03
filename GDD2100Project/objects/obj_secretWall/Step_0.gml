@@ -21,7 +21,8 @@ if (instance_exists(obj_player))
 		}
 	
 		// provide "secret found" audio-visual feedback
-		instance_create_layer(x, y, "Visual_Effects_Layer", obj_secretFoundText);
+		obj_environmentalFeedbackTextManager.currFrameCounter = 0;
+		obj_environmentalFeedbackTextManager.text = "Secret Found!";
 		audio_play_sound(sfx_secretFound, 12, false);
 		
 		// set closed captions
