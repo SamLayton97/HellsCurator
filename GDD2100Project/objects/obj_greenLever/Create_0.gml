@@ -1,7 +1,11 @@
 /// @description Used for initialization
 
-// set sign / leverl's active-ness
+// set sign / lever's active-ness
 active = global.SavedGreenSignActive;
+
+// initialize sprite to match state of active-ness
+if (active)
+	sprite_index = spr_greenLeverActive;
 
 // create audio emitter at sign's position
 myEmitter = audio_emitter_create();
