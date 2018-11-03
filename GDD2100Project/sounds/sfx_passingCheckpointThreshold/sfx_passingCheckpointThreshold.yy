@@ -2,7 +2,7 @@
     "id": "dd69e354-f4ac-45e5-8493-de3826070399",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "sfx_passingTutorialThreshold",
+    "name": "sfx_passingCheckpointThreshold",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,

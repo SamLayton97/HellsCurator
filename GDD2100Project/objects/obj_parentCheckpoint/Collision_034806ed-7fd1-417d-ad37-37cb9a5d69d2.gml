@@ -24,8 +24,9 @@ if (!global.DisableCheckpoints)
 	
 	// TODO: write "checkpoint reached" text to GUI
 	
-	// TODO: play "checkpoint reached" sound
 	
+	// TODO: play "checkpoint reached" sound
+	audio_play_sound(sfx_passingCheckpointThreshold, 7, false);
 }
 
 // destroy self

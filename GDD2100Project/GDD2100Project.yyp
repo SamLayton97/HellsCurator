@@ -663,6 +663,14 @@
             }
         },
         {
+            "Key": "2d7574b0-2d57-4862-a730-298331fccd45",
+            "Value": {
+                "id": "17db81cc-bf86-4bf8-8aec-1b73a2493d74",
+                "resourcePath": "sprites\\spr_checkpoint1x2\\spr_checkpoint1x2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2e47b4c1-8d84-4ed3-a3d7-5bdcf7a90336",
             "Value": {
                 "id": "031a1d12-350a-4f93-be22-ecb412943a20",
@@ -1012,6 +1020,14 @@
                 "id": "d0ec22cd-21f5-4bf9-9311-e0ddf825fad5",
                 "resourcePath": "views\\49ea2a7d-0479-45ed-8dbf-11278895c7ed.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4a929519-52c1-4cb7-beb6-60a6845f9f86",
+            "Value": {
+                "id": "1d45fbb9-c5ac-4651-a7d8-45c1117ed652",
+                "resourcePath": "objects\\obj_checkpoint2x1\\obj_checkpoint2x1.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2015,6 +2031,14 @@
             }
         },
         {
+            "Key": "91995bc3-2aaa-4aa3-8711-20dcb6e9d144",
+            "Value": {
+                "id": "44198928-b1db-41c8-a9e7-ca1cb91f1373",
+                "resourcePath": "sprites\\spr_checkpoint2x1\\spr_checkpoint2x1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "919aaff1-f4a6-446a-96af-f8795d29c859",
             "Value": {
                 "id": "bce7e797-0271-4439-9e97-78ca1f130507",
@@ -2583,6 +2607,14 @@
             }
         },
         {
+            "Key": "b5d6d087-6afc-4f5d-a705-abf58a0c1881",
+            "Value": {
+                "id": "6d910290-c9a1-40fb-8b93-fc80e5818c1b",
+                "resourcePath": "sprites\\spr_checkpoint1x3\\spr_checkpoint1x3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b68ed896-5822-45ce-8f41-abdb8d69063a",
             "Value": {
                 "id": "451f5649-9ccc-438f-b335-eecb5b473b1e",
@@ -2676,6 +2708,14 @@
                 "id": "7bafc1c3-a6cb-4627-ab9b-668ed034b86f",
                 "resourcePath": "sprites\\spr_hardSelectSpectre\\spr_hardSelectSpectre.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bd52066b-85e6-43d7-8fac-6a8e168a4f7f",
+            "Value": {
+                "id": "abd887e0-a68f-43c7-80e8-3e1f9a7e78a3",
+                "resourcePath": "objects\\obj_checkpoint1x3\\obj_checkpoint1x3.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2812,6 +2852,14 @@
                 "id": "a8a9be47-5eb7-4875-87b9-d3e02455e87d",
                 "resourcePath": "sounds\\bld_snd_enableVisualAides\\bld_snd_enableVisualAides.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "c64609e6-cf44-4274-bb5f-724dae001745",
+            "Value": {
+                "id": "50ac5a16-d94a-4e04-8da6-fb7c2b1589bc",
+                "resourcePath": "objects\\obj_checkpoint1x2\\obj_checkpoint1x2.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -3146,7 +3194,7 @@
             "Key": "dd69e354-f4ac-45e5-8493-de3826070399",
             "Value": {
                 "id": "9b59c1b1-d2a7-4f0a-9964-51a7d9d51542",
-                "resourcePath": "sounds\\sfx_passingTutorialThreshold\\sfx_passingTutorialThreshold.yy",
+                "resourcePath": "sounds\\sfx_passingCheckpointThreshold\\sfx_passingCheckpointThreshold.yy",
                 "resourceType": "GMSound"
             }
         },
