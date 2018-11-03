@@ -7,9 +7,11 @@ if (!global.DisableCheckpoints)
 	global.SaveStateX = x;
 	global.SaveStateY = y;
 	
-	// TODO: update saved rock count and which signs are active
+	// TODO: update saved player items
+	global.SavedRockCount = other.rockCount;
+	global.SavedHoldingBell = other.holdingBell;
 	
-	// TODO: update player's level time
+	// TODO: update player's level completion time
 	
 	// TODO: update which signs are active -- used to track puzzle progression
 	

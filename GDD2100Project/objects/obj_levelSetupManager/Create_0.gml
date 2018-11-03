@@ -34,8 +34,11 @@ global.PerfectStealth = true;
 global.SaveStateX = 0;
 global.SaveStateY = 0;
 
-// initialize / reset saved rock count and which signs are active
+// initialize / reset saved player items
 global.SavedRockCount = 0;
+global.SavedHoldingBell = false;
+
+// initialize / reset puzzle progression
 global.SaveGreenSignActive = false;
 global.SavePurpleSignActive = false;
 global.SaveOrangeSignActive = false;

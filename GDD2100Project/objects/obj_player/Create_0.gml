@@ -1,8 +1,8 @@
 /// @description Used for initialization
 
 // initialize items
-rockCount = 0;
-holdingBell = false;
+rockCount = global.SavedRockCount;
+holdingBell = global.SavedHoldingBell;
 
 // if blind mode is enabled
 if (global.BlindModeEnabled)
@@ -64,4 +64,9 @@ switch (global.CharacterSkin)
 		myHoldSkin = spr_skeletonPlayerHoldingBell;
 		break;
 }
-sprite_index = mySkin;
+
+// change sprite as appropriate (based on whether they start with bell)
+if (!holdingBell)
+	sprite_index = mySkin;
+else
+	sprite_index = myHoldSkin;
