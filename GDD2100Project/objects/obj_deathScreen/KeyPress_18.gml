@@ -3,9 +3,9 @@
 // if in blind mode, reload level without resetting save state
 if (global.BlindModeEnabled)
 {
-	// resets level
-	room_goto(SetupRoom);
-
+	// restarts level
+	room_restart();
+	
 	// play "select" sound effect
 	audio_play_sound(sfx_buttonPress, 10, false);
 }

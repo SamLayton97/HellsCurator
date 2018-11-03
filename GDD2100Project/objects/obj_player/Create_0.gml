@@ -9,14 +9,14 @@ if (global.BlindModeEnabled)
 {
 	// start player with (infinite) rocks
 	rockCount = 1;
-	
-	// if save state location isn't at reset default
-	if (global.SaveStateX != 0 && global.SaveStateY != 0)
-	{
-		// move player to save state
-		x = global.SaveStateX;
-		y = global.SaveStateY;
-	}
+}
+
+// if save state location isn't at reset default
+if (global.SaveStateX != 0 && global.SaveStateY != 0)
+{
+	// move player to save state
+	x = global.SaveStateX;
+	y = global.SaveStateY;
 }
 
 // initializes PC-to-world interaction

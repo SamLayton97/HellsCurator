@@ -30,5 +30,15 @@ global.RocksUsed = 0;
 global.SecretsFound = 0;
 global.PerfectStealth = true;
 
-// after defining globals, move to demo room
+// initialize / reset "save state" location
+global.SaveStateX = 0;
+global.SaveStateY = 0;
+
+// initialize / reset saved rock count and which signs are active
+global.SavedRockCount = 0;
+global.SaveGreenSignActive = false;
+global.SavePurpleSignActive = false;
+global.SaveOrangeSignActive = false;
+
+// after defining / resetting globals, move to demo room
 room_goto(DemoRoom);

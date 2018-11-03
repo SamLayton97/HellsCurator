@@ -19,6 +19,15 @@ if (!global.DyslexiaTextEnabled)
 else
 	draw_set_font(font_playerUIDyslexia);
 
-// draw user prompts to screen
-draw_text(centerX, centerY + 50, "Press R to Restart");
-draw_text(centerX, centerY, "Press ESC to Quit");
+// draw user prompts to screen (depending on what settings are active
+if (global.DisableCheckpoints)
+{
+	draw_text(centerX, centerY, "Press R to Restart Level");
+	draw_text(centerX, centerY + 50, "Press ESC to Quit");
+}
+else
+{
+	draw_text(centerX, centerY, "Press Space to Reload Checkpoint");
+	draw_text(centerX, centerY + 50, "Press R to Restart Level");
+	draw_text(centerX, centerY + 100, "Press ESC to Quit");
+}
