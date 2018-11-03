@@ -1,5 +1,8 @@
 /// @description When player collides with end gate (i.e., completes tutorial)
 
+// inherit functionality from parent
+event_inherited();
+
 // tell game manager that player has finished tutorial
 obj_gameManager.tutorialFinished = true;
 
@@ -16,6 +19,3 @@ if (global.ClosedCaptioningEnabled)
 	obj_closedCaptioningManager.currFrameCounter = 0;
 	obj_closedCaptioningManager.captionText = "[Evil presence emerges]";
 }
-
-// destroy gate
-instance_destroy(id);
