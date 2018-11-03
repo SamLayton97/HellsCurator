@@ -7,11 +7,11 @@ if (!global.DisableCheckpoints)
 	global.SaveStateX = x;
 	global.SaveStateY = y;
 	
-	// TODO: update saved player items
+	// update saved player items
 	global.SavedRockCount = other.rockCount;
 	global.SavedHoldingBell = other.holdingBell;
 	
-	// TODO: update player's tutorial and puzzle progress
+	// update player's tutorial and puzzle progress
 	global.SavedTutorialCompleted = obj_gameManager.tutorialFinished;
 	global.SavedGreenSignActive = obj_greenLever.active;
 	global.SavedPurpleSignActive = obj_purpleLever.active;
@@ -22,11 +22,11 @@ if (!global.DisableCheckpoints)
 	global.SavedRocksUsed = obj_gameManager.rocksUsed;
 	global.SavedPerfectStealth = obj_gameManager.perfectStealth;
 	
-	// TODO: write "checkpoint reached" text to GUI
+	// write "checkpoint reached" text to GUI
 	obj_environmentalFeedbackTextManager.currFrameCounter = 0;
 	obj_environmentalFeedbackTextManager.text = "Checkpoint Reached!";
 	
-	// TODO: play "checkpoint reached" sound
+	// play "checkpoint reached" sound
 	audio_play_sound(sfx_passingCheckpointThreshold, 7, false);
 }
 
