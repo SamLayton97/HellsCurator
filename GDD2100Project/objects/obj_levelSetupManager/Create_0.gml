@@ -44,5 +44,10 @@ global.SavedGreenSignActive = false;
 global.SavedPurpleSignActive = false;
 global.SavedOrangeSignActive = false;
 
+// initialize / reset time remaining and other score modifiers
+global.SavedTimeRemaining = 0;
+global.SavedRocksUsed = 0;
+global.SavedPerfectStealth = true;
+
 // after defining / resetting globals, move to demo room
 room_goto(DemoRoom);

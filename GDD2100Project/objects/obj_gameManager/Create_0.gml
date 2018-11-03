@@ -4,8 +4,18 @@
 isFullScreen = true;
 window_set_fullscreen(isFullScreen);
 
-// initialize game timer variables
-currTimeFrames = global.MaxScorableSeconds * room_speed;
+// if saved remaining time is set to its default
+if (global.SavedTimeRemaining == 0)
+{
+	// initialize game timer variable to max time allotted by difficulty
+	currTimeFrames = global.MaxScorableSeconds * room_speed;
+}
+// otherwise (i.e., player reloaded from checkpoint)
+else
+{
+	// initialize game timer variable to time remaining from checkpoint
+	currTimeFrames = global.SavedTimeRemaining;
+}
 
 // extend time if low reactivity mode enabled
 if (global.LowReactivityEnabled)
@@ -19,8 +29,8 @@ if (global.BlindModeEnabled)
 
 // initialize various end-score modifiers
 secretsFound = 0;
-rocksUsed = 0;
-perfectStealth = true;
+rocksUsed = global.SavedRocksUsed;
+perfectStealth = global.SavedPerfectStealth;
 
 // based on game mode, spawn helper / hurter managers or nothing
 if (global.GameMode == gameMode.helper)

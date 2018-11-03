@@ -17,6 +17,11 @@ if (!global.DisableCheckpoints)
 	global.SavedPurpleSignActive = obj_purpleLever.active;
 	global.SavedOrangeSignActive = obj_orangeLever.active;
 	
+	// update player's time remaining and score modifiers
+	global.SavedTimeRemaining = obj_gameManager.currTimeFrames;
+	global.SavedRocksUsed = obj_gameManager.rocksUsed;
+	global.SavedPerfectStealth = obj_gameManager.perfectStealth;
+	
 	// TODO: write "checkpoint reached" text to GUI
 	
 	// TODO: play "checkpoint reached" sound
