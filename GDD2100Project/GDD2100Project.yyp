@@ -3543,6 +3543,14 @@
             }
         },
         {
+            "Key": "f5ffff18-c940-4d15-b39d-c44068737ac2",
+            "Value": {
+                "id": "31a7f610-5d9c-419c-b31e-181dff5f9beb",
+                "resourcePath": "sounds\\sfx_pickedUpBook\\sfx_pickedUpBook.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "f66cf67f-2413-4d62-bcff-7e763892cbe9",
             "Value": {
                 "id": "2fa99d1d-6e94-4090-b4f0-5e78d040a47d",

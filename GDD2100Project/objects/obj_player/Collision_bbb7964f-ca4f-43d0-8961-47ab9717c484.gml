@@ -5,4 +5,4 @@ holdingBook = true;
 instance_destroy(other);
 
 // play "pickup book" sound
-audio_play_sound(sfx_pickedUpMessage, 15, false);
+audio_play_sound(sfx_pickedUpBook, 15, false);
