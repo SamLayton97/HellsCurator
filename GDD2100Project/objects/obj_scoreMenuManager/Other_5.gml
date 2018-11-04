@@ -1,4 +1,7 @@
 /// @description When room ends
 
 // stop looping bgr music
-audio_stop_sound(sfx_successMusic);
+if (audio_is_playing(sfx_escapeMusic))
+	audio_stop_sound(sfx_escapeMusic);
+else if (audio_is_playing(sfx_curseLiftedMusic))
+	audio_stop_sound(sfx_curseLiftedMusic);

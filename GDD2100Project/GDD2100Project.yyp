@@ -2911,6 +2911,14 @@
             }
         },
         {
+            "Key": "c3fedfc0-60bf-4e82-965e-dbc7558a615c",
+            "Value": {
+                "id": "19c0511e-8387-47dc-81ba-ca2ef255b697",
+                "resourcePath": "sounds\\sfx_escapeMusic\\sfx_escapeMusic.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "c4dc7039-e186-450b-be4e-1e811c5537cf",
             "Value": {
                 "id": "7a7a3d28-6780-4a9e-8cea-0acbde1cd389",
@@ -3746,7 +3754,7 @@
             "Key": "fd6b0b1c-0056-44cb-a53f-edfe59586bb8",
             "Value": {
                 "id": "2c3bb9a2-da25-4c1e-b6ce-ca6cd2bbdf93",
-                "resourcePath": "sounds\\sfx_successMusic\\sfx_successMusic.yy",
+                "resourcePath": "sounds\\sfx_curseLiftedMusic\\sfx_curseLiftedMusic.yy",
                 "resourceType": "GMSound"
             }
         },

@@ -10,7 +10,7 @@ if (global.CompletionByEscape)
 	layer_background_sprite(bgrID, spr_stageEscapedScreen);
 	
 	// set music
-	audio_play_sound(bgrSound_menuAmbient, 5, true);
+	audio_play_sound(sfx_escapeMusic, 5, true);
 }
 // set for if player wins by freeing spirits
 else
@@ -21,7 +21,7 @@ else
 	layer_background_sprite(bgrID, spr_spiritsSavedScreen);
 	
 	// set music
-	audio_play_sound(sfx_successMusic, 5, true);
+	audio_play_sound(sfx_curseLiftedMusic, 5, true);
 }
 
 // if blind mode is enabled
