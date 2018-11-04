@@ -4,5 +4,9 @@
 instance_create_layer(other.x, other.y, "Visual_Effects_Layer", obj_successTransition);
 audio_play_sound(sfx_buttonPress, 15, false);
 
+// if compass feature is not disabled, destroy compass
+if (!global.ObjectiveCompassDisabled)
+	instance_destroy(obj_objectiveCompass);
+
 // destroy self
 instance_destroy(id);

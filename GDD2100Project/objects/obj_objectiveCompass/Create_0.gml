@@ -11,12 +11,15 @@ drawX = screenWidth - 168;
 drawY = screenHeight - 168;
 
 // initialize objective to direct player towards
-// if gate puzzle exists, set objective to first sign
-if (instance_exists(obj_greenLever))
+if (instance_exists(obj_greenLever) && !obj_greenLever.active)
 	objective = obj_greenLever;
+else if (instance_exists(obj_purpleLever) && (obj_greenLever.active && !obj_purpleLever.active))
+	objective = obj_purpleLever;
+else if (instance_exists(obj_orangeLever) && (obj_purpleLever.active && !obj_orangeLever.active))
+	objective = obj_orangeLever;
 // otherwise, set objective to book of the dead
 else
-	objective = obj_bookOfTheDead;
-	
+	objective = obj_levelExitThreshold;
+
 // initialize angle to draw compass point
 drawAngle = 0;

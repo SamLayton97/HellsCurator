@@ -59,9 +59,9 @@ if (obj_orangeLever.active && obj_purpleLever.active && obj_greenLever.active)
 		obj_closedCaptioningManager.captionText = "[Gate opens]";
 	}
 	
-	// if compass is not disabled, update objective to point to book of the dead
+	// if compass is not disabled, update objective to point to exit
 	if (!global.ObjectiveCompassDisabled)
-		obj_objectiveCompass.objective = obj_bookOfTheDead;
+		obj_objectiveCompass.objective = obj_levelExitThreshold;
 }
 // if levers green and purple are active, set sprite to reflect that
 else if (obj_greenLever.active && obj_purpleLever.active)
