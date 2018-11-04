@@ -86,7 +86,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "Bring the book to the alter.",
+            "value": "Bring the book to the altar.",
             "varName": "myMessage",
             "varType": 2
         },
