@@ -1,7 +1,28 @@
 /// @description Called at when room starts
 
-// play success music on loop
-audio_play_sound(sfx_successMusic, 5, true);
+// TODO: set room background and
+// play appropriate music based on how player completed level
+if (global.CompletionByEscape)
+{
+	// set background
+	var layerID = layer_get_id("Background");
+	var bgrID = layer_background_get_id(layerID);
+	layer_background_sprite(bgrID, spr_stageEscapedScreen);
+	
+	// set music
+	audio_play_sound(bgrSound_menuAmbient, 5, true);
+}
+// set for if player wins by freeing spirits
+else
+{
+	// set background
+	var layerID = layer_get_id("Background");
+	var bgrID = layer_background_get_id(layerID);
+	layer_background_sprite(bgrID, spr_spiritsSavedScreen);
+	
+	// set music
+	audio_play_sound(sfx_successMusic, 5, true);
+}
 
 // if blind mode is enabled
 if (global.BlindModeEnabled)

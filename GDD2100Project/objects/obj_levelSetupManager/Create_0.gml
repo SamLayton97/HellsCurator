@@ -21,10 +21,10 @@ switch (global.GameDifficulty)
 		break;
 }
 
-// initializes global player score
+// initialize global player score
 global.PlayerScore = 0;
 
-// defines global score modifiers
+// define global score modifiers
 global.LevelRunTime = 0;
 global.RocksUsed = 0;
 global.SecretsFound = 0;
@@ -49,6 +49,9 @@ global.SavedOrangeSignActive = false;
 global.SavedTimeRemaining = 0;
 global.SavedRocksUsed = 0;
 global.SavedPerfectStealth = true;
+
+// initialize / reset variable tracking how player beats level
+global.CompletionByEscape = false;
 
 // after defining / resetting globals, move to demo room
 room_goto(DemoRoom);

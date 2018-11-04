@@ -26,6 +26,9 @@ if (instance_exists(obj_player))
 		instance_create_layer(obj_player.x, obj_player.y, "Visual_Effects_Layer", obj_successTransition);
 		audio_play_sound(sfx_buttonPress, 15, false);
 		
+		// set completion tracking variable accordingly
+		global.CompletionByEscape = false;
+		
 		// spawn "claw" visual effect and destroy self
 		instance_create_layer(x, y, "Visual_Effects_Layer", obj_clawMark);
 		instance_destroy(id);
