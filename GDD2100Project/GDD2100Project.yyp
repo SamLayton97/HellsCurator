@@ -2983,6 +2983,14 @@
             }
         },
         {
+            "Key": "ca5efb73-d695-4687-8473-9ef002041c20",
+            "Value": {
+                "id": "001227fe-6d4a-424e-9ae8-c95813db2499",
+                "resourcePath": "sprites\\spr_levelExit1x3\\spr_levelExit1x3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cad18ad5-4cf1-4010-91de-143c7e2f943a",
             "Value": {
                 "id": "d6745635-2860-491c-9b34-c72a9534be8e",
@@ -3172,6 +3180,14 @@
                 "id": "d06d7e43-6551-4db4-ba6b-a167f1b4c0da",
                 "resourcePath": "scripts\\scr_spectreInvestigate\\scr_spectreInvestigate.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "dafdebff-d131-4c8c-bd5a-a2070f132beb",
+            "Value": {
+                "id": "2d14213c-e093-4d35-8aad-3ebe18614b6e",
+                "resourcePath": "objects\\obj_levelExitThreshold\\obj_levelExitThreshold.yy",
+                "resourceType": "GMObject"
             }
         },
         {
