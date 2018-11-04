@@ -86,7 +86,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "Free us from this place.",
+            "value": "Lift the curse. Free us from this place.",
             "varName": "myMessage",
             "varType": 2
         },
