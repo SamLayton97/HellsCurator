@@ -1031,6 +1031,14 @@
             }
         },
         {
+            "Key": "49fb1ade-b191-443a-b8cc-b272fa134115",
+            "Value": {
+                "id": "f38ba1aa-2074-4060-bd76-61b68b4bb5df",
+                "resourcePath": "sprites\\spr_bookOfTheDeadUI\\spr_bookOfTheDeadUI.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4a929519-52c1-4cb7-beb6-60a6845f9f86",
             "Value": {
                 "id": "1d45fbb9-c5ac-4651-a7d8-45c1117ed652",
@@ -2556,6 +2564,14 @@
                 "id": "9103f46d-da60-4386-a12a-073aee92ce8c",
                 "resourcePath": "scripts\\scr_spectreVisionCone\\scr_spectreVisionCone.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "b2c67b8e-792c-4722-a305-415917a2752f",
+            "Value": {
+                "id": "9f41af24-c788-4f42-865b-477d83e6bc4d",
+                "resourcePath": "objects\\obj_bookOfTheDeadUI\\obj_bookOfTheDeadUI.yy",
+                "resourceType": "GMObject"
             }
         },
         {

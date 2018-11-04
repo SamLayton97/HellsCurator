@@ -12,7 +12,6 @@ global.PlayerScore -= rocksUsed * 350;
 if (perfectStealth)
 	global.PlayerScore += 8000;
 
-
 // update other globals as appropriate
 global.LevelRunTime = currTimeFrames / room_speed;
 global.SecretsFound = secretsFound;
