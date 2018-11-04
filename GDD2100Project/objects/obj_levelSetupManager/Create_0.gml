@@ -37,6 +37,7 @@ global.SaveStateY = 0;
 // initialize / reset saved player items
 global.SavedRockCount = 0;
 global.SavedHoldingBell = false;
+global.SavedHoldingBook = false;
 
 // initialize / reset level completion
 global.SavedTutorialCompleted = false;

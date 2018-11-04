@@ -1,8 +1,9 @@
 /// @description Used for initialization
 
-// initialize items
+// initialize item variables
 rockCount = global.SavedRockCount;
 holdingBell = global.SavedHoldingBell;
+holdingBook = global.SavedHoldingBook;
 
 // if blind mode is enabled
 if (global.BlindModeEnabled)
