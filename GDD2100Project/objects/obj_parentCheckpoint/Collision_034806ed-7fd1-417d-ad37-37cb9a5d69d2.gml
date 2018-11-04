@@ -10,6 +10,7 @@ if (!global.DisableCheckpoints)
 	// update saved player items
 	global.SavedRockCount = other.rockCount;
 	global.SavedHoldingBell = other.holdingBell;
+	global.SavedHoldingBook = other.holdingBook;
 	
 	// update player's tutorial and puzzle progress
 	global.SavedTutorialCompleted = obj_gameManager.tutorialFinished;
