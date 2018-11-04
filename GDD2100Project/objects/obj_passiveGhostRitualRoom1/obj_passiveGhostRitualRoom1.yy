@@ -1,0 +1,111 @@
+{
+    "id": "9ff83fe3-a5fc-40e5-a611-eab8d78d8511",
+    "modelName": "GMObject",
+    "mvc": "1.0",
+    "name": "obj_passiveGhostRitualRoom1",
+    "eventList": [
+        {
+            "id": "a8e50401-82ba-4b5c-9135-bbd485b70ab8",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "9ff83fe3-a5fc-40e5-a611-eab8d78d8511"
+        },
+        {
+            "id": "067cc756-5b9a-4097-add7-33dcadc5a640",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "9ff83fe3-a5fc-40e5-a611-eab8d78d8511"
+        },
+        {
+            "id": "8a70b400-7ecf-4378-bc90-e710e8fcb08b",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "9ff83fe3-a5fc-40e5-a611-eab8d78d8511"
+        },
+        {
+            "id": "c5fbc424-5a98-4d52-bd40-a4a500031ef8",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 5,
+            "eventtype": 7,
+            "m_owner": "9ff83fe3-a5fc-40e5-a611-eab8d78d8511"
+        }
+    ],
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": null,
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "persistent": false,
+    "physicsAngularDamping": 0.1,
+    "physicsDensity": 0.5,
+    "physicsFriction": 0.2,
+    "physicsGroup": 0,
+    "physicsKinematic": false,
+    "physicsLinearDamping": 0.1,
+    "physicsObject": false,
+    "physicsRestitution": 0.1,
+    "physicsSensor": false,
+    "physicsShape": 1,
+    "physicsShapePoints": null,
+    "physicsStartAwake": true,
+    "properties": [
+        {
+            "id": "2e90fd26-46fe-4990-84d6-dd3df2143a76",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "Someone Familiar",
+            "varName": "myName",
+            "varType": 2
+        },
+        {
+            "id": "a7550881-c740-4b39-837a-f17b50344ac1",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "Bring the book to the alter.",
+            "varName": "myMessage",
+            "varType": 2
+        },
+        {
+            "id": "6ed3ab8a-bd8e-4690-ad35-d11bb243685f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "2.1",
+            "varName": "travelSpeed",
+            "varType": 0
+        }
+    ],
+    "solid": false,
+    "spriteId": "43d19ec5-b081-4ac3-8090-7cd7d8c3017b",
+    "visible": true
+}

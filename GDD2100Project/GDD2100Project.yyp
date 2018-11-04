@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "0a148e1e-e7e5-46ea-becc-670d454fda42",
+            "Value": {
+                "id": "085bba92-16a7-46c4-acde-85fe64829289",
+                "resourcePath": "views\\0a148e1e-e7e5-46ea-becc-670d454fda42.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "0afcaa42-de2a-468d-8e33-c2be1a65133f",
             "Value": {
                 "id": "fb770d31-a12d-4880-a2d5-20187b475821",
@@ -823,6 +831,14 @@
             }
         },
         {
+            "Key": "398fde38-b9c9-4ffa-9658-6fb4c15686c8",
+            "Value": {
+                "id": "f51c19b8-f0c0-4ab8-af5f-3b25fed19e04",
+                "resourcePath": "objects\\obj_ritualChamberEntranceMessage\\obj_ritualChamberEntranceMessage.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3ae32cd2-4f23-49f1-9e0d-a669e3133432",
             "Value": {
                 "id": "986b7c66-dd4e-47a3-b923-1640b4935c4f",
@@ -1219,6 +1235,14 @@
             "Value": {
                 "id": "6c262da0-6277-41f7-b694-5cf41b5fd67f",
                 "resourcePath": "objects\\obj_dummyBookOfTheDead\\obj_dummyBookOfTheDead.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "58139960-3971-4420-80ad-96bc6b2dc45b",
+            "Value": {
+                "id": "28c158bf-e1bc-42f0-b214-cef713dfb71d",
+                "resourcePath": "objects\\obj_grabbedBookMessage\\obj_grabbedBookMessage.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -2255,6 +2279,14 @@
             }
         },
         {
+            "Key": "9ff83fe3-a5fc-40e5-a611-eab8d78d8511",
+            "Value": {
+                "id": "cfd1a2c3-24d0-4004-a433-d78273192bee",
+                "resourcePath": "objects\\obj_passiveGhostRitualRoom1\\obj_passiveGhostRitualRoom1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a0c6f6c3-2a64-4026-8c41-90236f8bba38",
             "Value": {
                 "id": "f9573f59-38ae-4c39-9b81-bd14cd5230f7",
@@ -2839,6 +2871,14 @@
             }
         },
         {
+            "Key": "c33f8c48-c0ea-4cb5-8391-2fb619c1f6c9",
+            "Value": {
+                "id": "34698181-f685-486d-9331-274319fc00ab",
+                "resourcePath": "views\\c33f8c48-c0ea-4cb5-8391-2fb619c1f6c9.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "c3ac1391-9925-4688-b9e7-ed832a3d03e4",
             "Value": {
                 "id": "184ed6fa-2bd9-40b3-bea3-43d0137fff30",
@@ -2956,6 +2996,14 @@
                 "id": "816a1b76-117e-4527-8bca-bf1faa34c110",
                 "resourcePath": "objects\\obj_gameInitializer\\obj_gameInitializer.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c986f89c-cccf-4d74-8ef9-385f273e321e",
+            "Value": {
+                "id": "d9ab897b-07e6-432e-8743-4b3f21910f9a",
+                "resourcePath": "sprites\\spr_passiveGhost2\\spr_passiveGhost2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -3435,6 +3483,14 @@
             "Value": {
                 "id": "db1b9d45-f675-4c43-9e9f-82ba5fbd2062",
                 "resourcePath": "objects\\obj_successTransition\\obj_successTransition.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ed3071fc-789d-4c81-b456-5536950471a2",
+            "Value": {
+                "id": "4c6dbd18-e801-4aa3-9ddd-45303d5220a6",
+                "resourcePath": "objects\\obj_passiveGhostRitualRoom2\\obj_passiveGhostRitualRoom2.yy",
                 "resourceType": "GMObject"
             }
         },

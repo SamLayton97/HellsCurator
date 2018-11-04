@@ -1,0 +1,111 @@
+{
+    "id": "ed3071fc-789d-4c81-b456-5536950471a2",
+    "modelName": "GMObject",
+    "mvc": "1.0",
+    "name": "obj_passiveGhostRitualRoom2",
+    "eventList": [
+        {
+            "id": "c775502e-9553-4759-ae86-4d86e6bd5517",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "ed3071fc-789d-4c81-b456-5536950471a2"
+        },
+        {
+            "id": "24b9c193-1ab5-4093-95c8-e1e56a48803b",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "ed3071fc-789d-4c81-b456-5536950471a2"
+        },
+        {
+            "id": "7f3c93fb-eafc-4618-9a19-40e3487318fb",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "ed3071fc-789d-4c81-b456-5536950471a2"
+        },
+        {
+            "id": "395d739b-2bf8-48db-aaa9-9fa6c994d875",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 5,
+            "eventtype": 7,
+            "m_owner": "ed3071fc-789d-4c81-b456-5536950471a2"
+        }
+    ],
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": null,
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "persistent": false,
+    "physicsAngularDamping": 0.1,
+    "physicsDensity": 0.5,
+    "physicsFriction": 0.2,
+    "physicsGroup": 0,
+    "physicsKinematic": false,
+    "physicsLinearDamping": 0.1,
+    "physicsObject": false,
+    "physicsRestitution": 0.1,
+    "physicsSensor": false,
+    "physicsShape": 1,
+    "physicsShapePoints": null,
+    "physicsStartAwake": true,
+    "properties": [
+        {
+            "id": "3922abd6-7cfb-49ea-8352-c54abda39166",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "Someone Close",
+            "varName": "myName",
+            "varType": 2
+        },
+        {
+            "id": "bdbfbe68-2c9f-4451-b50d-187cb648106f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "Free us from this place.",
+            "varName": "myMessage",
+            "varType": 2
+        },
+        {
+            "id": "0a5745ff-24fb-4443-acb2-7e78447ab977",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "2.1",
+            "varName": "travelSpeed",
+            "varType": 0
+        }
+    ],
+    "solid": false,
+    "spriteId": "c986f89c-cccf-4d74-8ef9-385f273e321e",
+    "visible": true
+}
