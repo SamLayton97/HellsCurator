@@ -103,6 +103,20 @@
             "value": "2.1",
             "varName": "travelSpeed",
             "varType": 0
+        },
+        {
+            "id": "527c4888-2d14-47bb-8a22-b2853160689b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 4,
+            "value": "bld_liftTheCurseVoice",
+            "varName": "myVoiceOver",
+            "varType": 5
         }
     ],
     "solid": false,

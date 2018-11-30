@@ -8,11 +8,21 @@ if (place_meeting(x, y, obj_player) && !isColliding)
 	
 	// play "talking ghost" sound
 	audio_play_sound(sfx_passiveGhostSpeak, 4, false);
+	
+	// if in blind mode and voice over isn't null
+	if (global.BlindModeEnabled && myVoiceOver != noone)
+		audio_play_sound(myVoiceOver, 5, false);
 }
 
 // if player is not colliding with note, set collision flag to false
 if (!place_meeting(x, y, obj_player))
+{
 	isColliding = false;
+	
+	// if playing, stop voice over sound
+	if (audio_is_playing(myVoiceOver))
+		audio_stop_sound(myVoiceOver);
+}
 
 // move towards destination point
 direction = point_direction(x, y, destX, destY);

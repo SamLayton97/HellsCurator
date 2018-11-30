@@ -103,6 +103,20 @@
             "value": "2.1",
             "varName": "travelSpeed",
             "varType": 0
+        },
+        {
+            "id": "f2c74173-1b6f-4bbf-8eeb-193f53180ea9",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 4,
+            "value": "bld_bookToAltarVoice",
+            "varName": "myVoiceOver",
+            "varType": 5
         }
     ],
     "solid": false,

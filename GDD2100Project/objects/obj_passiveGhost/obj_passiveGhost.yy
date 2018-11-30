@@ -86,7 +86,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "Who are you?",
+            "value": "Leave this place.",
             "varName": "myMessage",
             "varType": 2
         },
@@ -103,6 +103,20 @@
             "value": "2.1",
             "varName": "travelSpeed",
             "varType": 0
+        },
+        {
+            "id": "7641637f-a0e0-4ba3-ba59-d9cd593ab700",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 4,
+            "value": "bld_tutorialGhostVoice",
+            "varName": "myVoiceOver",
+            "varType": 5
         }
     ],
     "solid": false,
