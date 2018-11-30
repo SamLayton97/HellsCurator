@@ -14,7 +14,7 @@
             "mvc": "1.0",
             "objectId": "3404ee2a-9443-4712-aff9-a9daaa3c1909",
             "propertyId": "be093804-2cba-41f1-8a32-6f0c2109754a",
-            "value": "Use WASD or arrow keys to move."
+            "value": "Use WASD to move."
         },
         {
             "id": "0c287ed3-fb28-46a4-accd-f81265212900",
