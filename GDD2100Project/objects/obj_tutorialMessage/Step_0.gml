@@ -16,4 +16,10 @@ if (place_meeting(x, y, obj_player) && !isColliding)
 
 // if player is not colliding with note, set collision flag to false
 if (!place_meeting(x, y, obj_player))
+{
 	isColliding = false;
+	
+	// if playing, stop voice over sound
+	if (audio_is_playing(myVoiceOver))
+		audio_stop_sound(myVoiceOver);
+}
