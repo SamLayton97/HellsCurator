@@ -15,6 +15,14 @@
             "objectId": "3404ee2a-9443-4712-aff9-a9daaa3c1909",
             "propertyId": "be093804-2cba-41f1-8a32-6f0c2109754a",
             "value": "A spectre lurks ahead! Sneak past it."
+        },
+        {
+            "id": "dff109c0-1c49-44c3-be94-c741957acf08",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "3404ee2a-9443-4712-aff9-a9daaa3c1909",
+            "propertyId": "e6cdb819-5d29-4ad6-b9fc-0ac329975338",
+            "value": "bld_spectreTestMessage"
         }
     ],
     "parentObjectId": "3404ee2a-9443-4712-aff9-a9daaa3c1909",

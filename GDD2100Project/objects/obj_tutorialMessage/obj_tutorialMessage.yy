@@ -93,6 +93,20 @@
             "value": "default",
             "varName": "myAltMessage",
             "varType": 2
+        },
+        {
+            "id": "e6cdb819-5d29-4ad6-b9fc-0ac329975338",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 4,
+            "value": "noone",
+            "varName": "myVoiceOver",
+            "varType": 5
         }
     ],
     "solid": false,

@@ -8,6 +8,10 @@ if (place_meeting(x, y, obj_player) && !isColliding)
 	
 	// play "picked up note" sound
 	audio_play_sound(sfx_pickedUpMessage, 4, false);
+	
+	// if in blind mode and voice over isn't playing
+	if (global.BlindModeEnabled && myVoiceOver != noone)
+		audio_play_sound(myVoiceOver, 5, false);
 }
 
 // if player is not colliding with note, set collision flag to false

@@ -3298,7 +3298,7 @@
             "Key": "d2ba7d18-d866-49fe-8889-8e4f7e0890bc",
             "Value": {
                 "id": "ab912e93-f42a-4b7e-9190-d84e0bfa7f53",
-                "resourcePath": "sounds\\bld_soundradiusMessage\\bld_soundradiusMessage.yy",
+                "resourcePath": "sounds\\bld_soundRadiusMessage\\bld_soundRadiusMessage.yy",
                 "resourceType": "GMSound"
             }
         },

@@ -15,6 +15,14 @@
             "objectId": "3404ee2a-9443-4712-aff9-a9daaa3c1909",
             "propertyId": "be093804-2cba-41f1-8a32-6f0c2109754a",
             "value": "I'd go the other way ..."
+        },
+        {
+            "id": "99270beb-1354-4885-b8b7-05bfa5d65800",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "3404ee2a-9443-4712-aff9-a9daaa3c1909",
+            "propertyId": "e6cdb819-5d29-4ad6-b9fc-0ac329975338",
+            "value": "bld_skipTutorialMessage"
         }
     ],
     "parentObjectId": "3404ee2a-9443-4712-aff9-a9daaa3c1909",

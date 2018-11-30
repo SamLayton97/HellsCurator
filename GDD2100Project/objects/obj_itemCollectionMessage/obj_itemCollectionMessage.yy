@@ -15,6 +15,14 @@
             "objectId": "3404ee2a-9443-4712-aff9-a9daaa3c1909",
             "propertyId": "be093804-2cba-41f1-8a32-6f0c2109754a",
             "value": "Collect rocks and other items by walking over them."
+        },
+        {
+            "id": "7efbc8d0-6cc8-4f82-892a-d129597e80ad",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "3404ee2a-9443-4712-aff9-a9daaa3c1909",
+            "propertyId": "e6cdb819-5d29-4ad6-b9fc-0ac329975338",
+            "value": "bld_itemCollectionMessage"
         }
     ],
     "parentObjectId": "3404ee2a-9443-4712-aff9-a9daaa3c1909",

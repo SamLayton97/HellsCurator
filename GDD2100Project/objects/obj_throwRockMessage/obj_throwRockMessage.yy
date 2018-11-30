@@ -23,6 +23,14 @@
             "objectId": "3404ee2a-9443-4712-aff9-a9daaa3c1909",
             "propertyId": "758ef213-1081-4366-9bc6-f2879556acec",
             "value": "Press space to throw rocks in the direction you're facing."
+        },
+        {
+            "id": "4b03926e-aaf9-4cc6-8596-9271071b0945",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "3404ee2a-9443-4712-aff9-a9daaa3c1909",
+            "propertyId": "e6cdb819-5d29-4ad6-b9fc-0ac329975338",
+            "value": "bld_rockThrowingMessage"
         }
     ],
     "parentObjectId": "3404ee2a-9443-4712-aff9-a9daaa3c1909",
