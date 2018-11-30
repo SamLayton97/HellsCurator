@@ -1447,6 +1447,14 @@
             }
         },
         {
+            "Key": "610f8b24-9c37-4ab3-a346-d44b67bd94cb",
+            "Value": {
+                "id": "caf07d37-27ac-4f57-8c22-e881e535d01d",
+                "resourcePath": "sprites\\spr_altControlsInstructionsPage\\spr_altControlsInstructionsPage.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "611fc166-1aeb-49de-af95-f62944151160",
             "Value": {
                 "id": "bcf4339b-0a16-4b55-80dd-12100539378f",
@@ -2500,6 +2508,14 @@
                 "id": "5bcd6948-7a83-4516-83e4-640a18e2a705",
                 "resourcePath": "sounds\\sfx_greenLoop\\sfx_greenLoop.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "a9f80050-b31f-4d0c-8357-27a68dc209ca",
+            "Value": {
+                "id": "4452aa32-625d-4a47-b20a-7a150ba2b8a4",
+                "resourcePath": "objects\\obj_instructionsMenuManager\\obj_instructionsMenuManager.yy",
+                "resourceType": "GMObject"
             }
         },
         {

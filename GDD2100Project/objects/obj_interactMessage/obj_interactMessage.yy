@@ -15,6 +15,14 @@
             "objectId": "3404ee2a-9443-4712-aff9-a9daaa3c1909",
             "propertyId": "be093804-2cba-41f1-8a32-6f0c2109754a",
             "value": "Press E to interact with doors."
+        },
+        {
+            "id": "50db3a11-a36f-45a1-a84f-484acb4d0417",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "3404ee2a-9443-4712-aff9-a9daaa3c1909",
+            "propertyId": "758ef213-1081-4366-9bc6-f2879556acec",
+            "value": "Press E or U to interact with doors."
         }
     ],
     "parentObjectId": "3404ee2a-9443-4712-aff9-a9daaa3c1909",

@@ -76,8 +76,22 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "TEST: If you're reading this, something is wrong.",
+            "value": "TEST: If you're reading this, something went wrong.",
             "varName": "myMessage",
+            "varType": 2
+        },
+        {
+            "id": "758ef213-1081-4366-9bc6-f2879556acec",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "default",
+            "varName": "myAltMessage",
             "varType": 2
         }
     ],

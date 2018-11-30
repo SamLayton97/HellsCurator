@@ -15,6 +15,14 @@
             "objectId": "3404ee2a-9443-4712-aff9-a9daaa3c1909",
             "propertyId": "be093804-2cba-41f1-8a32-6f0c2109754a",
             "value": "Press E to interact with sacred signs."
+        },
+        {
+            "id": "129928dc-a20b-48c2-a709-0b0406324e4c",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "3404ee2a-9443-4712-aff9-a9daaa3c1909",
+            "propertyId": "758ef213-1081-4366-9bc6-f2879556acec",
+            "value": "Press E or U to interact with sacred signs."
         }
     ],
     "parentObjectId": "3404ee2a-9443-4712-aff9-a9daaa3c1909",

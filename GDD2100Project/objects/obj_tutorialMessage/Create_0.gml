@@ -15,3 +15,7 @@ boxHeight = sprite_get_height(spr_tutorialMessageTextBox);
 
 // save height of message string
 stringHeight = string_height(myMessage);
+
+// if player is using alternative control scheme, swap message
+if (global.OneHandedModeEnabled && myAltMessage != "default")
+	myMessage = myAltMessage;
