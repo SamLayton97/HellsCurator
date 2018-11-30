@@ -2,7 +2,7 @@
 
 // if checkpoints are enabled by player
 if (!global.DisableCheckpoints)
-{
+{	
 	// restart room
 	room_restart();
 	
