@@ -71,3 +71,7 @@ if (!holdingBell)
 	sprite_index = mySkin;
 else
 	sprite_index = myHoldSkin;
+	
+// freeze walking animation speed (controlled manually)
+image_speed = 0;
+walkAnimCounter = 0;

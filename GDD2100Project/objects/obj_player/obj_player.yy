@@ -319,6 +319,20 @@
             "value": "500",
             "varName": "oneHandedThrowRange",
             "varType": 0
+        },
+        {
+            "id": "2a470859-c932-46b6-aa2d-b7835b78ed2b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "60",
+            "varName": "walkCycleSpeed",
+            "varType": 1
         }
     ],
     "solid": false,
