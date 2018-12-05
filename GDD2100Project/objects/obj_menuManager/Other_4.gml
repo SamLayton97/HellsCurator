@@ -3,6 +3,10 @@
 // play ambient sounds
 audio_play_sound(bgrSound_menuAmbient, 5, true);
 
+// if cursor sprite is not already menu pointer, set it to be so
+if (cursor_sprite != spr_menuPointer)
+	cursor_sprite = spr_menuPointer;
+
 // if on title screen and not in blind mode, play enable sound
 if (room = TitleScreenRoom && !global.BlindModeEnabled)
 	audio_play_sound(bld_snd_WelcomeBlindUser, 10, false);

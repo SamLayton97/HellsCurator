@@ -1791,6 +1791,14 @@
             }
         },
         {
+            "Key": "7546e9f0-e916-420a-b1b6-935bd48cf64d",
+            "Value": {
+                "id": "b9ab050e-707a-4284-ac4f-2dc57749d899",
+                "resourcePath": "sprites\\spr_reticle\\spr_reticle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "75b177dc-06bb-4269-a4ae-4c1cf3909e00",
             "Value": {
                 "id": "da2d11c1-6e91-4f84-92a0-d5122bcc0ed2",

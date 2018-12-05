@@ -1,6 +1,10 @@
 /// @description Called at when room starts
 
-// TODO: set room background and
+// if cursor is not menu pointer, switch it to be so
+if (cursor_sprite != spr_menuPointer)
+	cursor_sprite = spr_menuPointer;
+
+// set room background and
 // play appropriate music based on how player completed level
 if (global.CompletionByEscape)
 {
