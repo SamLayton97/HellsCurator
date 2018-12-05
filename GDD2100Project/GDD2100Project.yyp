@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "079235bf-ec36-44a8-ad7f-2e80c615b9fc",
+            "Value": {
+                "id": "399a13cb-27bc-48bf-a420-5b077cced90d",
+                "resourcePath": "views\\079235bf-ec36-44a8-ad7f-2e80c615b9fc.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "096e6217-6b10-4de3-b2e8-65b70aef32bb",
             "Value": {
                 "id": "e6949860-0b3c-4306-9f21-f739674113c2",
@@ -2300,6 +2308,14 @@
                 "id": "0f3b0a96-662a-4854-a928-4a834d01cb15",
                 "resourcePath": "sounds\\sfx_rockHit\\sfx_rockHit.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "9676f7e8-cff8-4613-97f2-4a76aa664b1f",
+            "Value": {
+                "id": "933a2ed7-1bc9-4cc0-bed6-bd8edc089999",
+                "resourcePath": "sprites\\spr_menuPointer\\spr_menuPointer.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

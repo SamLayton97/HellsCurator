@@ -10,7 +10,8 @@
         "7d6cc510-0100-43ca-aa77-5a01290cd6c2",
         "49fb1ade-b191-443a-b8cc-b272fa134115",
         "57c8fc29-6847-4f38-99a3-b26dc3d9fb27",
-        "38dabd6f-489e-4f64-af7d-4b3e20cb8771"
+        "38dabd6f-489e-4f64-af7d-4b3e20cb8771",
+        "079235bf-ec36-44a8-ad7f-2e80c615b9fc"
     ],
     "filterType": "GMSprite",
     "folderName": "UI Elements",

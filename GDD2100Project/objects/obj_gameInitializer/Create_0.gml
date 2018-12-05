@@ -49,5 +49,9 @@ global.DisableCheckpoints = false;
 // start game in fullscreen
 window_set_fullscreen(true);
 
+// swap mouse cursor to menu pointer
+window_set_cursor(cr_none);
+cursor_sprite = spr_menuPointer;
+
 // progress to main menu
 room_goto(TitleScreenRoom);
