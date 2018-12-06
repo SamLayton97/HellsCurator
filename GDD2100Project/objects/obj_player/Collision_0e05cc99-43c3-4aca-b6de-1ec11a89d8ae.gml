@@ -2,6 +2,7 @@
 
 // destroy self
 instance_destroy(id);
+instance_destroy(obj_playerLegs);
 
 // stop spectre's attack looping sounds and free spectre's used emitters
 audio_stop_sound(sfx_attackSpectreLoop);

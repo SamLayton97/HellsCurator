@@ -12,7 +12,7 @@ else if (keyboard_check(ord("W")))
 else if (keyboard_check(ord("A")))
 	image_angle = 180;
 else if (keyboard_check(ord("S")))
-	image_angle = -270;
+	image_angle = 270;
 
 // face intermediate walking directions of player
 if (keyboard_check(ord("D")) && keyboard_check(ord("W")))
