@@ -41,8 +41,7 @@ else if (xInput != 0 || yInput != 0)
 	y += yInput * playerSpeed;
 }
 
-// handle walking animation and sounds
-scr_playerWalkingAnimation();
+// handle walking sounds
 scr_playerWalkingSounds();
 
 // update audio listener to follow player's position

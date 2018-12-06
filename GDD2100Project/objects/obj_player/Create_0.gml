@@ -74,4 +74,4 @@ else
 	
 // freeze walking animation speed (controlled manually)
 image_speed = 0;
-walkAnimCounter = 0;
+instance_create_layer(x, y, "Player_Legs_Layer", obj_playerLegs);
