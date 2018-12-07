@@ -1263,6 +1263,14 @@
             }
         },
         {
+            "Key": "53770dfc-1eff-479b-8a71-e5b33947faf5",
+            "Value": {
+                "id": "5e1cf3ce-f4a4-4fa5-a51f-82cad50fb771",
+                "resourcePath": "objects\\obj_contButton\\obj_contButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "53ab3752-33c8-4d5d-a684-0670cf466c99",
             "Value": {
                 "id": "739be233-e30a-4145-9b2f-ebbe60dc57e2",
@@ -3287,6 +3295,14 @@
             }
         },
         {
+            "Key": "cbe85c4c-951e-408a-a9ba-224864f111dc",
+            "Value": {
+                "id": "0ee95b24-45e0-461a-87c7-87f139fd2a44",
+                "resourcePath": "rooms\\FeaturesDescriptionRoom\\FeaturesDescriptionRoom.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "cc1968e6-b224-4b20-bd94-c4ecb261b067",
             "Value": {
                 "id": "7988f591-f935-4e1d-b223-0dee0095a173",
@@ -3508,6 +3524,14 @@
                 "id": "b216fc66-830d-4bff-9ca4-4e13e8458149",
                 "resourcePath": "objects\\obj_throwRockMessage\\obj_throwRockMessage.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "dc88459a-636a-4d2d-854f-bd4810189263",
+            "Value": {
+                "id": "c09bb8af-f517-4f77-a033-72b482c3f9f6",
+                "resourcePath": "sprites\\spr_featuresListContPage\\spr_featuresListContPage.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
